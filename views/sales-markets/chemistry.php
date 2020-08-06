@@ -4,15 +4,15 @@
  * @var $this \yii\web\View
  */
 
-$this->title = 'Green Line - Химия и нефтехимия';
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Химия и нефтехимия');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => 'Green Line - Химия и нефтехимия',
+    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Химия и нефтехимия'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
-    'content' => 'рынки сбыта',
+    'content' => Yii::t('main', 'рынки сбыта'),
 ]);
 $this->registerMetaTag([
     'name' => 'robots',
@@ -22,16 +22,16 @@ $this->registerMetaTag([
 
 <header id="header" class="container-fluid navigate-header">
 	<div class="img-container">
-		<img src="/img/headers/news.jpg" alt="О нас">
+		<img src="/img/headers/sales-markets.jpg" alt="<?php echo Yii::t('main', 'Рынки сбыта') ?>">
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1 col-12">
-				<h2>Рынки сбыта</h2>
+				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
-					<a href="/">Главная</a>
-					- <span> Рынки сбыта</span>
-					- <a href="/sales-markets/chemistry" class="current">Химия и нефтехимия</a>
+					<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
+					- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
+					- <a href="/sales-markets/chemistry" class="current"><?php echo Yii::t('main', 'Химия и нефтехимия') ?></a>
 				</span>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
 				<div class="col-md-6 col-12">
-					<h1 class="up-line green">Химия и нефтехимия</h1>
+					<h1 class="up-line green"><?php echo Yii::t('main', 'Химия и нефтехимия') ?></h1>
 				</div>
 			</div>
 		</div>
@@ -51,12 +51,12 @@ $this->registerMetaTag([
 			<div class="row item-container">
 				<div class="col-md-6 col-12">
 					<div class="content">
-						<p>Green Line осуществляет поставки оборудования для химической промышленности. Мы поставляем надежное ресурсосберегающее оборудование, которое предназначено для сложных технологических процессов и работы в условиях агрессивных, взрывоопасных, токсичных сред, высоких температур, и давлений. Уделяя особое внимание безопасности, наше оборудование соответствует ISO 15848-1:2006.</p>
+						<p><?php echo Yii::t('main', 'Green Line осуществляет поставки оборудования для химической промышленности. Мы поставляем надежное ресурсосберегающее оборудование, которое предназначено для сложных технологических процессов и работы в условиях агрессивных, взрывоопасных, токсичных сред, высоких температур, и давлений. Уделяя особое внимание безопасности, наше оборудование соответствует ISO 15848-1:2006.') ?></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">
 					<div class="img-container">
-						<img src="/img/sales-markets/chemistry.jpg" alt="Химия и нефтехимия">
+						<img src="/img/sales-markets/chemistry.jpg" alt="<?php echo Yii::t('main', 'Химия и нефтехимия') ?>">
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
 				<div class="col-12">
-					<h2 class="up-line green">Бренды</h2>
+					<h2 class="up-line green"><?php echo Yii::t('main', 'Бренды') ?></h2>
 				</div>
 			</div>
 			<div class="row links-container">

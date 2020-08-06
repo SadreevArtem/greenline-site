@@ -8,11 +8,11 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use app\assets\AppAsset;
 
-if (Yii::$app->request->pathInfo) {
+//if (Yii::$app->request->pathInfo) {
     AppAsset::register($this);
-} else {
-	LandingAsset::register($this);
-}
+//} else {
+//	LandingAsset::register($this);
+//}
 
 $bodyClass = Yii::$app->language . ' '
 	. (Yii::$app->request->pathInfo ? ArrayHelper::getValue(explode('/', Yii::$app->request->pathInfo), 0) : 'index');
@@ -45,7 +45,7 @@ $bodyClass = Yii::$app->language . ' '
 	<!-- /Yandex.Metrika counter -->
 
 	<?php if (!Yii::$app->request->pathInfo) { ?>
-		<style><?= file_get_contents(YII_WEB_PATH . '/css/header_style.css') ?></style>
+<!--		<style>--><?//= file_get_contents(YII_WEB_PATH . '/css/header_style.css') ?><!--</style>-->
 	<?php } ?>
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -61,7 +61,7 @@ $bodyClass = Yii::$app->language . ' '
 </div>
 
 <?php if (!Yii::$app->request->pathInfo) { ?>
-	<style><?= file_get_contents(YII_WEB_PATH . '/css/style.css') ?></style>
+<!--	<style>--><?//= file_get_contents(YII_WEB_PATH . '/css/style.css') ?><!--</style>-->
 <?php } ?>
 
 <?php $this->endBody() ?>

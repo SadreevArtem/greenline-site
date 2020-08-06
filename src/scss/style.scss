@@ -576,6 +576,23 @@ body.index {
     }
   }
 }
+body.index.en {
+  #sales-markets {
+    .items-container {
+      a, span {
+        &.item-3 {
+          right: 160px;
+        }
+        &.item-6 {
+          right: 12px;
+        }
+        &.item-10 {
+          right: 45px;
+        }
+      }
+    }
+  }
+}
 
 body.about {
   #principles, #loyality, #difference {

@@ -56,6 +56,8 @@ $config = [
                 'error' => 'site/error',
                 'index' => 'site/index',
                 'news-list' => 'site/news-list',
+                'request' => 'site/request',
+                'subscribe' => 'site/subscribe',
 
                 'news/<id:\d+>' => 'news/index',
                 'sales-markets/<action>' => 'sales-markets/index',
@@ -65,6 +67,13 @@ $config = [
             'on languageChanged' => '\app\components\controllers\FrontendController::onLanguageChanged',
             'geoIpLanguageCountries' => [
                 'ru' => ['RUS', 'KAZ', 'UKR', 'KGZ', 'BLR'],
+            ],
+            'ignoreLanguageUrlPatterns' => [
+                // route pattern => url pattern
+                '#debug#' => '#/debug#',
+                '#gii#' => '#/gii#',
+                '#/site/(subscribe|request)#' => '#/(subscribe|request)#',
+                '#(subscribe|request)#' => '#(subscribe|request)#',
             ],
         ],
         'view' => [

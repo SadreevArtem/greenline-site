@@ -4,15 +4,15 @@
  * @var $this \yii\web\View
  */
 
-$this->title = 'Green Line - Нефтепереработка и транспортировка';
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Нефтепереработка и транспортировка');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => 'Green Line - Нефтепереработка и транспортировка',
+    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Нефтепереработка и транспортировка'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
-    'content' => 'рынки сбыта',
+    'content' => Yii::t('main', 'рынки сбыта'),
 ]);
 $this->registerMetaTag([
     'name' => 'robots',
@@ -22,16 +22,16 @@ $this->registerMetaTag([
 
 <header id="header" class="container-fluid navigate-header">
 	<div class="img-container">
-		<img src="/img/headers/news.jpg" alt="О нас">
+		<img src="/img/headers/sales-markets.jpg" alt="<?php echo Yii::t('main', 'Рынки сбыта') ?>">
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1 col-12">
-				<h2>Рынки сбыта</h2>
+				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
-					<a href="/">Главная</a>
-					- <span> Рынки сбыта</span>
-					- <a href="/sales-markets/oil-refining" class="current">Нефтепереработка и транспортировка</a>
+					<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
+					- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
+					- <a href="/sales-markets/oil-refining" class="current"><?php echo Yii::t('main', 'Нефтепереработка и транспортировка') ?></a>
 				</span>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
 				<div class="col-md-6 col-12">
-					<h1 class="up-line green">Нефтепереработка и транспортировка</h1>
+					<h1 class="up-line green"><?php echo Yii::t('main', 'Нефтепереработка и транспортировка') ?></h1>
 				</div>
 			</div>
 		</div>
@@ -51,12 +51,12 @@ $this->registerMetaTag([
 			<div class="row item-container">
 				<div class="col-md-6 col-12">
 					<div class="content">
-						<p>Green line постоянно совершенствуется и сотрудничает с ведущими лицензиарами мира в области поставки оборудования глубокой переработки нефти, а также имеет широкий список поставщиков оборудования для транспортировки газа. Мы как никто другой понимаем насколько важно поставлять передовое оборудование не только с точки зрения экологии, но и самое главное с точки зрения промышленной безопасности. Наше оборудование отвечает стандартам API.</p>
+						<p><?php echo Yii::t('main', 'Green line постоянно совершенствуется и сотрудничает с ведущими лицензиарами мира в области поставки оборудования глубокой переработки нефти, а также имеет широкий список поставщиков оборудования для транспортировки газа. Мы как никто другой понимаем насколько важно поставлять передовое оборудование не только с точки зрения экологии, но и самое главное с точки зрения промышленной безопасности. Наше оборудование отвечает стандартам API.') ?></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">
 					<div class="img-container">
-						<img src="/img/sales-markets/oil_refining_1.jpg" alt="Нефтепереработка и транспортировка">
+						<img src="/img/sales-markets/oil_refining_1.jpg" alt="<?php echo Yii::t('main', 'Нефтепереработка и транспортировка') ?>">
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
 				<div class="col-12">
-					<h2 class="up-line green">Партнёры</h2>
+					<h2 class="up-line green"><?php echo Yii::t('main', 'Партнёры') ?></h2>
 				</div>
 			</div>
 			<div class="row links-container">

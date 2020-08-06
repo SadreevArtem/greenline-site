@@ -11247,6 +11247,16 @@ body.index #contacts-mobile .request-form-container button[type=submit] {
   margin-top: 20px;
 }
 
+body.index.en #sales-markets .items-container a.item-3, body.index.en #sales-markets .items-container span.item-3 {
+  right: 160px;
+}
+body.index.en #sales-markets .items-container a.item-6, body.index.en #sales-markets .items-container span.item-6 {
+  right: 12px;
+}
+body.index.en #sales-markets .items-container a.item-10, body.index.en #sales-markets .items-container span.item-10 {
+  right: 45px;
+}
+
 body.about #principles .item, body.about #loyality .item, body.about #difference .item {
   font-size: 13px;
   font-weight: 500;

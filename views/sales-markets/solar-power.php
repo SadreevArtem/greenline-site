@@ -4,15 +4,15 @@
  * @var $this \yii\web\View
  */
 
-$this->title = 'Green Line - Солнечные электростанции';
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Солнечные электростанции');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => 'Green Line - Солнечные электростанции',
+    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Солнечные электростанции'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
-    'content' => 'рынки сбыта',
+    'content' => Yii::t('main', 'рынки сбыта'),
 ]);
 $this->registerMetaTag([
     'name' => 'robots',
@@ -22,16 +22,16 @@ $this->registerMetaTag([
 
 <header id="header" class="container-fluid navigate-header">
 	<div class="img-container">
-		<img src="/img/headers/news.jpg" alt="О нас">
+		<img src="/img/headers/sales-markets.jpg" alt="<?php echo Yii::t('main', 'Рынки сбыта') ?>">
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1 col-12">
-				<h2>Рынки сбыта</h2>
+				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
-						<a href="/">Главная</a>
-						- <span> Рынки сбыта</span>
-						- <a href="/sales-markets/solar-power" class="current">Солнечные электростанции</a>
+						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
+						- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
+						- <a href="/sales-markets/solar-power" class="current"><?php echo Yii::t('main', 'Солнечные электростанции') ?></a>
 					</span>
 			</div>
 		</div>
@@ -43,7 +43,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
 				<div class="col-md-6 col-12">
-					<h1 class="up-line green">Солнечные электростанции</h1>
+					<h1 class="up-line green"><?php echo Yii::t('main', 'Солнечные электростанции') ?></h1>
 				</div>
 			</div>
 		</div>
@@ -51,12 +51,12 @@ $this->registerMetaTag([
 			<div class="row item-container">
 				<div class="col-md-6 col-12">
 					<div class="content">
-						<p>Солнечные электростанции</p>
+						<p><?php echo Yii::t('main', 'Солнечные электростанции') ?></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">
 					<div class="img-container">
-						<img src="/img/sales-markets/solar_power_1.jpg" alt="Солнечные электростанции">
+						<img src="/img/sales-markets/solar_power_1.jpg" alt="<?php echo Yii::t('main', 'Солнечные электростанции') ?>">
 					</div>
 				</div>
 			</div>

@@ -47,15 +47,12 @@ $(function () {
         var $this = $(this);
 
         $.post($(this).attr('action'), $this.serialize() + '&type=1', function (response) {
-            switch (response.status) {
-                case 'ok':
-                    ym(64581349,'reachGoal','new_request')
-                    $('#success_modal').modal('show');
-                    $this.find('input, textarea').val('');
-                    break;
-                case 'error':
-                    console.log(response);
-                    break;
+            if (response.success) {
+                ym(64581349,'reachGoal','new_request')
+                $('#success_modal').modal('show');
+                $this.find('input, textarea').val('');
+            } else {
+                console.log(response);
             }
         });
     });
@@ -66,15 +63,12 @@ $(function () {
         var $this = $(this);
 
         $.post($(this).attr('action'), $this.serialize() + '&type=2', function (response) {
-            switch (response.status) {
-                case 'ok':
-                    ym(64581349,'reachGoal','new_subscribe')
-                    $('#success_modal_subscribe').modal('show');
-                    $this.find('input, textarea').val('');
-                    break;
-                case 'error':
-                    console.log(response);
-                    break;
+            if (response.success) {
+                ym(64581349,'reachGoal','new_subscribe')
+                $('#success_modal_subscribe').modal('show');
+                $this.find('input, textarea').val('');
+            } else {
+                console.log(response);
             }
         });
     });
@@ -87,7 +81,4 @@ function checkNavbarOnTop() {
     } else {
         $navbar.addClass('top');
     }
-}
-function onSubmit(token) {
-    document.getElementById("request-form1").submit();
 }

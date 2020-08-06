@@ -30,6 +30,6 @@ class FrontendController extends Controller
 
     public function onLanguageChanged($event)
     {
-        \Yii::error('onLanguageChanges - FROM ' . $event->oldLanguage . ' TO ' . $event->language);
+
     }
 }
