@@ -48,7 +48,6 @@ $(function () {
 
         $.post($(this).attr('action'), $this.serialize() + '&type=1', function (response) {
             if (response.success) {
-                ym(64581349,'reachGoal','new_request')
                 $('#success_modal').modal('show');
                 $this.find('input, textarea').val('');
             } else {
@@ -64,7 +63,6 @@ $(function () {
 
         $.post($(this).attr('action'), $this.serialize() + '&type=2', function (response) {
             if (response.success) {
-                ym(64581349,'reachGoal','new_subscribe')
                 $('#success_modal_subscribe').modal('show');
                 $this.find('input, textarea').val('');
             } else {

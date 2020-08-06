@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use app\components\controllers\FrontendController;
-use app\components\MailHelper;
+use app\components\helpers\MailHelper;
 use PHPMailer\PHPMailer\PHPMailer;
 use Yii;
 use yii\web\NotFoundHttpException;

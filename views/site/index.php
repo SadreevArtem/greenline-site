@@ -3,6 +3,8 @@
 * @var $this \yii\web\View
 */
 
+use app\components\helpers\Html;
+
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Оснащение и модернизация ведущих отраслей промышленности');
 
 $this->registerMetaTag([
@@ -33,7 +35,7 @@ $this->registerMetaTag([
 						</div>
 					</div>
 					<div class="col-12 col-md-2 d-flex justify-content-md-end justify-content-start align-items-end">
-						<a href="/about" class="btn btn-success more-btn"><?php echo Yii::t('main', 'ПОДРОБНЕЕ') ?></a>
+                        <?php echo Html::a(Yii::t('main', 'ПОДРОБНЕЕ'), ['/about'], ['class' => 'btn btn-success more-btn']) ?>
 					</div>
 				</div>
 			</div>
@@ -80,7 +82,7 @@ $this->registerMetaTag([
 							<h2 class="up-line white"><?php echo Yii::t('main', 'О компании') ?></h2>
 							<p><?php echo Yii::t('main', 'Компания Green Line специализируется на поставках оборудования и передовых технологий в нефтегазовую, нефтехимическую, энергетическую и иные ведущие отрасли промышленности.') ?></p>
 							<p><?php echo Yii::t('main', 'Уникальный опыт позволяет нам находить наилучшие технологические решения и превосходно справляться с любыми задачами Заказчика.') ?></p>
-							<a href="/about" class="btn btn-default more-btn"><?php echo Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС') ?></a>
+                            <?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
 						</div>
 						<div class="col-6 col-lg-6 col-md-7 col-12">
 							<img class="d-none d-md-block w-100" src="/img/about_company.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
@@ -142,14 +144,14 @@ $this->registerMetaTag([
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1 col-12 d-flex justify-content-center align-items-center items-container">
 				<img src="/img/landing/sales_markets_<?php echo Yii::$app->language ?>.jpg" alt="<?php echo Yii::t('main', 'Рынки сбыта') ?>">
-				<a href="/sales-markets/space-and-mobile" class="item-1"><u><?php echo Yii::t('main', 'космос и мобильные <br> коммуникации') ?></u></a>
-				<a href="/sales-markets/oil-and-gas" class="item-2"><u><?php echo Yii::t('main', 'добыча нефти<br>и газа') ?></u></a>
-				<a href="/sales-markets/chemistry" class="item-3"><u><?php echo Yii::t('main', 'химия<br> и нефтехимия') ?></u></a>
-				<a href="/sales-markets/electric-power" class="item-4"><u><?php echo Yii::t('main', 'производство<br>электроэнергии') ?></u></a>
-				<a href="/sales-markets/oil-refining" class="item-5"><u><?php echo Yii::t('main', 'нефтепереработка<br>и транспортировка') ?></u></a>
+				<?php echo Html::a('<u>' . Yii::t('main', 'космос и мобильные <br> коммуникации') . '</u>', ['/sales-markets/space-and-mobile'], ['class' => 'item-1']) ?>
+				<?php echo Html::a('<u>' . Yii::t('main', 'добыча нефти<br>и газа') . '</u>', ['/sales-markets/oil-and-gas'], ['class' => 'item-2']) ?>
+				<?php echo Html::a('<u>' . Yii::t('main', 'химия<br> и нефтехимия') . '</u>', ['/sales-markets/chemistry'], ['class' => 'item-3']) ?>
+				<?php echo Html::a('<u>' . Yii::t('main', 'производство<br>электроэнергии') . '</u>', ['/sales-markets/electric-power'], ['class' => 'item-4']) ?>
+				<?php echo Html::a('<u>' . Yii::t('main', 'нефтепереработка<br>и транспортировка') . '</u>', ['/sales-markets/oil-refining'], ['class' => 'item-5']) ?>
 				<span class="item-6"><u><?php echo Yii::t('main', 'солнечные<br>электростанции') ?></u></span>
-				<a href="/sales-markets/mining" class="item-7"><u><?php echo Yii::t('main', 'горная<br>промышленность') ?></u></a>
-				<a href="/sales-markets/infrastructure" class="item-8"><u><?php echo Yii::t('main', 'инфраструктура') ?></u></a>
+				<?php echo Html::a('<u>' . Yii::t('main', 'горная<br>промышленность') . '</u>', ['/sales-markets/mining'], ['class' => 'item-7']) ?>
+				<?php echo Html::a('<u>' . Yii::t('main', 'инфраструктура') . '</u>', ['/sales-markets/infrastructure'], ['class' => 'item-8']) ?>
 				<span class="item-9"><u><?php echo Yii::t('main', 'судостроение<br>') ?></u></span>
 				<span class="item-10"><u><?php echo Yii::t('main', 'железные<br>дороги') ?></u></span>
 			</div>
@@ -161,14 +163,14 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Наши бренды') ?></h2>
 			<div class="our-brands-carousel owl-carousel owl-theme">
-				<div class="item item-1"><a href="/brands"><img src="/img/brands/brand_1.jpg" alt="B.F.E. S.r.l."></a></div>
-				<div class="item item-2"><a href="/brands"><img src="/img/brands/brand_2.jpg" alt="KITZ"></a></div>
-				<div class="item item-3"><a href="/brands"><img src="/img/brands/brand_3.jpg" alt="Valvosider"></a></div>
-				<div class="item item-4"><a href="/brands"><img src="/img/brands/brand_4.jpg" alt="Allweiler"></a></div>
-				<div class="item item-5"><a href="/brands"><img src="/img/brands/brand_5.jpg" alt="Auma"></a></div>
-				<div class="item item-6"><a href="/brands"><img src="/img/brands/brand_6.jpg" alt="Deller"></a></div>
-				<div class="item item-8"><a href="/brands"><img src="/img/brands/brand_8.jpg" alt="Broach"></a></div>
-				<div class="item item-9"><a href="/brands"><img src="/img/brands/brand_9.jpg" alt="Maivisa"></a></div>
+				<div class="item item-1"><?php echo Html::a(Html::img('/img/brands/brand_1.jpg', ['alt' => 'B.F.E. S.r.l.']), ['/brands']) ?></div>
+				<div class="item item-2"><?php echo Html::a(Html::img('/img/brands/brand_2.jpg', ['alt' => 'KITZ']), ['/brands']) ?></div>
+				<div class="item item-3"><?php echo Html::a(Html::img('/img/brands/brand_3.jpg', ['alt' => 'Valvosider']), ['/brands']) ?></div>
+				<div class="item item-4"><?php echo Html::a(Html::img('/img/brands/brand_4.jpg', ['alt' => 'Allweiler']), ['/brands']) ?></div>
+				<div class="item item-5"><?php echo Html::a(Html::img('/img/brands/brand_5.jpg', ['alt' => 'Auma']), ['/brands']) ?></div>
+				<div class="item item-6"><?php echo Html::a(Html::img('/img/brands/brand_6.jpg', ['alt' => 'Deller']), ['/brands']) ?></div>
+				<div class="item item-8"><?php echo Html::a(Html::img('/img/brands/brand_8.jpg', ['alt' => 'Broach']), ['/brands']) ?></div>
+				<div class="item item-9"><?php echo Html::a(Html::img('/img/brands/brand_9.jpg', ['alt' => 'Maivisa']), ['/brands']) ?></div>
 			</div>
 		</div>
 	</div>
@@ -179,47 +181,44 @@ $this->registerMetaTag([
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 col-12 d-flex justify-content-between">
 					<h2 class="up-line white"><?php echo Yii::t('main', 'Новости') ?></h2>
-					<a href="/news-list" class="btn btn-default more-btn"><?php echo Yii::t('main', 'КО ВСЕМ НОВОСТЯМ') ?></a>
+                    <?php echo Html::a(Yii::t('main', 'КО ВСЕМ НОВОСТЯМ'), ['/news-list'], ['class' => 'btn btn-default more-btn']) ?>
 				</div>
 				<div class="col-lg-10 offset-lg-1 col-12">
 					<div class="news-carousel owl-carousel owl-theme">
 						<div class="item d-flex">
-							<a href="/news-list" class="img-link">
-								<img src="/img/news/news_1.jpg" alt="<?php echo Yii::t('main', 'Работаем в штатном режиме') ?>">
-							</a>
+                            <?php echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Работаем в штатном режиме')]),
+									['/news-list'], ['class' => 'img-link']) ?>
 							<div class="desc d-flex flex-column justify-content-between">
 								<div class="title-container">
 									<span class="date">30.03.2020</span>
 									<h3 class="news-title"><?php echo Yii::t('main', 'Работаем в штатном режиме') ?></h3>
 								</div>
 								<p class="news-body"><?php echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') ?></p>
-								<a class="more-link" href="/news/300320"><?php echo Yii::t('main', 'Подробнее') ?></a>
+								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) ?>
 							</div>
 						</div>
 						<div class="item d-flex">
-							<a href="/news-list" class="img-link">
-								<img src="/img/news/news_2.jpg" alt="<?php echo Yii::t('main', 'УКПГ для Семаковского газового месторождения') ?>">
-							</a>
+                            <?php echo Html::a(Html::img('/img/news/news_2.jpg', ['alt' => Yii::t('main', 'УКПГ для Семаковского газового месторождения')]),
+                                ['/news-list'], ['class' => 'img-link']) ?>
 							<div class="desc d-flex flex-column justify-content-between">
 								<div class="title-container">
 									<span class="date">16.04.2020</span>
 									<h3 class="news-title"><?php echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?></h3>
 								</div>
 								<p class="news-body"><?php echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') ?></p>
-								<a class="more-link" href="/news/160420"><?php echo Yii::t('main', 'Подробнее') ?></a>
+								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) ?>
 							</div>
 						</div>
 						<div class="item d-flex">
-							<a href="/news-list" class="img-link">
-								<img src="/img/news/news_3.jpg" alt="<?php echo Yii::t('main', 'Расширяем ассортимент') ?>">
-							</a>
+                            <?php echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Расширяем ассортимент')]),
+                                ['/news-list'], ['class' => 'img-link']) ?>
 							<div class="desc d-flex flex-column justify-content-between">
 								<div class="title-container">
 									<span class="date">22.05.2020</span>
 									<h3 class="news-title"><?php echo Yii::t('main', 'Расширяем ассортимент') ?></h3>
 								</div>
 								<p class="news-body"><?php echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') ?></p>
-								<a class="more-link" href="/news/220520"><?php echo Yii::t('main', 'Подробнее') ?></a>
+								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) ?>
 							</div>
 						</div>
 					</div>

@@ -1,8 +1,6 @@
 <?php
 
-
-namespace app\components;
-
+namespace app\components\helpers;
 
 use PHPMailer\PHPMailer\PHPMailer;
 

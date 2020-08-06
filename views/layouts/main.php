@@ -8,14 +8,30 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use app\assets\AppAsset;
 
-//if (Yii::$app->request->pathInfo) {
+if (Yii::$app->request->pathInfo) {
     AppAsset::register($this);
-//} else {
-//	LandingAsset::register($this);
-//}
+} else {
+	LandingAsset::register($this);
+}
 
 $bodyClass = Yii::$app->language . ' '
 	. (Yii::$app->request->pathInfo ? ArrayHelper::getValue(explode('/', Yii::$app->request->pathInfo), 0) : 'index');
+
+$this->registerLinkTag([
+    'rel' => 'alternate',
+    'hreflang' => 'x-default',
+    'href' => \yii\helpers\Url::current(['language' => 'ru'])
+]);
+$this->registerLinkTag([
+    'rel' => 'alternate',
+    'hreflang' => 'ru',
+    'href' => \yii\helpers\Url::current(['language' => 'ru'])
+]);
+$this->registerLinkTag([
+    'rel' => 'alternate',
+    'hreflang' => 'en',
+    'href' => \yii\helpers\Url::current(['language' => 'en'])
+])
 
 ?>
 
@@ -29,23 +45,8 @@ $bodyClass = Yii::$app->language . ' '
 	<link rel="shortcut" href="/favicon.ico" type="image/x-icon" />
 	<title><?= Html::encode($this->title) ?></title>
 
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(64581349, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
-        });
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/64581349" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-
-	<?php if (!Yii::$app->request->pathInfo) { ?>
-<!--		<style>--><?//= file_get_contents(YII_WEB_PATH . '/css/header_style.css') ?><!--</style>-->
+	<?php if (!Yii::$app->request->pathInfo || Yii::$app->request->pathInfo === 'index') { ?>
+		<style><?= file_get_contents(YII_WEB_PATH . '/css/header_style.css') ?></style>
 	<?php } ?>
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -60,8 +61,8 @@ $bodyClass = Yii::$app->language . ' '
 	<?= $this->render('parts/_footer')?>
 </div>
 
-<?php if (!Yii::$app->request->pathInfo) { ?>
-<!--	<style>--><?//= file_get_contents(YII_WEB_PATH . '/css/style.css') ?><!--</style>-->
+<?php if (!Yii::$app->request->pathInfo || Yii::$app->request->pathInfo === 'index') { ?>
+	<style><?= file_get_contents(YII_WEB_PATH . '/css/style.css') ?></style>
 <?php } ?>
 
 <?php $this->endBody() ?>

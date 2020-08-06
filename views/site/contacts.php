@@ -3,6 +3,8 @@
  * @var $this \yii\web\View
  */
 
+use app\components\helpers\Html;
+
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Контакты компании');
 
 $this->registerMetaTag([
@@ -28,8 +30,8 @@ $this->registerMetaTag([
 			<div class="col-lg-10 offset-lg-1 col-12">
 				<h1><?php echo Yii::t('main', 'Контакты') ?></h1>
 				<span class="breadcrumbs">
-						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
-						- <a href="/contacts" class="current"><?php echo Yii::t('main', 'Контакты') ?></a>
+					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
+                    	- <?php echo Html::a(Yii::t('main', 'Контакты'), ['/contacts'], ['class' => 'current']) ?>
 					</span>
 			</div>
 		</div>

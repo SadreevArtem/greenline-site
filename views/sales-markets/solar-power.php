@@ -4,6 +4,8 @@
  * @var $this \yii\web\View
  */
 
+use app\components\helpers\Html;
+
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Солнечные электростанции');
 
 $this->registerMetaTag([
@@ -29,10 +31,10 @@ $this->registerMetaTag([
 			<div class="col-lg-10 offset-lg-1 col-12">
 				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
-						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
+					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
 						- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
-						- <a href="/sales-markets/solar-power" class="current"><?php echo Yii::t('main', 'Солнечные электростанции') ?></a>
-					</span>
+						- <?php echo Html::a(Yii::t('main', 'Солнечные электростанции'), ['/sales-markets/solar-power'], ['class' => 'current']) ?>
+				</span>
 			</div>
 		</div>
 	</div>

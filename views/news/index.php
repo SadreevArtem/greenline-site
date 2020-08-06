@@ -5,6 +5,8 @@
  * @var $id string
  */
 
+use app\components\helpers\Html;
+
 $pages = [
     '160420' => [
         'id' => '160420',
@@ -122,9 +124,9 @@ foreach ($page['meta'] as $name => $content) {
             <div class="col-lg-10 offset-lg-1 col-12">
                 <h1><?php echo Yii::t('main', 'Новости') ?></h1>
                 <span class="breadcrumbs">
-						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
-						- <a href="/news-list"><?php echo Yii::t('main', 'Новости') ?></a>
-						- <a href="/news/<?php echo $page['id'] ?>>" class="current"><?php echo $page['title'] ?></a>
+						<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
+						- <?php echo Html::a(Yii::t('main', 'Новости'), ['/news-list']) ?>
+						- <?php echo Html::a($page['title'], ['/news/'. $page['id']], ['class' => 'current']) ?>
 					</span>
             </div>
         </div>

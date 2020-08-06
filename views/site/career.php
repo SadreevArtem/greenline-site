@@ -3,7 +3,7 @@
  * @var $this \yii\web\View
  */
 
-use yii\helpers\Html;
+use app\components\helpers\Html;
 
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Карьера в нашей кампании');
 
@@ -30,8 +30,8 @@ $this->registerMetaTag([
 			<div class="col-lg-10 offset-lg-1 col-12">
 				<h1><?php echo Yii::t('main', 'Карьера') ?></h1>
 				<span class="breadcrumbs">
-						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
-						- <a href="/career" class="current"><?php echo Yii::t('main', 'Карьера') ?></a>
+					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
+                    	- <?php echo Html::a(Yii::t('main', 'Карьера'), ['/career'], ['class' => 'current']) ?>
 					</span>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ $this->registerMetaTag([
 			<div class="item">
 				<div class="row d-flex justify-content-center align-items-center text-md-left text-center">
 					<p><b><?php echo Yii::t('main', 'Для рассмотрения вашей кандидатуры отправьте резюме на электронный адрес: ') ?></b></p> &nbsp;&nbsp;
-					<p><?php echo Html::a('career@greenlinerussia.com', 'mailto:career@greenlinerussia.com') ?></p>
+					<p><?php echo yii\helpers\Html::a('career@greenlinerussia.com', 'mailto:career@greenlinerussia.com') ?></p>
 				</div>
 			</div>
 		</div>

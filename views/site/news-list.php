@@ -3,6 +3,8 @@
  * @var $this \yii\web\View
  */
 
+use app\components\helpers\Html;
+
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости');;
 
 $this->registerMetaTag([
@@ -28,8 +30,8 @@ $this->registerMetaTag([
 			<div class="col-lg-10 offset-lg-1 col-12">
 				<h1><?php echo Yii::t('main', 'Новости') ?></h1>
 				<span class="breadcrumbs">
-						<a href="/"><?php echo Yii::t('main', 'Главная') ?></a>
-						- <a href="/news-list" class="current"><?php echo Yii::t('main', 'Новости') ?></a>
+					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
+                    	- <?php echo Html::a(Yii::t('main', 'Новости'), ['/news-list'], ['class' => 'current']) ?>
 					</span>
 			</div>
 		</div>
@@ -44,7 +46,7 @@ $this->registerMetaTag([
 					<span class="time">30.03.2020</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Работаем в штатном режиме') ?></h2>
 					<div class="text"><?php echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции COVID-19 работники компании Greenline работают в плановом режиме. Заказчики получают поставки оборудования в полном объеме и без просрочек. Так, за время карантинных мер нами были заключены контракты на сопровождение поставок высокотехнологичного оборудования для нужд компании ПАО Газпром нефть, проект Арктические ворота.') ?></div>
-					<a href="/news/300320" class="btn btn-success more-btn"><?php echo Yii::t('main', 'Подробнее') ?></a>
+                    <?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'btn btn-success more-btn']) ?>
 				</div>
 				<div class="right">
 					<img src="/img/news/news_1.jpg" alt="<?php echo Yii::t('main', 'Работаем в штатном режиме') ?>">
@@ -55,7 +57,7 @@ $this->registerMetaTag([
 					<span class="time">16.04.2020</span>
 					<h2 class="title"><?php echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?></h2>
 					<div class="text"><?php echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок УКПГ, и направила свои предложения  ПАО «Газпром» и АО «РусГазДобыча» по проекту разработки Семаковского газового месторождения, расположенного в Ямало-Ненецком автономном округе (ЯНАО). Месторождение расположено в акватории Тазовской губы и частично на суше Тазовского полуострова, относится к категории «крупных» — извлекаемые запасы газа составляют более 320 млрд куб. м. Активная фаза строительно-монтажных работ, в соответствии с графиком реализации проекта, начнется во второй половине 2020 года. Начало промышленной добычи на Семаковском месторождении запланировано на 2022 год. Всего к этому сроку будет построено 19 скважин. Газ будет направляться в газотранспортную систему «Газпрома».') ?></div>
-					<a href="/news/160420" class="btn btn-success more-btn"><?php echo Yii::t('main', 'Подробнее') ?></a>
+                    <?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'btn btn-success more-btn']) ?>
 				</div>
 				<div class="right">
 					<img src="/img/news/news_2.jpg" alt="<?php echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?>">
@@ -73,7 +75,7 @@ $this->registerMetaTag([
 							<li>- <?php echo Yii::t('main', 'Защитные одноразовые медицинские костюмы') ?></li>
 						</ul>
                         <?php echo Yii::t('main', 'Все оборудование производится в Корее и отвечает самым высоким мировым стандартам качества.') ?></div>
-					<a href="/news/220520" class="btn btn-success more-btn"><?php echo Yii::t('main', 'Подробнее') ?></a>
+                    <?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'btn btn-success more-btn']) ?>
 				</div>
 				<div class="right">
 					<img src="/img/news/news_3.jpg" alt="<?php echo Yii::t('main', 'Расширяем ассортимент') ?>">
