@@ -287,8 +287,8 @@ $this->registerMetaTag([
 </section>
 
 <section id="yandex-map" class="container-fluid">
-	<div class="row">
-		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c7197ad5e4a1d80b17547e239e088798f966b7fff2a67b416a7f6c899e0030c&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+	<div class="row" id="YaMaps">
+
 	</div>
 </section>
 

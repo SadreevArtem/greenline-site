@@ -1,4 +1,14 @@
 $(function () {
+    YaMapsShown = false;
+    $(window).scroll(function() {
+        if (!YaMapsShown){
+            if($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
+                $("#YaMaps").html('<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c7197ad5e4a1d80b17547e239e088798f966b7fff2a67b416a7f6c899e0030c&amp;source=constructor&lang=' + window.mapLanguage + '" width="100%" height="300" frameborder="0"></iframe>');
+                YaMapsShown = true;
+            }
+        }
+    });
+
     if (window.innerWidth >= 992) {
         $(document).on('scroll', function (e) {
             checkNavbarOnTop();

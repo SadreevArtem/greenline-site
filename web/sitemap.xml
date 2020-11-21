@@ -1,83 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--	created with www.mysitemapgenerator.com	-->
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://greenlinerussia.com</loc>
+        <loc>https://greenlinerussia.com/ru</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/ru"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/about</loc>
+        <loc>https://greenlinerussia.com/ru/about</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/about"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/news-list</loc>
+        <loc>https://greenlinerussia.com/ru/news-list</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/news-list"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/contacts</loc>
+        <loc>https://greenlinerussia.com/ru/contacts</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/contacts"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/career</loc>
+        <loc>https://greenlinerussia.com/ru/career</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/career"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/brands</loc>
+        <loc>https://greenlinerussia.com/ru/brands</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/brands"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/chemistry</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/chemistry</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/chemistry"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/electric-power</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/electric-power</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/electric-power"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/infrastructure</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/infrastructure</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/infrastructure"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/mining</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/mining</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/mining"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/oil-and-gas</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/oil-and-gas</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/oil-and-gas"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/oil-refining</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/oil-refining</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/oil-refining"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/sales-markets/space-and-mobile</loc>
+        <loc>https://greenlinerussia.com/ru/sales-markets/space-and-mobile</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/sales-markets/space-and-mobile"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/news/160420</loc>
+        <loc>https://greenlinerussia.com/ru/news/160420</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/news/160420"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/news/220520</loc>
+        <loc>https://greenlinerussia.com/ru/news/220520</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/news/220520"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://greenlinerussia.com/news/300320</loc>
+        <loc>https://greenlinerussia.com/ru/news/300320</loc>
+        <xhtml:link rel="alternate" hreflang="en_EN" href="https://greenlinerussia.com/en/news/300320"/>
         <lastmod>2020-06-18T16:50:44+01:00</lastmod>
         <priority>0.8</priority>
     </url>

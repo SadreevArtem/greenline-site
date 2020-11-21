@@ -14,7 +14,7 @@ class MailHelper
 //            $mail->SMTPDebug = 4;
             $mail->setFrom('notify@greenlinerussia.com', 'Greenline NOTIFY');
             $mail->addAddress('kiyonxxx@gmail.com');
-//            $mail->addAddress('manager@greenlinerussia.com');
+            $mail->addAddress('manager@greenlinerussia.com');
             $mail->Subject = $subject;
             $mail->CharSet = 'UTF-8';
             $mail->Body = $message;

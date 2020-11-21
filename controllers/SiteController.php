@@ -66,10 +66,10 @@ class SiteController extends FrontendController
             return ['success' => false, 'message' => 'type not defined'];
         }
 
-        $name = $request->post('request-form_name_1');
-        $surname = $request->post('request-form_name_2');
-        $email = $request->post('request-form_email');
-        $comment = $request->post('request-form_comment');
+        $name = preg_replace('/\s+/', '', $request->post('request-form_name_1'));
+        $surname = preg_replace('/\s+/', '', $request->post('request-form_name_2'));
+        $email = preg_replace('/\s+/', '', $request->post('request-form_email'));
+        $comment = preg_replace('/\s+/', '', $request->post('request-form_comment'));
 
         if (!$name || !$surname || !$email) {
             return ['success' => false, 'message' => 'empty data'];

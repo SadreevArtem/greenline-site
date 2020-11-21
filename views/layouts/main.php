@@ -51,6 +51,10 @@ $this->registerLinkTag([
 
     <?php $this->registerCsrfMetaTags() ?>
     <?php $this->head() ?>
+
+	<script>
+		window.mapLanguage = '<?php echo Yii::$app->language === 'ru' ? 'ru_RU' : 'en_US' ?>'
+	</script>
 </head>
 <body class="<?php echo $bodyClass ?>">
 <?php $this->beginBody() ?>
