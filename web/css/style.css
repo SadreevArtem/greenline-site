@@ -9943,7 +9943,7 @@ body a, body button {
 }
 @media (max-width: 991px) {
   #wrapper {
-    padding-bottom: 290px;
+    padding-bottom: 360px;
   }
 }
 
@@ -10036,7 +10036,7 @@ section h2 {
 }
 @media (max-width: 991px) {
   #footer {
-    height: 290px;
+    height: 360px;
     padding: 15px 8px;
   }
 }

@@ -33,6 +33,11 @@ class SiteController extends FrontendController
         return $this->render('about');
     }
 
+	public function actionAboutCompany()
+	{
+		return $this->render('about_company');
+	}
+
     public function actionBrands()
     {
         return $this->render('brands');

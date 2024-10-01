@@ -50,6 +50,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 'about' => 'site/about',
+                'about-company' => 'site/about-company',
                 'brands' => 'site/brands',
                 'career' => 'site/career',
                 'contacts' => 'site/contacts',

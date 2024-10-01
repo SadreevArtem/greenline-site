@@ -31,10 +31,7 @@ $ruLink = (!$pathInfo || $pathInfo === 'index') ? ('/ru' . $queryString) : Url::
 						/
                         <?php echo Html::a('EN', $enLink, ['class' => 'link en' . (Yii::$app->language === 'en' ? ' active' : ''), 'hreflang' => 'en-EN']) ?>
 					</div>
-                    <button type="button" class="btn btn-success request-button" data-toggle="modal" data-target="#requestModal">
-                        <?php echo Yii::t('main', 'Оставить заявку') ?>
-
-                    </button>
+	                <?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button']) ?>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -72,9 +69,7 @@ $ruLink = (!$pathInfo || $pathInfo === 'index') ? ('/ru' . $queryString) : Url::
 				/
                 <?php echo Html::a('EN', $enLink, ['class' => 'link en' . (Yii::$app->language === 'en' ? ' active' : ''), 'hreflang' => 'en-EN']) ?>
 			</div>
-            <button type="button" class="btn btn-success request-button" data-toggle="modal" data-target="#requestModal">
-                <?php echo Yii::t('main', 'Оставить заявку') ?>
-            </button>
+            <?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button']) ?>
         </div>
     </nav>
 </div>

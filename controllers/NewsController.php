@@ -12,6 +12,7 @@ class NewsController extends FrontendController
         if (!in_array($id, ['160420', '220520', '300320'])) {
             throw new NotFoundHttpException(\Yii::t('main', 'Страница не найдена'));
         }
-        return $this->render('index', ['id' => $id]);
+
+        return $this->redirect('/news-list');
     }
 }

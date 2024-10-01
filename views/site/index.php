@@ -175,58 +175,58 @@ $this->registerMetaTag([
 		</div>
 	</div>
 </section>
-<section id="news" class="container-fluid">
-	<div class="row">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1 col-12 d-flex justify-content-between">
-					<h2 class="up-line white"><?php echo Yii::t('main', 'Новости') ?></h2>
-                    <?php echo Html::a(Yii::t('main', 'КО ВСЕМ НОВОСТЯМ'), ['/news-list'], ['class' => 'btn btn-default more-btn']) ?>
-				</div>
-				<div class="col-lg-10 offset-lg-1 col-12">
-					<div class="news-carousel owl-carousel owl-theme">
-						<div class="item d-flex">
-                            <?php echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Работаем в штатном режиме')]),
-									['/news-list'], ['class' => 'img-link']) ?>
-							<div class="desc d-flex flex-column justify-content-between">
-								<div class="title-container">
-									<span class="date">30.03.2020</span>
-									<h3 class="news-title"><?php echo Yii::t('main', 'Работаем в штатном режиме') ?></h3>
-								</div>
-								<p class="news-body"><?php echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') ?></p>
-								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) ?>
-							</div>
-						</div>
-						<div class="item d-flex">
-                            <?php echo Html::a(Html::img('/img/news/news_2.jpg', ['alt' => Yii::t('main', 'УКПГ для Семаковского газового месторождения')]),
-                                ['/news-list'], ['class' => 'img-link']) ?>
-							<div class="desc d-flex flex-column justify-content-between">
-								<div class="title-container">
-									<span class="date">16.04.2020</span>
-									<h3 class="news-title"><?php echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?></h3>
-								</div>
-								<p class="news-body"><?php echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') ?></p>
-								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) ?>
-							</div>
-						</div>
-						<div class="item d-flex">
-                            <?php echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Расширяем ассортимент')]),
-                                ['/news-list'], ['class' => 'img-link']) ?>
-							<div class="desc d-flex flex-column justify-content-between">
-								<div class="title-container">
-									<span class="date">22.05.2020</span>
-									<h3 class="news-title"><?php echo Yii::t('main', 'Расширяем ассортимент') ?></h3>
-								</div>
-								<p class="news-body"><?php echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') ?></p>
-								<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<!--<section id="news" class="container-fluid">-->
+<!--	<div class="row">-->
+<!--		<div class="container">-->
+<!--			<div class="row">-->
+<!--				<div class="col-lg-10 offset-lg-1 col-12 d-flex justify-content-between">-->
+<!--					<h2 class="up-line white">--><?php //echo Yii::t('main', 'Новости') ?><!--</h2>-->
+<!--                    --><?php //echo Html::a(Yii::t('main', 'КО ВСЕМ НОВОСТЯМ'), ['/news-list'], ['class' => 'btn btn-default more-btn']) ?>
+<!--				</div>-->
+<!--				<div class="col-lg-10 offset-lg-1 col-12">-->
+<!--					<div class="news-carousel owl-carousel owl-theme">-->
+<!--						<div class="item d-flex">-->
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Работаем в штатном режиме')]),
+//									['/news-list'], ['class' => 'img-link']) ?>
+<!--							<div class="desc d-flex flex-column justify-content-between">-->
+<!--								<div class="title-container">-->
+<!--									<span class="date">30.03.2020</span>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Работаем в штатном режиме') ?><!--</h3>-->
+<!--								</div>-->
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') ?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) ?>
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="item d-flex">-->
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_2.jpg', ['alt' => Yii::t('main', 'УКПГ для Семаковского газового месторождения')]),
+//                                ['/news-list'], ['class' => 'img-link']) ?>
+<!--							<div class="desc d-flex flex-column justify-content-between">-->
+<!--								<div class="title-container">-->
+<!--									<span class="date">16.04.2020</span>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?><!--</h3>-->
+<!--								</div>-->
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') ?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) ?>
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="item d-flex">-->
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Расширяем ассортимент')]),
+//                                ['/news-list'], ['class' => 'img-link']) ?>
+<!--							<div class="desc d-flex flex-column justify-content-between">-->
+<!--								<div class="title-container">-->
+<!--									<span class="date">22.05.2020</span>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Расширяем ассортимент') ?><!--</h3>-->
+<!--								</div>-->
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') ?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) ?>
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 <section id="contacts" class="container">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">

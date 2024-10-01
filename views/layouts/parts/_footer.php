@@ -1,12 +1,24 @@
+<?php
+
+use app\components\helpers\Html;
+
+?>
+
 <footer id="footer" class="container-fluid">
 	<div class="row">
 		<div class="col-12 footer-container">
+            <div class="d-block d-lg-none">
+				<?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button', 'style' => 'transform: scale(0.8);margin-top: 20px; margin-bottom: 15px;margin-left: -156px;']) ?>
+            </div>
 			<span class="brand-name">
 				GREEN LINE
 				<span class="copyright">@ Green Line. 2020.</span>
 			</span>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">
+                <div class="d-none d-lg-inline-block">
+					<?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button', 'style' => 'transform: scale(0.8);margin-right: 15px;']) ?>
+                </div>
 				<span class="subscribe-text"><?php echo Yii::t('main', 'Подписаться на рассылку') ?></span>
 				<form action="/subscribe" method="post" id="footer-subscribe-form">
 					<input type="email" required name="email" placeholder="<?php echo Yii::t('main', 'Ваша электронная почта') ?>" />
