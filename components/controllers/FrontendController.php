@@ -28,7 +28,7 @@ class FrontendController extends Controller
         return parent::beforeAction($action);
     }
 
-    public function onLanguageChanged($event)
+    public static function onLanguageChanged($event)
     {
 
     }
