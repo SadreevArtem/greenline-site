@@ -56,7 +56,7 @@ $ruLink = (!$pathInfo || $pathInfo === 'index') ? ('/ru' . $queryString) : Url::
 <!--                        						<div class="dropdown-item"><a href="/sales-markets/railways">--><?php //echo Yii::t('main', 'Железные дороги') ?><!--</a></div>-->
                     </div>
                 </li>
-                <li class="nav-item"><?php echo Html::a(Yii::t('main', 'Наши бренды'), ['/brands'], ['class' => 'nav-link']) ?></li>
+                <!-- <li class="nav-item"><?php echo Html::a(Yii::t('main', 'Наши бренды'), ['/brands'], ['class' => 'nav-link']) ?></li> -->
                 <li class="nav-item"><?php echo Html::a(Yii::t('main', 'Новости'), ['/news-list'], ['class' => 'nav-link']) ?></li>
                 <li class="nav-item"><?php echo Html::a(Yii::t('main', 'Карьера'), ['/career'], ['class' => 'nav-link']) ?></li>
                 <li class="nav-item"><?php echo Html::a(Yii::t('main', 'Контакты'), ['/contacts'], ['class' => 'nav-link']) ?></li>

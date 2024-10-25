@@ -24,7 +24,7 @@ $this->registerMetaTag([
 <header id="header" class="container-fluid">
 	<div class="row">
 		<div class="item w-100">
-			<img class="w-100 back-img d-none d-md-block" src="/img/header_img.jpg" alt="header_1">
+			<img class="w-100 back-img d-none d-md-block" src="/img/new_banner.jpeg" alt="header_1">
 			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_mobile.jpg" alt="header_1">
 			<div class="desc">
 				<div class="row">
@@ -85,7 +85,7 @@ $this->registerMetaTag([
                             <?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
 						</div>
 						<div class="col-6 col-lg-6 col-md-7 col-12">
-							<img class="d-none d-md-block w-100" src="/img/about_company.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
+							<img class="d-none d-md-block h-100 w-100" src="/img/about_company.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
 						</div>
 					</div>
 				</div>

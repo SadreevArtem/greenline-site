@@ -12,7 +12,7 @@ use app\components\helpers\Html;
             </div>
 			<span class="brand-name">
 				GREEN LINE
-				<span class="copyright">@ Green Line. 2020.</span>
+				<span class="copyright">@ Green Line. 2024</span>
 			</span>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">
