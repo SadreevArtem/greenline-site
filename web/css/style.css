@@ -10454,7 +10454,7 @@ section h2 {
 @media (max-width: 991px) {
   #navbar-container .navbar-collapse .navbar-nav {
     width: 300px;
-    background-color: white;
+    background-color: black;
     height: 100vh;
     justify-content: flex-start;
     padding-left: 25px;
@@ -10467,7 +10467,7 @@ section h2 {
   padding-right: 25px;
   justify-content: flex-end;
   z-index: 1;
-  background-color: white;
+  background-color: black;
 }
 
 .request-form-container form h5 {
@@ -11246,9 +11246,7 @@ body.index #contacts-mobile > .row {
 }
 body.index #contacts-mobile .request-form-container {
   padding: 50px 10px;
-  background-image: url("/img/landing/request_form_back.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, #05373F, #0A8070, #10E1C4, #10E1C4);
 }
 body.index #contacts-mobile .request-form-container h5 {
   margin-bottom: 25px;
@@ -11639,6 +11637,7 @@ body.about #questions .item .question:before {
 body.about #questions .item .answer {
   background-color: #008B7B;
   border-radius: 10px;
+  color:#fff;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   width: 57%;
 }
