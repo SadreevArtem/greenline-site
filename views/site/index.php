@@ -49,23 +49,23 @@ $this->registerMetaTag([
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Что мы предоставляем') ?></h2>
 			<div class="provide-list row d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-start">
 				<div class="item col-lg col-md-4 col-6 d-flex flex-column justify-content-start align-items-start">
-					<img src="/img/icons/provide_1.jpg" alt="<?php echo Yii::t('main', 'Поставка оборудования') ?>">
+					<img src="/img/icons/provide_1.svg" alt="<?php echo Yii::t('main', 'Поставка оборудования') ?>">
 					<span><?php echo Yii::t('main', 'Поставка <br> оборудования') ?></span>
 				</div>
 				<div class="item col-lg col-md-4 col-6 d-flex flex-column justify-content-start align-items-start">
-					<img src="/img/icons/provide_2.jpg" alt="<?php echo Yii::t('main', 'Надзор за производством') ?>">
+					<img src="/img/icons/provide_2.svg" alt="<?php echo Yii::t('main', 'Надзор за производством') ?>">
 					<span><?php echo Yii::t('main', 'Надзор за <br> производством') ?></span>
 				</div>
 				<div class="item col-lg col-md-4 col-6 d-flex flex-column justify-content-start align-items-start">
-					<img src="/img/icons/provide_3.jpg" alt="<?php echo Yii::t('main', 'Гарантийное обслуживание') ?>">
+					<img src="/img/icons/provide_3.svg" alt="<?php echo Yii::t('main', 'Гарантийное обслуживание') ?>">
 					<span><?php echo Yii::t('main', 'Гарантийное <br> обслуживание') ?></span>
 				</div>
 				<div class="item col-lg col-md-4 col-6 d-flex flex-column justify-content-start align-items-start">
-					<img src="/img/icons/provide_4.jpg" alt="<?php echo Yii::t('main', 'Шефмонтаж и пусконаладка') ?>">
+					<img src="/img/icons/provide_4.svg" alt="<?php echo Yii::t('main', 'Шефмонтаж и пусконаладка') ?>">
 					<span><?php echo Yii::t('main', 'Шефмонтаж <br> и пусконаладка') ?></span>
 				</div>
 				<div class="item col-lg col-md-4 col-6 d-flex flex-column justify-content-start align-items-start">
-					<img src="/img/icons/provide_5.jpg" alt="<?php echo Yii::t('main', 'Свой парк сервисных инженеров 24/7') ?>">
+					<img src="/img/icons/provide_5.svg" alt="<?php echo Yii::t('main', 'Свой парк сервисных инженеров 24/7') ?>">
 					<span><?php echo Yii::t('main', 'Свой парк сервисных <br> инженеров 24/7') ?></span>
 				</div>
 			</div>
@@ -244,7 +244,7 @@ $this->registerMetaTag([
 						<a class="md-ml-10 link-no-style font-weight-bold" href="tel:+71234567890">+7 (4012) 926 962</a>
 					</div>
 					<div class="geo">
-						<a><img src="/img/icons/geo.svg" alt="Geo"></a>
+						<a><img src="/img/icons/map-marker.svg" alt="Geo"></a>
 						<p class="md-ml-10 text-1"><?php echo Yii::t('main', 'Адрес:') ?></p>
 						<p class="md-ml-10 address font-weight-bold"><?php echo Yii::t('main', 'г. Калининград <br class="d-none d-lg-block"> ул. Пугачева <br> д. 16, офис 209') ?></p>
 					</div>

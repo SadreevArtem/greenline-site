@@ -55,7 +55,7 @@ $this->registerMetaTag([
 						<a class="md-ml-10 link-no-style font-weight-bold" href="tel:+71234567890">+7 (4012) 926 962</a>
 					</div>
 					<div class="geo">
-						<a><img src="/img/icons/geo.svg" alt="Geo"></a>
+						<a><img src="/img/icons/map-marker.svg" alt="Geo"></a>
 						<p class="md-ml-10 text-1"><?php echo Yii::t('main', 'Адрес:') ?></p>
 						<p class="md-ml-10 address font-weight-bold"><?php echo Yii::t('main', 'г. Калининград <br class="d-none d-lg-block"> ул. Пугачева <br> д. 16, офис 209') ?></p>
 					</div>
