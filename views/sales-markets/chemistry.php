@@ -58,7 +58,7 @@ $this->registerMetaTag([
 				</div>
 				<div class="col-md-6 col-12">
 					<div class="img-container">
-						<img src="/img/sales-markets/chemistry.jpg" alt="<?php echo Yii::t('main', 'Химия и нефтехимия') ?>">
+						<!-- <img src="/img/sales-markets/chemistry.jpg" alt="<?php echo Yii::t('main', 'Химия и нефтехимия') ?>"> -->
 					</div>
 				</div>
 			</div>

@@ -27,12 +27,12 @@ $this->registerMetaTag([
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10 offset-lg-1 col-12">
+			<div class="col-lg-10 offset-lg-1 col-12 text-dark">
 				<h1><?php echo Yii::t('main', 'Контакты') ?></h1>
-				<span class="breadcrumbs">
+				<!-- <span class="breadcrumbs text-dark">
 					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
                     	- <?php echo Html::a(Yii::t('main', 'Контакты'), ['/contacts'], ['class' => 'current']) ?>
-					</span>
+					</span> -->
 			</div>
 		</div>
 	</div>

@@ -24,7 +24,7 @@ $this->registerMetaTag([
 <header id="header" class="container-fluid">
 	<div class="row">
 		<div class="item w-100">
-			<img class="w-100 back-img d-none d-md-block" src="/img/new_banner.jpeg" alt="header_1">
+			<img class="w-100 back-img d-none d-md-block" src="/img/header_img.jpg" alt="header_1">
 			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_mobile.jpg" alt="header_1">
 			<div class="desc">
 				<div class="row">
@@ -186,12 +186,12 @@ $this->registerMetaTag([
 <!--				<div class="col-lg-10 offset-lg-1 col-12">-->
 <!--					<div class="news-carousel owl-carousel owl-theme">-->
 <!--						<div class="item d-flex">-->
-<!--                            --><?php //echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Работаем в штатном режиме')]),
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A')]),
 //									['/news-list'], ['class' => 'img-link']) ?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
-<!--									<span class="date">30.03.2020</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Работаем в штатном режиме') ?><!--</h3>-->
+<!--									<span class="date">25.10.2024</span>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A') ?><!--</h3>-->
 <!--								</div>-->
 <!--								<p class="news-body">--><?php //echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') ?><!--</p>-->
 <!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) ?>
@@ -202,8 +202,8 @@ $this->registerMetaTag([
 //                                ['/news-list'], ['class' => 'img-link']) ?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
-<!--									<span class="date">16.04.2020</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'УКПГ для Семаковского ГМ') ?><!--</h3>-->
+<!--									<span class="date">4-7 Ноября 2024</span>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Посетите мировую энергетическую выставку') ?><!--</h3>-->
 <!--								</div>-->
 <!--								<p class="news-body">--><?php //echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') ?><!--</p>-->
 <!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) ?>

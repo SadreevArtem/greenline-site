@@ -10573,6 +10573,7 @@ section h2 {
 #header.navigate-header .img-container img {
   display: block;
   width: 100%;
+  opacity: 80%;
 }
 @media (max-width: 991px) {
   #header.navigate-header .img-container img {
@@ -12157,4 +12158,8 @@ body.contacts #contacts-mobile .request-form-container h5 {
 }
 body.contacts #contacts-mobile .request-form-container button[type=submit] {
   margin-top: 20px;
+}
+
+#header.navigate-header .img-container  {
+  background: linear-gradient(to bottom, #05373F, #0A8070, #10E1C4, #10E1C4);
 }

@@ -23,7 +23,7 @@ $this->registerMetaTag([
 ?>
 
 <header id="header" class="container-fluid navigate-header">
-	<div class="img-container">
+	<div class="img-container bg-gradient">
 		<img src="/img/headers/sales-markets.jpg" alt="<?php echo Yii::t('main', 'Рынки сбыта') ?>">
 	</div>
 	<div class="container">
