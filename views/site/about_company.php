@@ -49,12 +49,7 @@ $this->registerMetaTag([
                 电邮：<a href="mailto:info@greenlinerussia.com">info@greenlinerussia.com</a>
                 <br>
                 电话: <a href="tel:+74012926962">+7(4012)-92-69-62</a>
-                <br>
-                手机: <a href="tel:+79622676755">+7(962)-267-67-55</a>
-                <br>
-                <img style="width: 16px;padding-bottom: 3px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABbElEQVR4nLXWv0sdQRDA8Y+iiBorC0kk4YHGkDSCITE2qYQoor0EhIdiCAhWgrWNWOTfSNo0Qv6BgH1QQjp/gAoW/kJI45ODFc7Lvbv1xTcwcLe7M9+dnZvZgykcoPbAuo9J4aHWJN3TROe1oKULfmAOA+hEFwZRxSauGwUkeXmvXEbx676ALfRFOL+VRyHSKMAxnri/9NSJ5J+B6YxhP55FQt7l5OTOyzZaUgYVnOIQHZGQzSLAcmbxSmpuNhJQLQKMZBYvhvEk7A+RgOdFgOyX04szHIUaiJHuIsDjHIP5MPcVrf8LGKtjtJ6q6qd4E3rYWk7Ur4oAqwU7W8LfoJcpmwSel7dcwE7JMbzAN1yF9X9CUtPys6zQhpVLRyi+7GZmyir5HO0akwpOygDfG3T+Er9jmt3nlFHSMobQVnJUn3AR267HsRC++aMwtouNcL6v8RYf8SV03nqOC++Dh1RNv/STX4tmQBLnEzcgWlGMsAUQBgAAAABJRU5ErkJggg=="> : <a href="https://wa.me/79622676755">+79622676755</a>
-                <br>
-                <img style="width: 16px;padding-bottom: 3px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABaElEQVR4nMXWPUsdQRTG8d9NvMQUggg2gZAmkBQW6QQRCzGYIMGXIhDUyhdEsBCsrP0AlqJEUmmTxtoukCKNIKQXchUULOIXcGVlFtbL7t295i45cGCemd3zn9k5Z2ZhAueIOuwNfBQaUUX+R4XBo+D/F3CKr9jCDn7ithOAHxiMBzPsDQ7+BbCLLsW28RjAL9RDgDh9j9AT9FMcYiEFOWwXMJ16eR03eBF0Ny6wnXrmbbuAZLaJPcnQr7CIVSzhW0EtPRDxLFvZZ0yi1tRfC/2XRYCRFsE/4XXOWAJ8mQF5IL7nBHiOqZQ+wVpov8Nf9Ae9UpSmyxmAsVSARMd7IXzWLyHLklW0BMSVOt8EmMEz5ayvTCWPYxZ7IVviohouCXhfZgW/M/qPM9K22brCeVW4gjzfDxueZfWQJKUOu1Z+hk0MYQCjmEMvrjsBiHL8KtxglQGiHK8e0Kgw+P2lH/9aVAGJg3+4AwyVmTqZQLBfAAAAAElFTkSuQmCC"> : +79622676755
+                <br>+7(962)-267-67-55
             </div>
 		</div>
 	</div>
