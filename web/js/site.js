@@ -3,7 +3,7 @@ $(function () {
     $(window).scroll(function() {
         if (!YaMapsShown){
             if($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
-                $("#YaMaps").html('<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c7197ad5e4a1d80b17547e239e088798f966b7fff2a67b416a7f6c899e0030c&amp;source=constructor&lang=' + window.mapLanguage + '" width="100%" height="300" frameborder="0"></iframe>');
+                $("#YaMaps").html('<iframe src="https://yandex.ru/map-widget/v1/?ll=20.526666%2C54.712914&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjIyNDc0NRJB0KDQvtGB0YHQuNGPLCDQmtCw0LvQuNC90LjQvdCz0YDQsNC0LCDRg9C70LjRhtCwINCk0YDRg9C90LfQtSwgNTEiCg2eNqRBFQbaWkI%2C&z=16.75;source=constructor&lang=' + window.mapLanguage + '" width="100%" height="300" frameborder="0"></iframe>');
                 YaMapsShown = true;
             }
         }

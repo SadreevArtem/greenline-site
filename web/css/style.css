@@ -12149,7 +12149,9 @@ body.contacts #contacts-mobile > .row {
 }
 body.contacts #contacts-mobile .request-form-container {
   padding: 50px 10px;
-  background-image: url("/img/landing/request_form_back.jpg");
+  /* background-image: url("/img/landing/request_form_back.jpg"); */
+  background: linear-gradient(to bottom, #05373F, #0A8070, #10E1C4, #10E1C4);
+
   background-size: cover;
   background-repeat: no-repeat;
 }

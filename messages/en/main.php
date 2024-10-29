@@ -140,7 +140,7 @@ return [
     'Знание английского языка' => 'Knowledge of English',
     'Телефон:' => 'Phone:',
     'Адрес:' => 'Address:',
-    'г. Калининград <br class="d-none d-lg-block"> ул. Пугачева <br> д. 16, офис 209' => 'Kaliningrad <br class="d-none d-lg-block"> st. Pugacheva <br> b.16, office 209',
+    'г. Калининград <br class="d-none d-lg-block"> ул. Фрунзе <br> д. 51, офис 13' => 'Kaliningrad <br class="d-none d-lg-block"> st. Frunze <br> b. 51, office 13',
     'Оснащение и модернизация ведущих отраслей промышленности' => 'Equipping and modernizing leading industries',
     'Контакты компании' => 'Company contacts',
     'Карьера в нашей кампании' => 'Career in our campaign',
