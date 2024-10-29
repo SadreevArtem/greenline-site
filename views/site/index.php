@@ -24,8 +24,8 @@ $this->registerMetaTag([
 <header id="header" class="container-fluid">
 	<div class="row">
 		<div class="item w-100">
-			<img class="w-100 back-img d-none d-md-block" src="/img/header_img.jpg" alt="header_1">
-			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_mobile.jpg" alt="header_1">
+			<img class="w-100 back-img d-none d-md-block" src="/img/header_img_test2.jpg" alt="header_1">
+			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_test2.jpg" alt="header_1">
 			<div class="desc">
 				<div class="row">
 					<div class="col-10">
