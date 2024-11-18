@@ -43,6 +43,18 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">14.11.2024</span>
+					<h2 class="title"><?php echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') ?></h2>
+					<div class="text"><?php echo Yii::t('main', 'Сотрудники компании Гринлайн приняли участие в ежегодной выставке ADIPEC, которая прошла в Абу-Даби.') ?>
+                        <?php echo Yii::t('main', 'Это одно из крупнейших мировых мероприятий в сфере нефти и газа, объединяющее лидеров отрасли. В рамках выставки наша команда заключила важные международные договоры и партнерские соглашения, а также выделила ключевые направления развития компании на 2025 год.') ?></div>
+                    <?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_3.jpg" alt="<?php echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">25.10.2024</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A') ?></h2>
 					<div class="text"><?php echo Yii::t('main', 'Португальская компания Galp Energia пробурила первую из четырех разведочных и оценочных скважин Mopane 1-A в ходе второй разведывательно-оценочной кампании на блоках 2813A и 2814B, расположенных в самом сердце Оранжевого бассейна Намибии, вблизи своего крупного нефтегазового месторождения Мопане.') ?></div>
@@ -63,24 +75,6 @@ $this->registerMetaTag([
 					<img src="/img/news/news_2.jpg" alt="<?php echo Yii::t('main', 'Посетите мировую энергетическую выставку') ?>">
 				</div>
 			</div>
-			<!-- <div class="item">
-				<div class="left">
-					<span class="time">22.05.2020</span>
-					<h2 class="title"><?php echo Yii::t('main', 'Расширяем ассортимент') ?></h2>
-					<div class="text"><?php echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline расширила ассортимент поставки продукции на Российский рынок, который сейчас включает в себя:') ?>
-						<ul style="list-style:none;padding-left:0;">
-							<li>- <?php echo Yii::t('main', 'Моментальные тесты на вирус и антитела COVID-19') ?></li>
-							<li>- <?php echo Yii::t('main', 'Защитные маски') ?></li>
-							<li>- <?php echo Yii::t('main', 'Защитные латексные перчатки') ?></li>
-							<li>- <?php echo Yii::t('main', 'Защитные одноразовые медицинские костюмы') ?></li>
-						</ul>
-                        <?php echo Yii::t('main', 'Все оборудование производится в Корее и отвечает самым высоким мировым стандартам качества.') ?></div>
-                    <?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'btn btn-success more-btn']) ?>
-				</div>
-				<div class="right">
-					<img src="/img/news/news_3.jpg" alt="<?php echo Yii::t('main', 'Расширяем ассортимент') ?>">
-				</div>
-			</div> -->
 		</div>
 	</div>
 </section>

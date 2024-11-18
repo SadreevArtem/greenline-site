@@ -210,12 +210,12 @@ $this->registerMetaTag([
 <!--							</div>-->
 <!--						</div>-->
 <!--						<div class="item d-flex">-->
-<!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Расширяем ассортимент')]),
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024')]),
 //                                ['/news-list'], ['class' => 'img-link']) ?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
 <!--									<span class="date">22.05.2020</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Расширяем ассортимент') ?><!--</h3>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') ?><!--</h3>-->
 <!--								</div>-->
 <!--								<p class="news-body">--><?php //echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') ?><!--</p>-->
 <!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) ?>

@@ -39,9 +39,9 @@ $pages = [
     ],
     '220520' => [
         'id' => '220520',
-        'title' => Yii::t('main', 'Расширяем ассортимент'),
+        'title' => Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024'),
         'meta' => [
-            'description' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Расширяем ассортимент'),
+            'description' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024'),
             'keywords' => Yii::t('main', 'новости компании'),
             'robots' => 'index, follow',
         ],
@@ -51,24 +51,35 @@ $pages = [
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
                             <div class="col-md-6 col-12">
-                                <h2 class="up-line green">' . Yii::t('main', 'Расширяем ассортимент') . '</h2>
-                                <span class="time">10.05.2020</span>
-                                <div class="item-img d-block d-md-none"><img src="/img/news/news_3.jpg" alt="' . Yii::t('main', 'Расширяем ассортимент') . '"></div>
-                                <p>' . Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline расширила ассортимент поставки продукции на Российский рынок, который сейчас включает в себя:') . '
-                                <ul>
-                                    <li>' . Yii::t('main', 'Моментальные тесты на вирус и антитела COVID-19') . '</li>
-                                    <li>' . Yii::t('main', 'Защитные маски') . '</li>
-                                    <li>' . Yii::t('main', 'Защитные латексные перчатки') . '</li>
-                                    <li>' . Yii::t('main', 'Защитные одноразовые медицинские костюмы') . '</li>
-                                </ul>
-                                ' . Yii::t('main', 'Все оборудование производится в Корее и отвечает самым высоким мировым стандартам качества.') . '</p>
+                                <h2 class="up-line green">' . Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') . '</h2>
+                                <span class="time">14.11.2024</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_3.jpg" alt="' . Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') . '"></div>
+                                <p>' . Yii::t('main', 'Сотрудники компании Гринлайн приняли участие в ежегодной выставке ADIPEC, которая прошла в Абу-Даби.') . '
+                                ' . Yii::t('main', 'Это одно из крупнейших мировых мероприятий в сфере нефти и газа, объединяющее лидеров отрасли. В рамках выставки наша команда заключила важные международные договоры и партнерские соглашения, а также выделила ключевые направления развития компании на 2025 год.') . '</p>
                             </div>
                             <div class="col-md-6 col-12">
-                                <div class="item-img d-md-block d-none"><img src="/img/news/news_3.jpg" alt="' . Yii::t('main', 'Расширяем ассортимент') . '"></div>
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_3.jpg" alt="' . Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') . '"></div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'ADIPEC 2024') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/adipec2024/brand_1.jpg', ['alt' => 'Bot']) . '</div>
+                            <div class="item item-2">' . Html::img('/img/adipec2024/brand_2.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-3">' . Html::img('/img/adipec2024/brand_3.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-4">' . Html::img('/img/adipec2024/brand_4.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-5">' . Html::img('/img/adipec2024/brand_5.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-6">' . Html::img('/img/adipec2024/brand_6.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-8">' . Html::img('/img/adipec2024/brand_8.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-9">' . Html::img('/img/adipec2024/brand_9.jpg', ['alt' => '`']) . '</div>
+                        </div>
+                    </div>
+        
             </section>
         '
     ],
