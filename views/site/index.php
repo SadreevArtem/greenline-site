@@ -158,7 +158,7 @@ $this->registerMetaTag([
 		</div>
 	</div>
 </section>
-<section id="our-brands" class="container">
+<section id="our-brands" class="container" style="display: none;"> // hide block Our brands
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Наши бренды') ?></h2>
