@@ -63,13 +63,13 @@ $this->registerMetaTag([
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-10 offset-lg-1 col-12">
+		<div class="col-lg-10 offset-lg-1 col-12" style="display: none;">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="up-line green"><?php echo Yii::t('main', 'Бренды') ?></h2>
 				</div>
 			</div>
-			<div class="row links-container">
+			<div class="row links-container" >
 				<div class="col-12 d-flex justify-content-start flex-md-row flex-column">
 					<div class="item">
 						<img src="/img/brands/brand_4.jpg" alt="Allweiler">

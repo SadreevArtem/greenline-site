@@ -63,7 +63,7 @@ $this->registerMetaTag([
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-10 offset-lg-1 col-12">
+		<div class="col-lg-10 offset-lg-1 col-12" style="display: none;">
 			<div class="row">
 				<div class="col-12">
 					<h2 class="up-line green"><?php echo Yii::t('main', 'Партнёры') ?></h2>
