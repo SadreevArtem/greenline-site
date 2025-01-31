@@ -9,7 +9,7 @@ class SalesMarketsController extends FrontendController
 {
     public function actionIndex($action)
     {
-        if (!in_array($action, ['chemistry', 'electric-power', 'infrastructure', 'mining', 'oil-and-gas', 'oil-refining', 'space-and-mobile'])) {
+        if (!in_array($action, ['chemistry', 'electric-power', 'infrastructure', 'mining', 'oil-and-gas', 'oil-refining', 'space-and-mobile', 'offshore-projects'])) {
             throw new NotFoundHttpException(\Yii::t('main', 'Страница не найдена'));
         }
         return $this->render($action);

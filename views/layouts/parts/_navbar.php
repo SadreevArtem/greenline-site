@@ -49,7 +49,7 @@ $ruLink = (!$pathInfo || $pathInfo === 'index') ? ('/ru' . $queryString) : Url::
                         <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Химия и нефтехимия'), ['/sales-markets/chemistry']) ?></div>
                         <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Производство электроэнергии'), ['/sales-markets/electric-power']) ?></div>
                         <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Нефтепереработка и транспортировка'), ['/sales-markets/oil-refining']) ?></div>
-<!--                        						<div class="dropdown-item"><a href="/sales-markets/solar-power">--><?php //echo Yii::t('main', 'Солнечные электростанции') ?><!--</a></div>-->
+                        <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Шельфовые проекты и морские порты'), ['/sales-markets/offshore-projects'])?></div>
                         <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Горная промышленность'), ['/sales-markets/mining']) ?></div>
                         <div class="dropdown-item"><?php echo Html::a(Yii::t('main', 'Инфраструктура'), ['/sales-markets/infrastructure']) ?></div>
 <!--                        						<div class="dropdown-item"><a href="/sales-markets/shipbuilding"--><?php //echo Yii::t('main', 'Судостроение') ?><!--</a></div>-->
