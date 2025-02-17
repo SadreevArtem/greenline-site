@@ -1,7 +1,8 @@
 <?php
+
 /**
-* @var $this \yii\web\View
-*/
+ * @var $this \yii\web\View
+ */
 
 use app\components\helpers\Html;
 
@@ -30,12 +31,14 @@ $this->registerMetaTag([
 				<div class="row">
 					<div class="col-10">
 						<div class="row">
-							<div class="col-12"><h1 class="title"><?php echo Yii::t('main', 'Оснащение и модернизация <br> ведущих отраслей промышленности') ?></h1></div>
+							<div class="col-12">
+								<h1 class="title"><?php echo Yii::t('main', 'Оснащение и модернизация <br> ведущих отраслей промышленности') ?></h1>
+							</div>
 							<div class="col-12"><span class="text"><?php echo Yii::t('main', 'России и СНГ, не имеющим отечественных аналогов высококачественным оборудованием из Европы и США') ?></span></div>
 						</div>
 					</div>
 					<div class="col-12 col-md-2 d-flex justify-content-md-end justify-content-start align-items-end">
-                        <?php echo Html::a(Yii::t('main', 'ПОДРОБНЕЕ'), ['/about'], ['class' => 'btn btn-success more-btn']) ?>
+						<?php echo Html::a(Yii::t('main', 'ПОДРОБНЕЕ'), ['/about'], ['class' => 'btn btn-success more-btn']) ?>
 					</div>
 				</div>
 			</div>
@@ -82,7 +85,7 @@ $this->registerMetaTag([
 							<h2 class="up-line white"><?php echo Yii::t('main', 'О компании') ?></h2>
 							<p><?php echo Yii::t('main', 'Компания Green Line специализируется на поставках оборудования и передовых технологий в нефтегазовую, нефтехимическую, энергетическую и иные ведущие отрасли промышленности.') ?></p>
 							<p><?php echo Yii::t('main', 'Уникальный опыт позволяет нам находить наилучшие технологические решения и превосходно справляться с любыми задачами Заказчика.') ?></p>
-                            <?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
+							<?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
 						</div>
 						<div class="col-6 col-lg-6 col-md-7 col-12">
 							<img class="d-none d-md-block h-100 w-100" src="/img/about_company.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
@@ -180,45 +183,59 @@ $this->registerMetaTag([
 <!--		<div class="container">-->
 <!--			<div class="row">-->
 <!--				<div class="col-lg-10 offset-lg-1 col-12 d-flex justify-content-between">-->
-<!--					<h2 class="up-line white">--><?php //echo Yii::t('main', 'Новости') ?><!--</h2>-->
-<!--                    --><?php //echo Html::a(Yii::t('main', 'КО ВСЕМ НОВОСТЯМ'), ['/news-list'], ['class' => 'btn btn-default more-btn']) ?>
+<!--					<h2 class="up-line white">--><?php //echo Yii::t('main', 'Новости') 
+														?><!--</h2>-->
+<!--                    --><?php //echo Html::a(Yii::t('main', 'КО ВСЕМ НОВОСТЯМ'), ['/news-list'], ['class' => 'btn btn-default more-btn']) 
+							?>
 <!--				</div>-->
 <!--				<div class="col-lg-10 offset-lg-1 col-12">-->
 <!--					<div class="news-carousel owl-carousel owl-theme">-->
 <!--						<div class="item d-flex">-->
 <!--                            --><?php //echo Html::a(Html::img('/img/news/news_1.jpg', ['alt' => Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A')]),
-//									['/news-list'], ['class' => 'img-link']) ?>
+									//									['/news-list'], ['class' => 'img-link']) 
+									?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
 <!--									<span class="date">25.10.2024</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A') ?><!--</h3>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Galp пробурила первую скважину Mopane 1-A') 
+																	?><!--</h3>-->
 <!--								</div>-->
-<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') ?><!--</p>-->
-<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) ?>
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В условиях пандемии новой коронавирусной инфекции...') 
+															?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300320'], ['class' => 'more-link']) 
+										?>
 <!--							</div>-->
 <!--						</div>-->
 <!--						<div class="item d-flex">-->
 <!--                            --><?php //echo Html::a(Html::img('/img/news/news_2.jpg', ['alt' => Yii::t('main', 'УКПГ для Семаковского газового месторождения')]),
-//                                ['/news-list'], ['class' => 'img-link']) ?>
+									//                                ['/news-list'], ['class' => 'img-link']) 
+									?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
 <!--									<span class="date">4-7 Ноября 2024</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Посетите мировую энергетическую выставку') ?><!--</h3>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Посетите мировую энергетическую выставку') 
+																	?><!--</h3>-->
 <!--								</div>-->
-<!--								<p class="news-body">--><?php //echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') ?><!--</p>-->
-<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) ?>
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'Компания Greenline завершила разработку дизайна установок...') 
+															?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160420'], ['class' => 'more-link']) 
+										?>
 <!--							</div>-->
 <!--						</div>-->
 <!--						<div class="item d-flex">-->
 <!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024')]),
-//                                ['/news-list'], ['class' => 'img-link']) ?>
+									//                                ['/news-list'], ['class' => 'img-link']) 
+									?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
 <!--									<span class="date">22.05.2020</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') ?><!--</h3>-->
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') 
+																	?><!--</h3>-->
 <!--								</div>-->
-<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') ?><!--</p>-->
-<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) ?>
+<!--								<p class="news-body">--><?php //echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') 
+															?><!--</p>-->
+<!--								--><?php //echo Html::a(Yii::t('main', 'Подробнее'), ['/news/220520'], ['class' => 'more-link']) 
+										?>
 <!--							</div>-->
 <!--						</div>-->
 <!--					</div>-->
@@ -273,7 +290,7 @@ $this->registerMetaTag([
 								<div id="captcha-1" class="captcha_container" data-id="1"></div>
 								<div class="col-12">
 									<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-                                        <?php echo Yii::t('main', 'Отправить') ?>
+										<?php echo Yii::t('main', 'Отправить') ?>
 										<i class="fas fa-spinner fa-spin" style="display: none;"></i>
 									</button>
 								</div>
@@ -282,6 +299,25 @@ $this->registerMetaTag([
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<h3 class="my-4"><?php echo Yii::t('main', 'Дополнительные офисы:') ?></h3>
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Москва') ?></p>
+			<p class=""><?php echo Yii::t('main', '123242, г. Москва, вн. тер. г. муниципальный округ Пресненский, ул. Большая Грузинская, д. 20, помещение ЗА/П') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Санкт-Петербург') ?></p>
+			<p class=""><?php echo Yii::t('main', '191028, г. Санкт-Петербург, Литейный пр., 26') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Владивосток') ?></p>
+			<p class=""><?php echo Yii::t('main', '690920, Российская Федерация, Приморский край, остров Русский') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Гонконг') ?></p>
+			<p class=""><?php echo Yii::t('main', 'Room 1208, 12/F, Eastern Commercial Centre 397, Hennessy Road, Hong Kong') ?></p>
 		</div>
 	</div>
 </section>
@@ -317,7 +353,7 @@ $this->registerMetaTag([
 					<div id="captcha-1" class="captcha_container" data-id="1"></div>
 					<div class="col-12">
 						<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-                            <?php echo Yii::t('main', 'Отправить') ?>
+							<?php echo Yii::t('main', 'Отправить') ?>
 							<i class="fas fa-spinner fa-spin" style="display: none;"></i>
 						</button>
 					</div>

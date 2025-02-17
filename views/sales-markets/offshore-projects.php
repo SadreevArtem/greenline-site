@@ -51,6 +51,22 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
+				<div class="col-md-6 col-12 order-md-2">
+					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Проектирование и строительство морских буровых платформ') ?></h3>
+					<div class="content">
+						<p><?php echo Yii::t('main', 'Компания Green Line обладает командой, которая в любой момент готова обеспечить работы по дноуглублению, проектированию, производству и сборке различных морских платформ различных конфигураций, таких как Ледостойкие Стационарные Платформы, Центральные Технологические, Блоки ПЖМ, Блоки Кондуктора и др. Приоритетом для подобных проектов является Каспийское море.') ?></p>
+						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/sales-markets/offshore-projects'], ['class' => 'btn btn-success more-btn']) ?>
+					</div>
+				</div>
+				<div class="col-md-6 col-12">
+					<div class="img-container">
+						<img src="/img/sales-markets/platforms.jpg" alt="<?php echo Yii::t('main', 'Шельфовые проекты и морские порты') ?>">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<div class="row item-container">
 				<div class="col-md-6 col-12">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Аренда технологического оборудования') ?></h3>
 					<div class="content">

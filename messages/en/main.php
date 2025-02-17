@@ -22,6 +22,8 @@ return [
     'Нефтепереработка и транспортировка' => 'Refining and transportation',
     'Шельфовые проекты и морские порты' => 'Offshore projects and seaports',
     'Аренда технологического оборудования' => 'Rental of technological equipment',
+    'Компания Green Line обладает командой, которая в любой момент готова обеспечить работы по дноуглублению, проектированию, производству и сборке различных морских платформ различных конфигураций, таких как Ледостойкие Стационарные Платформы, Центральные Технологические, Блоки ПЖМ, Блоки Кондуктора и др. Приоритетом для подобных проектов является Каспийское море.' => 'The Green Line company has a team that is ready at any time to provide work on dredging, design, production and assembly of various offshore platforms of various configurations, such as Ice-resistant Stationary Platforms, Central Technological Platforms, PLM Blocks, Conductor Blocks, etc. The priority for such projects is the Caspian Sea.',
+    'Проектирование и строительство морских буровых платформ' => 'Design and construction of offshore drilling platforms',
     'Проектирование, изготовление и поставка ВПУ' => 'Design, manufacture and supply of remote mooring device',
     'Проектирование, изготовление и поставка cтационарных отгрузочных терминалов' => 'Design, manufacture and supply of stationary shipping terminals',
     'Поставка технологического морского оборудования' => 'Supply of technological marine equipment',
@@ -205,4 +207,12 @@ return [
     'Ссылка на источник' => 'Link to the source',
     'Страница не найдена' => 'Page not found',
     'Для рассмотрения вашей кандидатуры отправьте резюме на электронный адрес: ' => 'To consider your candidacy, send your resume to the email address: ',
+    'Дополнительные офисы:' => 'Additional offices:',
+    'Москва' => 'Moscow',
+    'Санкт-Петербург' => 'Saint Petersburg',
+    'Владивосток' => 'Vladivostok',
+    'Гонконг' => 'Hong Kong',
+    '191028, г. Санкт-Петербург, Литейный пр., 26' => '191028, St. Petersburg, Liteiny pr., 26',
+    '690920, Российская Федерация, Приморский край, остров Русский' => '690920, Russian Federation, Primorsky Krai, Russky Island',
+    '123242, г. Москва, вн. тер. г. муниципальный округ Пресненский, ул. Большая Грузинская, д. 20, помещение ЗА/П' => '123242, Moscow, vn. ter. g. municipalnyi okrug Presnenskii, ul. Bolshaia Gruzinskaia, d. 20, ZA/P'
 ];
