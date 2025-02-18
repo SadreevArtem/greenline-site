@@ -12720,3 +12720,151 @@ body.contacts #contacts-mobile .request-form-container button[type="submit"] {
     font-size: 16px; /* h3 */
   }
 }
+
+/* Стили для табов */
+.nav-tabs .nav-link {
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #1f3b75;
+  color: #fff;
+}
+
+.tab-content {
+}
+
+.tab-content-item.tab-pane {
+  padding: 0;
+}
+
+.nav-tabs > li {
+  margin-bottom: 0 !important ;
+}
+
+.tab-content-item {
+  padding: 15px;
+  font-size: 16px;
+  display: flex;
+}
+
+.custom-tabs.nav.nav-tabs {
+  font-size: 16px;
+}
+
+.custom-tabs.nav.nav-tabs .active a {
+  border-bottom: #008b7b solid 2px !important;
+  border-radius: 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: black;
+  padding: 10px 15px;
+}
+.custom-tabs.nav.nav-tabs li {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .custom-tabs.nav.nav-tabs .active a {
+    border-radius: 20px !important;
+    background-color: #008b7b !important;
+    border: none !important;
+    color: black;
+  }
+  .custom-tabs.nav.nav-tabs li.active {
+    padding: 10px 15px;
+  }
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  border: none;
+  text-decoration: none;
+  background-color: white !important;
+  cursor: pointer !important;
+}
+
+.nav-tabs > li > a {
+  color: black;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+#navbar-container > nav {
+  margin-bottom: 0;
+}
+#navbar-container .navbar .navbar-nav {
+  align-items: center;
+}
+
+.img-offshore {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-container {
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* Убираем стандартное изображение и используем SVG */
+.image-container img {
+  display: none;
+}
+
+.clip-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.img-block-1 {
+  order: 1;
+}
+
+.wr-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wr-text {
+  font-size: 16px;
+}
+
+.stretched-img {
+  width: 100%; /* Растягиваем изображение на всю ширину контейнера */
+  height: 100%; /* Растягиваем изображение на всю высоту контейнера */
+  object-fit: cover; /* Обеспечивает сохранение пропорций и заполнение контейнера */
+  border-radius: 15px; /* Скругляем углы, можете изменить значение */
+}
+.container-fluid::before,
+.container-fluid:after {
+  display: none;
+}
+
+.navbar-brand {
+  padding: 15px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding: 0 0 0 0;
+  }
+}

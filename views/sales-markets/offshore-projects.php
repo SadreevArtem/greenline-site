@@ -87,7 +87,7 @@ $this->registerMetaTag([
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Проектирование, изготовление и поставка ВПУ') ?></h3>
 					<div class="content">
 						<p><?php echo Yii::t('main', 'Мы занимаемся комплексным проектированием, производством и поставкой выносных причальных устройств (ВПУ) для шельфовых проектов и морских портов. Наши решения обеспечивают безопасную и эффективную швартовку судов в различных эксплуатационных условиях. Используем только высококачественные материалы и современные технологии, гарантируя надежность и долговечность оборудования.') ?></p>
-						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/sales-markets/offshore-projects'], ['class' => 'btn btn-success more-btn']) ?>
+						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['sales-markets/view', 'action' => 'offshore-projects', 'subaction' => 'vpu'], ['class' => 'btn btn-success more-btn']) ?>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">

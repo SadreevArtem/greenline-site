@@ -11,7 +11,7 @@ $config = [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
-   'language' => 'ru',
+    'language' => 'ru',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -62,6 +62,12 @@ $config = [
 
                 'news/<id:\d+>' => 'news/index',
                 'sales-markets/<action>' => 'sales-markets/index',
+
+                // Основные страницы sales-markets
+                // 'sales-markets/<action:[\w\-]+>' => 'sales-markets/index',
+
+                // Вложенные страницы sales-markets (например, /sales-markets/offshore-projects/details)
+                'sales-markets/<action:[\w\-]+>/<subaction:[\w\-]+>' => 'sales-markets/view',
             ],
             'languages' => ['en', 'ru'],
             'enableDefaultLanguageUrlCode' => true,
