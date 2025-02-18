@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @var $this \yii\web\View
  */
@@ -8,16 +9,16 @@ use app\components\helpers\Html;
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Контакты компании');
 
 $this->registerMetaTag([
-    'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Контакты компании'),
+	'name' => 'description',
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Контакты компании'),
 ]);
 $this->registerMetaTag([
-    'name' => 'keywords',
-    'content' => Yii::t('main', 'высококачественное оборудование'),
+	'name' => 'keywords',
+	'content' => Yii::t('main', 'высококачественное оборудование'),
 ]);
 $this->registerMetaTag([
-    'name' => 'robots',
-    'content' => 'index, follow',
+	'name' => 'robots',
+	'content' => 'index, follow',
 ]);
 ?>
 
@@ -84,7 +85,7 @@ $this->registerMetaTag([
 								<div id="captcha-1" class="captcha_container" data-id="1"></div>
 								<div class="col-12">
 									<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-                                        <?php echo Yii::t('main', 'Отправить') ?>
+										<?php echo Yii::t('main', 'Отправить') ?>
 										<i class="fas fa-spinner fa-spin" style="display: none;"></i>
 									</button>
 								</div>
@@ -93,6 +94,25 @@ $this->registerMetaTag([
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<h3 class="my-4"><?php echo Yii::t('main', 'Дополнительные офисы:') ?></h3>
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Москва') ?></p>
+			<p class=""><?php echo Yii::t('main', '123242, г. Москва, вн. тер. г. муниципальный округ Пресненский, ул. Большая Грузинская, д. 20, помещение ЗА/П') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Санкт-Петербург') ?></p>
+			<p class=""><?php echo Yii::t('main', '191028, г. Санкт-Петербург, Литейный пр., 26') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Владивосток') ?></p>
+			<p class=""><?php echo Yii::t('main', '690920, Российская Федерация, Приморский край, остров Русский') ?></p>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<p class="font-weight-bold h5"><?php echo Yii::t('main', 'Гонконг') ?></p>
+			<p class=""><?php echo Yii::t('main', 'Room 1208, 12/F, Eastern Commercial Centre 397, Hennessy Road, Hong Kong') ?></p>
 		</div>
 	</div>
 </section>
@@ -122,7 +142,7 @@ $this->registerMetaTag([
 					<div id="captcha-1" class="captcha_container" data-id="1"></div>
 					<div class="col-12">
 						<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-                            <?php echo Yii::t('main', 'Отправить') ?>
+							<?php echo Yii::t('main', 'Отправить') ?>
 							<i class="fas fa-spinner fa-spin" style="display: none;"></i>
 						</button>
 					</div>

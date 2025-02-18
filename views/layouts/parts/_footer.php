@@ -7,18 +7,18 @@ use app\components\helpers\Html;
 <footer id="footer" class="container-fluid">
 	<div class="row">
 		<div class="col-12 footer-container">
-            <div class="d-block d-lg-none">
+			<div class="d-block d-lg-none">
 				<?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button', 'style' => 'transform: scale(0.8);margin-top: 20px; margin-bottom: 15px;margin-left: -156px;']) ?>
-            </div>
+			</div>
 			<span class="brand-name">
 				GREEN LINE
-				<span class="copyright">@ Green Line. 2024</span>
+				<span class="copyright">&copy; Green Line 2010 - 2025</span>
 			</span>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">
-                <div class="d-none d-lg-inline-block">
+				<div class="d-none d-lg-inline-block">
 					<?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button', 'style' => 'transform: scale(0.8);margin-right: 15px;']) ?>
-                </div>
+				</div>
 				<span class="subscribe-text"><?php echo Yii::t('main', 'Подписаться на рассылку') ?></span>
 				<form action="/subscribe" method="post" id="footer-subscribe-form">
 					<input type="email" required name="email" placeholder="<?php echo Yii::t('main', 'Ваша электронная почта') ?>" />
@@ -61,7 +61,7 @@ use app\components\helpers\Html;
 						<div id="captcha-1" class="captcha_container" data-id="1"></div>
 						<div class="col-12">
 							<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-                                <?php echo Yii::t('main', 'Отправить') ?>
+								<?php echo Yii::t('main', 'Отправить') ?>
 								<i class="fas fa-spinner fa-spin" style="display: none;"></i>
 							</button>
 						</div>
