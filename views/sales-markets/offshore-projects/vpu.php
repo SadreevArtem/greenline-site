@@ -97,19 +97,19 @@ $this->registerMetaTag([
                             </div>
 
                             <div class="col-12 mb-lg-5">
-                    <div class="row item-container align-items-center mb-lg-5 mb-0">
-                        <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
-                            <div class="content wr-text">
-                                <p>' . Yii::t("main", "Мы сотрудничаем с нашими клиентами, чтобы определить их уникальные потребности и задачи, а затем разработать индивидуальные решения, соответствующие их конкретным требованиям. Наша приверженность качеству не имеет аналогов в отрасли. Мы уделяем первостепенное внимание безопасности, надежности и производительности на каждом этапе проектирования, изготовления и монтажа.") . '</p>
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Мы сотрудничаем с нашими клиентами, чтобы определить их уникальные потребности и задачи, а затем разработать индивидуальные решения, соответствующие их конкретным требованиям. Наша приверженность качеству не имеет аналогов в отрасли. Мы уделяем первостепенное внимание безопасности, надежности и производительности на каждом этапе проектирования, изготовления и монтажа.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/vpu2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
-                            <div class="">
-                                <img class="stretched-img" src="/img/sales-markets/vpu2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-12 py-lg-5">
                     <div class="row item-container align-items-center mb-lg-5 mb-0">
@@ -195,7 +195,118 @@ $this->registerMetaTag([
                         ],
                         [
                             'label' => 'Основные компоненты',
-                            'content' => '<p>В разработке</p>',
+                            'content' => '
+                             <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Буй с вращающейся частью и оборудованием") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Корпус буя представляет собой круглую, полностью сварную стальную конструкцию, разделенную минимум на семь (минимум шесть радиальных и одна центральная) частей, отделенных радиальными переборками. Днище оснащено юбкой и вмещает 6 (шесть) стопоров якорной цепи. На верхней палубе в конструкцию корпуса центрального колодца встроена механически обработанная опорная конструкция для главного роликоподшипника.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Сварная пластинчатая поворотная платформа имеет коробчатую конструкцию и устанавливается над корпусом буя при помощи главного роликоподшипника. В целом поворотная платформа включает в состав следующие элементы: швартовную платформу, трубопроводную платформу, балластную платформу и центральную поворотную платформу. ") . '</p>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Швартовные тросы и якорная система (сваи и цепи)") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Шесть опор стопора якорной цепи соединяются в юбке корпуса выносного причала, обеспечивая работу цепного стопора. Для крепления выносного точечного причала в стопорах якорной цепи устанавливаются шесть якорных опор без распорок. Якорная система включает 6 свай. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main2.jpeg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Система перекачки среды, включая подводные и плавучие шланги") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компоненты:<br>Система плавучих шлангов (плавучий шланг, разрывные муфты, муфты с эксцентриковым зажимом, шаровые краны и т. д.),<br>Система трубопроводов на корпусе буя (трубопровод, вертлюг, клапаны, трубный компенсатор и т. д.),<br>Система подводных шлангов (подводные шланги, поплавки и т. д.),<br>Система оконечного манифольда (трубопроводы, шаровые краны с дистанционным управлением и т. д.) ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Система швартовных тросов для танкеров") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Длина швартовного троса, включая трос и цепь в обмотке, определяется таким образом, чтобы сохранять расстояние между причальным буем CALM и носовой частью танкера. Во время разгрузочных операций швартовной трос будет постоянно натянут благодаря помощи одного буксира, прикрепленного к корме танкера и оттягивающего танкер.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "В состоянии простоя (без выполнения разгрузки) трос остается присоединенным к причальному бую CALM. Следует предусмотреть защиту троса от зацепления/повреждения при его трении о буй CALM и прочие приспособления. Также нужно следить за тем, чтобы концы отсоединенного якорного троса не погружались в воду.") . '</p>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Оконечный манифольд") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Оконечный манифольд обеспечивает соединение между причальным буем и трубопроводами через подводные шланги. Он представляет собой сеть трубопроводов, расположенных на металлоконструкции. Компоненты оконечного манифольда: трубопровод, опорная конструкция, клеть. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main5.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Система управления выносными точечными причалами ВПУ") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Система управления выносными точечными причалами ВПУ разрабатывается в строгом соответствии с международными и местными нормами и стандартами. Система солнечных панелей, Навигационное оборудование, в том числе сигнальный фонарь, туманный горн, радиолокационный отражатель, Беспроводная система, Блок управления RTUa/RTUB  ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main6.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Датчик давления, датчик температуры, датчик скребков и т. д., Система проверки натяжения швартовного троса, Блок управления PTU, Блок управления MTU, Гидравлический силовой агрегат, Кабель управлени ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/main7.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            ',
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
