@@ -646,14 +646,163 @@ $this->registerMetaTag([
                         ],
                         [
                             'label' => 'Поставка компонентов',
-                            'content' => '<p>В разработке</p>',
+                            'content' => '
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Шланговое оборудование") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "В рамках нашего бизнеса мы очень гордимся качеством и надежностью продуктами и услугами наших партнеров, которые являются лидерами отрасли, и мы уверены, что они превосходят потребности отрасли. Наше стремление превзойти ожидания заказчиков и предоставить непревзойденный опыт является ключом к тому, чтобы мы обеспечивали заказчикам высокую отдачу от их инвестиций, что ведет к более успешному партнерству и полной удовлетворенности клиентов. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Благодаря нашей приверженности качеству, продукция наших партнеров не только соответствует стандартам, используемым в нашей отрасли, но и превосходит их, Green Line гордится тем, что является партнером производителей шлангов, который имеют сертификаты API Q1, API 17K, ISO 9001:2015 и оборудования, работающего под давлением с аккредитацией по директиве PED 2014/68/EU. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Шланги по стандарту API 17K ") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Специализированные методы проектирования и испытаний, разработанные квалифицированными специалистами сторонних организаций, дополняют наш многолетний опыт работы в полевых условиях. Это позволяет разрабатывать шланги на определенный срок службы в определенных заказчиком условиях. Линейка морских разгрузочных шлангов API 17K разработана и изготовлена таким образом, чтобы обеспечить решение для самых сложных условий эксплуатации, как правило, превосходящее самые современные отраслевые показатели. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h3 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Почему стоит выбрать шланг API 17K?") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "&#8226; Решения с большими выбором проходных диаметров до 30 дюймов<br>&#8226; Расчетный срок службы до 20 лет <br>&#8226; Конструкция с гладкими внутренними поверхностями обеспечивает экономию затрат на перекачку (по сравнению с традиционными решениями без склеивания) <br>&#8226; Экономия затрат на монтаж (по сравнению с линиями из стали или карбона) <br>&#8226; Более высокое расчетное давление ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Швартовые канаты") . '</h3>
+                                       
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose5.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line является одним из немногих одобренных и сертифицированных поставщиков одноточечных швартовных канатов на ряд Российских объектов, компания соединяет снабжение канатов, шекелей и шекелей в одной связке для крупнейших нефтегазовых компаний с транспортными узлами на промежуточном этапе цепочки поставок.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/hose6.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Шаровые краны") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Green Line поставляет Подводные шаровые краны по API 6DSS <br>&#8226; С одним или двумя шарами <br>&#8226; Боковой или верхний ввод <br>&#8226; В размерах От ½  до 64 <br>&#8226; Класс давления от 150 до API 6A 15.000 ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/valve.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line – единственная компания России, которая может производить шаровые краны по API 6DSS в России. Для каждого случая применения разрабатывается специальная конструкция, гарантирующая требуемый уровень производительности в течение всего прогнозируемого срока службы клапана.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/valve2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Специальная команда занимается проектированием, изготовлением и испытаниями специально изготовленных клапанов для подводного использования (мелководного или глубоководного).  Тщательный контроль качества и испытания, а также передовые инструменты проектирования (конечно-элементное моделирование, анализ усталости, вычислительная гидродинамика и т.д.) способствуют повышению производительности клапанов. Имеется внутреннее испытательное оборудование для проведения гидростатических и газовых испытаний при давлении до 1500 бар.") . '</p>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Поворотный блок (Вертлюг) и Основной подшипник") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Основанный на проверенных технологиях, лучших отраслевых практиках и богатом опыте проектирования подход к индивидуальному проектированию с использованием модульных компонентов позволяет Green Line использовать широкий спектр конфигураций труб с одно-, двух- и трехходовыми поворотными узлами. ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/ver1.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Благодаря использованию самых современных систем уплотнений и подшипников, поворотный буй обеспечивает полное вращение, обеспечивая при этом перекачку широкого спектра продуктов, включая нефть, сжиженный газ, воду и другие жидкости, а также может быть оснащен электрическими и гидравлическими магистралями.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/ver2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            ',
                             'options' => ['class' => 'tab-content-item']
                         ],
-                        [
-                            'label' => 'Складские и сервисные услуги',
-                            'content' => '<p>В разработке</p>',
-                            'options' => ['class' => 'tab-content-item']
-                        ],
+                        // [
+                        //     'label' => 'Складские и сервисные услуги',
+                        //     'content' => '<p>В разработке</p>',
+                        //     'options' => ['class' => 'tab-content-item']
+                        // ],
                     ],
                     'options' => ['class' => 'custom-tabs'], // Дополнительные классы для стилизации
                     'encodeLabels' => false, // Отключаем автоэкранирование, если нужны HTML-символы
