@@ -311,7 +311,96 @@ $this->registerMetaTag([
                         ],
                         [
                             'label' => 'Аренда ВПУ',
-                            'content' => '<p>В разработке</p>',
+                            'content' => '
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Аренда ВПУ") . '</h3>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Инжиниринг") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Мы выполняем любое инженерное проектирование или расчеты, связанные с морскими швартовными системами. Наша команда конструкторов будет тесно сотрудничать с заказчиком, чтобы предложить решения, соответствующие потребностям каждого клиента.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Сборка") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Наша команда состоит из высококвалифицированного и мотивированного персонала, который способен выполнить все работы, связанные с изготовлением и конструкцией буевых систем.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Установка") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Наши морские инженеры контролируют этапы монтажа и ввода в эксплуатацию каждого проекта.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Производимые в г. Санкт-Петербург Выносные Причальные Устройства по заказу компании Green Line могут быть предоставлены в аренду на длительный период эксплуатации в комплекте со шланговым оборудованием, за более подробной информацией просьба обратиться в Департамент Green Line Offshore & Marine.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent5.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Аренда ВПУ у компании Green Line убирает проблемы заказчиков связанные с сервисным обслуживанием ВПУ, т. к. оборудование меняется на новое в каждый период аренды.  Все поставляемое оборудование имеет сертификацию РМРС. Компания Green Line уделяет большое внимание качеству и надежности во всех своих услугах. Это обязательство гарантирует, что проекты выполняются в соответствии с самыми высокими стандартами. Срок производства ВПУ после согласования технической документации составляет 8 месяцев.") . '</p>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line первая в мире переработала «классическую» конструкцию по изготовлению ВПУ и может предоставить заказчику доставку ВПУ с помощью автоперевозок в любой порт, где будет произведена финальная сборка. Данное предложение позволит заказчику убрать морскую перевозку и снизить ряд логистических затрат. Перевозка осуществляется с помощью обычных морских контейнеров и исключает необходимость привлекать спецтранспорт и наносить урон дорожному полотну.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/rent6.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            ',
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
