@@ -405,7 +405,243 @@ $this->registerMetaTag([
                         ],
                         [
                             'label' => 'Этапы ведения проектов',
-                            'content' => '<p>В разработке</p>',
+                            'content' => '
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Ведение проекта") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Опираясь на помощь крупных партнёров, Компания Green Line осуществляет реализацию проекта в рамках единого консолидированного контракта, начиная с этапов проектирования и закупок и заканчивая строительством и передачей объекта в эксплуатацию.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Пример основных этапов работы компании Green Line над проектами разработки, изготовления и поставок ВПУ:") . '</p>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Первый этап: Получение и размещение заказа") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "На первом этапе проводится юридическая проверка контрактных обязательств, происходит предварительное изготовление и подписание первичных договоров с субпоставщиками, а также согласование банковских гарантий и выделение бюджета на реализацию проекта.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Второй этап: Выделение отдельной команды для работы над проектом") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "После подписания договора и передачи проекта в Отдел по реализации проектов на каждый проект по изготовлению ВПУ выделяется отдельный ряд сотрудников, которые контролируют процесс изготовления 24/7. По согласованию с заказчиком возможно нахождения сотрудников Green Line непосредственно в офисе заказчика, для проведения более оперативной работы над проектом.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Руководитель Проекта управляет проектами строительства морских объектов более пятнадцати лет. Члены команды имеют не менее десяти лет опыта работы на аналогичных проектах. Система комплексного управления проектами строительства морских объектов: система управления качеством, система ОТ, ПБ и ОС, система управления планированием, система управления документооборотом и т. д.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап третий: Разработка конструкторской документации") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line имеет в штате инженеров по проектированию систем ВПУ и имеет богатый опыт проектирования морских объектов. Для разработки новых узлов или обвязки ВПУ Green Line привлекает для работы партнерскую компанию со штатом более 200 конструкторов, имеющих огромный опыт в подобных проектах.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr5.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап четвертый: Согласование документации с заказчиком и РМРС") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Проектная группа имеет многолетний опыт проектирования и согласования рабочей документации морских объектов, в частности систем выносных причальных установок ВПУ. Штат укомплектован высококвалифицированным персоналом и включает специалистов по всем соответствующим дисциплинам по проектированию ВПУ, включая анализ швартовки, анализ водоотделительной колонны, статический анализ оконечного манифольда, анализ свайного фундамента, проектирование конструкций, расчет прочности конструкций, технологические трубопроводы, механические, электрические, гидравлические системы и т. д.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr6.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап пятый: Согласование финальных рабочих чертежей ") . '</h3>
+                                       
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr7.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Для разработки чертежей и проведения расчетов, компания Green Line использует целый ряд программного обеспечения, такие как:<br>AUTOCAD, КОМПАС：	Проектные чертежи<br>ANSYS и AQWA:	Гидродинамический анализ, анализ движения, анализ швартовки 
+                                                <br>Solidworks:   	Проектные чертежи  
+                                                <br>MSC Patran и Nastran:	Расчет и анализ конструкций  
+                                                <br>Hammer V8i:	Анализ потока в трубопроводах 
+                                                <br>DNV Sesam:	Анализ устойчивости  
+                                                <br>Solidworks Electrical:	Проектирование электротехнической части ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr8.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап шестой: План контроля качества / ITP / PQR/ WPS") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Имея в штате менеджеров по качеству, компания в непрерывном режиме следует согласованному производственному плану и присутствует на всех этапах испытаний.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr9.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап седьмой: Закупка материалов") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Для изготовления ВПУ компания Green Line производит закупку только высококачественных материалов, аудит поставщиков производится на ежегодной основе.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr10.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап восьмой: Изготовление корпуса буя, поворотного стола, цепных стопоров") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "По согласованию с заказчиком, компания Green Line производит основные компоненты как на производстве в г. Санкт-Петербург или г. Калининград, так и Голландии или ОАЭ на высококвалифицированных вервях имеющих огромный опыт по изготовлению подобных конструкций.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr11.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап девятый: Покраска готовых деталей") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line использует передовые лакокрасочные компоненты производства компании Hempel или Luton. Толщина покрытия грунтом и краской одинакова на всех поверхностях и соответствует согласованному Техническому Заданию.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr12.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап десятый: Поставка основных подшипников, шарнирных соединений, незакрепленных деталей") . '</h3>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr13.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап одиннадцатый: Сборка и внутренние испытания") . '</h3>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr14.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап Двенадцатый: Финальные приемочные испытания с заказчиком") . '</h3>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr15.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Этап тринадцатый: Упаковка и отгрузка") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Транспортировка готовых изделий производится как силами заказчика, так и Отделом логистики компании Green Line, имеющей многолетний опыт отгрузок подобного оборудования по всему миру.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/pr16.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            ',
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [

@@ -135,7 +135,7 @@ return [
     'Deller - компания с мировым именем по производству промышленного теплообменного оборудования.' => 'Deller is a world-renowned company for the production of industrial heat exchange equipment.',
     'GC Broch специализируется на производстве нагревательного оборудования для нефтеперерабатывающей и нефтехимической промышленностей.' => 'GC Broch specializes in the production of heating equipment for the oil refining and petrochemical industries.',
     'Компания Maivisa – надежный производитель реакторов, теплообменного оборудования и другой спецтехники для ведущих отраслей промышленности.' => 'Maivisa is a reliable manufacturer of reactors, heat exchange equipment and other special equipment for leading industries.',
-    'Компания Green Line объявляет набор молодых специалистов' => 'GreenLine company announces recruitment of young professionals',
+    'Компания Green Line обьявляет набор молодых специалистов' => 'GreenLine company announces recruitment of young professionals',
     'Инженер по трубопроводной арматуре' => 'Pipe fittings engineer',
     'Обязанности' => 'Duties',
     'Подбор оборудования по каталогу производителя' => "Selection of equipment according to the manufacturer's catalog",

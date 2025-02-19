@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @var $this \yii\web\View
  */
@@ -8,16 +9,16 @@ use app\components\helpers\Html;
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Карьера в нашей кампании');
 
 $this->registerMetaTag([
-    'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Устройся работать к нам!'),
+	'name' => 'description',
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Устройся работать к нам!'),
 ]);
 $this->registerMetaTag([
-    'name' => 'keywords',
-    'content' => Yii::t('main', 'высококачественное оборудование'),
+	'name' => 'keywords',
+	'content' => Yii::t('main', 'высококачественное оборудование'),
 ]);
 $this->registerMetaTag([
-    'name' => 'robots',
-    'content' => 'index, follow',
+	'name' => 'robots',
+	'content' => 'index, follow',
 ]);
 ?>
 
@@ -31,8 +32,8 @@ $this->registerMetaTag([
 				<h1><?php echo Yii::t('main', 'Карьера') ?></h1>
 				<span class="breadcrumbs">
 					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
-                    	- <?php echo Html::a(Yii::t('main', 'Карьера'), ['/career'], ['class' => 'current']) ?>
-					</span>
+					- <?php echo Html::a(Yii::t('main', 'Карьера'), ['/career'], ['class' => 'current']) ?>
+				</span>
 			</div>
 		</div>
 	</div>
@@ -41,7 +42,7 @@ $this->registerMetaTag([
 <section id="career" class="container">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
-			<h2 class="up-line green"><?php echo Yii::t('main', 'Компания Green Line объявляет набор молодых специалистов') ?></h2>
+			<h2 class="up-line green"><?php echo Yii::t('main', 'Компания Green Line обьявляет набор молодых специалистов') ?></h2>
 			<div class="item">
 				<div class="row first-row">
 					<div class="col-md-6 col-12 name">
