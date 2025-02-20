@@ -196,7 +196,7 @@ $this->registerMetaTag([
                         [
                             'label' => 'Основные компоненты',
                             'content' => '
-                             <div class="col-12 mb-lg-5">
+                             <div class="col-12 mb-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
                                     <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
                                     <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Буй с вращающейся частью и оборудованием") . '</h3>
@@ -312,7 +312,7 @@ $this->registerMetaTag([
                         [
                             'label' => 'Аренда ВПУ',
                             'content' => '
-                            <div class="col-12 mb-lg-5">
+                            <div class="col-12 mb-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
                                     <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
                                     <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Аренда ВПУ") . '</h3>
@@ -406,7 +406,7 @@ $this->registerMetaTag([
                         [
                             'label' => 'Этапы ведения проектов',
                             'content' => '
-                            <div class="col-12 mb-lg-5">
+                            <div class="col-12 mb-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
                                     <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
                                     <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Ведение проекта") . '</h3>
@@ -785,12 +785,147 @@ $this->registerMetaTag([
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
                                     <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
                                         <div class="content wr-text">
-                                            <p>' . Yii::t("main", "Благодаря использованию самых современных систем уплотнений и подшипников, поворотный буй обеспечивает полное вращение, обеспечивая при этом перекачку широкого спектра продуктов, включая нефть, сжиженный газ, воду и другие жидкости, а также может быть оснащен электрическими и гидравлическими магистралями.") . '</p>
+                                            <p>' . Yii::t("main", "Благодаря использованию самых современных систем уплотнений и подшипников, поворотный буй обеспечивает полное вращение, обеспечивая при этом перекачку широкого спектра продуктов, включая нефть, сжиженный газ, воду и другие жидкости, а также может быть оснащен электрическими и гидравлическими магистралями. Благодаря встроенной системы подшипников и уплотнений в модульную центральную поворотную ступицу верхний или нижний поворотный узел или поворотную ступицу можно легко демонтировать и отремонтировать в течение проектного срока службы или заменить по мере изменения проектных требований.") . '</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                                         <div class="">
                                             <img class="stretched-img" src="/img/sales-markets/ver2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Эта модульная система также позволяет Green Line проводить статические и динамические заводские приемочные испытания системы уплотнения подшипников, в то время как остальные верхние и нижние узлы изготавливаются и подвергаются механической обработке, что сокращает время выполнения заказа и снижает риск. Это также обеспечивает большую гибкость при проектировании поворотных интерфейсов, поскольку Green Line предлагает одно-, двух- и трехканальные конструкции с каналами подачи жидкости диаметром от 16 дюймов и выше.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/ver3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Прецизионные системы уплотнения позволяют перекачивать различные жидкости, включая нефть, газ и воду, а шарнирные соединения ВПУ могут также оснащаться электричеством, волоконной оптикой и гидравлическим питанием с помощью электрических контактных колец и/или многоходовых гидравлических шарнирных соединений. Поворотный блок (Вертлюг) является важнейшим компонентом в конструкции буев, поскольку он обеспечивает передачу жидкостей, электроэнергии и волоконной оптики между неподвижной геостационарной частью и вращающейся флюгерной частью системы.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/ver4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Поворотные трубы могут различаться по сложности, и в Green Line мы разрабатываем и изготавливаем наши собственные поворотные трубы на производственной площадке в г. Санкт-Петербург, используя запатентованные гидравлические, электрические и волоконно-оптические поворотные элементы. Наши разработки включают в себя шарниры для сырой нефти, газа, пневматические и тороидальные гидравлические шарниры высокого давления для различных применений.") . '</p>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Цепи и бридели") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Мы стремимся превзойти ожидания наших клиентов, предоставляя экономичные и эффективные решения для швартовки с помощью качественных продуктов и услуг.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/chain.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Морская цепь - это специально разработанные цепи, используемые в различных морских целях, в частности для постановки на якорь и швартовки. Эти цепи спроектированы таким образом, чтобы выдерживать суровые условия морской среды, включая коррозию, истирание и высокие нагрузки.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/chain2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Лебедки") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line готова поставить различные лебедочные системы как собственного производства, изготовленного в г. Санкт-Петербург, так и лебедки от ведущих мировых производителей. Канатная лебедка представляет собой разновидность барабанной лебедки, на которую наматывается канат. Барабан предназначен для спуска, извлечения и хранения каната. Во время работы лебедки барабан вращается таким образом, чтобы наматывать канат внутрь и наружу.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/winch.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Возникающее в результате этого натяжение позволяет поднимать или тянуть тяжелый груз. Наши лебедки бывают различных конструкций - от лебедок с электрическим приводом до лебедок с гидравлическим приводом. Мы также можем спроектировать и сконструировать лебедку по индивидуальному заказу в соответствии с вашими конкретными требованиями к подъему и вытягиванию.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/winch2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Разрывная муфта и клапан рукава") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Green Line устанавливает на свои наливные системы лучшие клапаны рукава и разрывные муфты.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/valv.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="wr-text py-lg-5 px-4 px-lg-0">
+                                <p>' . Yii::t("main", "Из особенностей поставляемых клапанов можно выделить следующие:") . '</p>
+                            </div>
+                            <div class="col-12 py-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "• Лепестки клапанов снабжены нитриловыми уплотнительными кольцами и имеют конструкцию с перекрытием, обеспечивающую минимальную утечку <br>• Новые болты из титанового сплава увеличивают срок службы и обеспечивают постоянную разрывную нагрузку. <br>• Повторная сборка на месте после активации <br>• 5-летние интервалы технического обслуживания, а также профилактическое обслуживание и испытания на месте ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/valv2.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-lg-1 pl-lg-5 ">
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Полнопроходное отверстие – отсутствие помех на пути потока при нулевой потере давления <br>• Центральная втулка защищает лепестки клапана от загрязнения продуктом <br>• Инновационная система демпфирования <br>• Пассивная работа, внешний источник энергии не требуется <br>• Снабжен фланцами для прямого крепления болтами к фланцу шланга ") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/valv3.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
                                         </div>
                                     </div>
                                 </div>
