@@ -151,7 +151,7 @@ $this->registerMetaTag([
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Склад собственной продукции') ?></h3>
 					<div class="content">
 						<p><?php echo Yii::t('main', 'Мы располагаем собственным складом продукции, что позволяет обеспечить оперативные поставки технологического оборудования для шельфовых проектов и морских портов. В наличии широкий ассортимент готового оборудования и комплектующих, что сокращает сроки выполнения заказов и гарантирует бесперебойное снабжение наших клиентов.') ?></p>
-						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/sales-markets/offshore-projects'], ['class' => 'btn btn-success more-btn']) ?>
+						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['sales-markets/view', 'action' => 'offshore-projects', 'subaction' => 'warehouse'], ['class' => 'btn btn-success more-btn']) ?>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">
