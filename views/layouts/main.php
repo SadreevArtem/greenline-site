@@ -63,7 +63,7 @@ $this->registerLinkTag([
 		window.mapLanguage = '<?php echo Yii::$app->language === 'ru' ? 'ru_RU' : 'en_US' ?>'
 	</script>
 	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		(function(m, e, t, r, i, k, a) {
 			m[i] = m[i] || function() {
 				(m[i].a = m[i].a || []).push(arguments)
@@ -86,7 +86,7 @@ $this->registerLinkTag([
 	</script>
 	<noscript>
 		<div><img src="https://mc.yandex.ru/watch/99965115" style="position:absolute; left:-9999px;" alt="" /></div>
-	</noscript>
+	</noscript> -->
 	<!-- /Yandex.Metrika counter -->
 </head>
 
