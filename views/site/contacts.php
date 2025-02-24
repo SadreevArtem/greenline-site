@@ -39,7 +39,7 @@ $this->registerMetaTag([
 	</div>
 </header>
 
-<section id="contacts" class="container">
+<section id="contacts" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="d-flex justify-content-between">

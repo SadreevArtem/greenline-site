@@ -34,7 +34,18 @@ $this->registerLinkTag([
 	'rel' => 'alternate',
 	'hreflang' => 'en',
 	'href' => \yii\helpers\Url::current(['language' => 'en'])
-])
+]);
+
+$this->registerCss("
+    .no-copy {
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+");
+
+
 
 ?>
 
@@ -107,6 +118,42 @@ $this->registerLinkTag([
 
 	<?php $this->endBody() ?>
 </body>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		document.querySelectorAll('.no-copy').forEach(function(element) {
+			element.addEventListener('copy', function(event) {
+				console.log('Попытка копирования текста!');
+				event.preventDefault();
+			});
+			element.addEventListener('contextmenu', function(event) {
+				console.log('Попытка открыть контекстное меню!');
+				event.preventDefault();
+			});
+			element.addEventListener('selectstart', function(event) {
+				console.log('Попытка выделения текста!');
+				event.preventDefault();
+			});
+		});
+		document.addEventListener('keydown', function(event) {
+			if (event.key === 'PrintScreen' || event.keyCode === 44) {
+				console.log('Попытка сделать скриншот!');
+				event.preventDefault();
+			}
+			if ((event.metaKey && event.shiftKey && event.key === '4') ||
+				(event.metaKey && event.key === '3') ||
+				(event.ctrlKey && event.key === 'p')) {
+				console.log('Попытка сделать скриншот на Mac!');
+				event.preventDefault();
+			}
+		});
+		document.addEventListener('keyup', function(event) {
+			if ((event.ctrlKey && event.key === 'p') || (event.key === 'PrintScreen' || event.keyCode === 44)) {
+				console.log('Попытка сделать скриншот!');
+				event.preventDefault();
+			}
+		});
+	});
+</script>
 
 </html>
 <?php $this->endPage() ?>

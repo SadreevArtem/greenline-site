@@ -9,16 +9,16 @@ use app\components\helpers\Html;
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Химия и нефтехимия');
 
 $this->registerMetaTag([
-    'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Химия и нефтехимия'),
+	'name' => 'description',
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Химия и нефтехимия'),
 ]);
 $this->registerMetaTag([
-    'name' => 'keywords',
-    'content' => Yii::t('main', 'рынки сбыта'),
+	'name' => 'keywords',
+	'content' => Yii::t('main', 'рынки сбыта'),
 ]);
 $this->registerMetaTag([
-    'name' => 'robots',
-    'content' => 'index, follow',
+	'name' => 'robots',
+	'content' => 'index, follow',
 ]);
 ?>
 
@@ -32,15 +32,15 @@ $this->registerMetaTag([
 				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
 					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
-						- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
-						- <?php echo Html::a(Yii::t('main', 'Химия и нефтехимия'), ['/sales-markets/chemistry'], ['class' => 'current']) ?>
+					- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
+					- <?php echo Html::a(Yii::t('main', 'Химия и нефтехимия'), ['/sales-markets/chemistry'], ['class' => 'current']) ?>
 				</span>
 			</div>
 		</div>
 	</div>
 </header>
 
-<section class="item container">
+<section class="item container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">
@@ -69,7 +69,7 @@ $this->registerMetaTag([
 					<h2 class="up-line green"><?php echo Yii::t('main', 'Бренды') ?></h2>
 				</div>
 			</div>
-			<div class="row links-container" >
+			<div class="row links-container">
 				<div class="col-12 d-flex justify-content-start flex-md-row flex-column">
 					<div class="item">
 						<img src="/img/brands/brand_4.jpg" alt="Allweiler">

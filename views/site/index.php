@@ -22,7 +22,7 @@ $this->registerMetaTag([
 ]);
 ?>
 
-<header id="header" class="container-fluid">
+<header id="header" class="container-fluid no-copy">
 	<div class="row">
 		<div class="item w-100">
 			<img class="w-100 back-img d-none d-md-block" src="/img/header_img_test2.jpg" alt="header_1">
@@ -46,7 +46,7 @@ $this->registerMetaTag([
 	</div>
 </header>
 
-<section id="provide" class="container">
+<section id="provide" class="container no-copy">
 	<div class="row">
 		<div class="col-12 col-lg-10 offset-lg-1">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Что мы предоставляем') ?></h2>
@@ -75,7 +75,7 @@ $this->registerMetaTag([
 		</div>
 	</div>
 </section>
-<section id="about" class="container-fluid">
+<section id="about" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -96,7 +96,7 @@ $this->registerMetaTag([
 		</div>
 	</div>
 </section>
-<section id="why-trust" class="container">
+<section id="why-trust" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Почему нам доверяют') ?></h2>

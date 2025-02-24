@@ -39,7 +39,7 @@ $this->registerMetaTag([
 	</div>
 </header>
 
-<section id="career" class="container">
+<section id="career" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Компания Green Line обьявляет набор молодых специалистов') ?></h2>

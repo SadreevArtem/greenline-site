@@ -40,7 +40,7 @@ $this->registerMetaTag([
 	</div>
 </header>
 
-<section class="item container">
+<section class="item container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row">

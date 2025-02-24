@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @var $this \yii\web\View
  */
@@ -8,16 +9,16 @@ use app\components\helpers\Html;
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'О нас');
 
 $this->registerMetaTag([
-    'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'О нас'),
+	'name' => 'description',
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'О нас'),
 ]);
 $this->registerMetaTag([
-    'name' => 'keywords',
-    'content' => Yii::t('main', 'высококачественное оборудование'),
+	'name' => 'keywords',
+	'content' => Yii::t('main', 'высококачественное оборудование'),
 ]);
 $this->registerMetaTag([
-    'name' => 'robots',
-    'content' => 'index, follow',
+	'name' => 'robots',
+	'content' => 'index, follow',
 ]);
 ?>
 
@@ -30,15 +31,15 @@ $this->registerMetaTag([
 			<div class="col-lg-10 offset-lg-1 col-12">
 				<h1><?php echo Yii::t('main', 'О нас') ?></h1>
 				<span class="breadcrumbs">
-						<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
-                    	- <?php echo Html::a(Yii::t('main', 'О нас'), ['/about'], ['class' => 'current']) ?>
-					</span>
+					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
+					- <?php echo Html::a(Yii::t('main', 'О нас'), ['/about'], ['class' => 'current']) ?>
+				</span>
 			</div>
 		</div>
 	</div>
 </header>
 
-<section id="principles" class="container">
+<section id="principles" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Наши принципы') ?></h2>
@@ -58,7 +59,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="greenline" class="container-fluid">
+<section id="greenline" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -81,7 +82,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="eko" class="container-fluid">
+<section id="eko" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -104,7 +105,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="in-numbers" class="container">
+<section id="in-numbers" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Мы в цифрах') ?></h2>
@@ -153,7 +154,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="loyality" class="container">
+<section id="loyality" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Программа лояльности') ?></h2>
@@ -176,7 +177,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="difference" class="container-fluid">
+<section id="difference" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -216,7 +217,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="steps" class="container-fluid">
+<section id="steps" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -228,37 +229,53 @@ $this->registerMetaTag([
 					<div class="steps-body d-lg-block d-none">
 						<div class="line d-flex">
 							<div class="item item-1">
-								<div class="circle-container line-right"><div class="circle">1</div></div>
+								<div class="circle-container line-right">
+									<div class="circle">1</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Получение заявки, <br> технических условий') ?></div>
 							</div>
 							<div class="item item-2">
-								<div class="circle-container"><div class="circle">2</div></div>
+								<div class="circle-container">
+									<div class="circle">2</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Отработка') ?></div>
 							</div>
 							<div class="item item-3">
-								<div class="circle-container"><div class="circle">3</div></div>
+								<div class="circle-container">
+									<div class="circle">3</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Предложение') ?></div>
 							</div>
 							<div class="item item-4">
-								<div class="circle-container"><div class="circle">4</div></div>
+								<div class="circle-container">
+									<div class="circle">4</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Совещание, согласование, утверждение') ?></div>
 							</div>
 							<div class="item item-5">
-								<div class="circle-container"><div class="circle">5</div></div>
+								<div class="circle-container">
+									<div class="circle">5</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Надзор за <br> производством') ?></div>
 							</div>
 						</div>
 						<div class="line d-flex">
 							<div class="item item-6">
-								<div class="circle-container"><div class="circle">6</div></div>
+								<div class="circle-container">
+									<div class="circle">6</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Приемка <br> <span>совместно <br> с заказчиком</span>') ?></div>
 							</div>
 							<div class="item item-7">
-								<div class="circle-container line-left"><div class="circle">7</div></div>
+								<div class="circle-container line-left">
+									<div class="circle">7</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Отгрузка') ?></div>
 							</div>
 							<div class="item item-8">
-								<div class="circle-container"><div class="circle">8</div></div>
+								<div class="circle-container">
+									<div class="circle">8</div>
+								</div>
 								<div class="text">
 									<?php echo Yii::t('main', 'Установка, обсуждение с Заказчиком <span>результата установки и эксплуатации оборудования с целью усовершенствования продукции</span>') ?>
 								</div>
@@ -268,29 +285,41 @@ $this->registerMetaTag([
 					<div class="steps-body d-block d-lg-none">
 						<div class="line d-flex">
 							<div class="item item-1">
-								<div class="circle-container line-right"><div class="circle">1</div></div>
+								<div class="circle-container line-right">
+									<div class="circle">1</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Получение заявки, <br> технических условий') ?></div>
 							</div>
 							<div class="item item-2">
-								<div class="circle-container"><div class="circle">2</div></div>
+								<div class="circle-container">
+									<div class="circle">2</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Отработка') ?></div>
 							</div>
 							<div class="item item-3">
-								<div class="circle-container"><div class="circle">3</div></div>
+								<div class="circle-container">
+									<div class="circle">3</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Предложение') ?></div>
 							</div>
 						</div>
 						<div class="line d-flex">
 							<div class="item item-4">
-								<div class="circle-container"><div class="circle">4</div></div>
+								<div class="circle-container">
+									<div class="circle">4</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Совещание, согласование, утверждение') ?></div>
 							</div>
 							<div class="item item-5">
-								<div class="circle-container line-left"><div class="circle">5</div></div>
+								<div class="circle-container line-left">
+									<div class="circle">5</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Надзор за <br> производством') ?></div>
 							</div>
 							<div class="item item-6">
-								<div class="circle-container"><div class="circle">6</div></div>
+								<div class="circle-container">
+									<div class="circle">6</div>
+								</div>
 								<div class="text">
 									<?php echo Yii::t('main', 'Приемка <br> <span>совместно <br> с заказчиком</span>') ?>
 								</div>
@@ -298,11 +327,15 @@ $this->registerMetaTag([
 						</div>
 						<div class="line d-flex">
 							<div class="item item-7">
-								<div class="circle-container line-left"><div class="circle">7</div></div>
+								<div class="circle-container line-left">
+									<div class="circle">7</div>
+								</div>
 								<div class="text"><?php echo Yii::t('main', 'Отгрузка') ?></div>
 							</div>
 							<div class="item item-8">
-								<div class="circle-container"><div class="circle">8</div></div>
+								<div class="circle-container">
+									<div class="circle">8</div>
+								</div>
 								<div class="text">
 									<?php echo Yii::t('main', 'Установка, обсуждение <br class="d-block d-md-none"> с Заказчиком <span>результата установки и эксплуатации оборудования с целью усовершенствования продукции</span>') ?>
 								</div>
@@ -315,7 +348,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="questions" class="container">
+<section id="questions" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Часто задаваемые вопросы') ?></h2>

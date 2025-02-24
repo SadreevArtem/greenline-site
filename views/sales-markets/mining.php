@@ -9,16 +9,16 @@ use app\components\helpers\Html;
 $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Горная промышленность');
 
 $this->registerMetaTag([
-    'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Горная промышленность'),
+	'name' => 'description',
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Горная промышленность'),
 ]);
 $this->registerMetaTag([
-    'name' => 'keywords',
-    'content' => Yii::t('main', 'рынки сбыта'),
+	'name' => 'keywords',
+	'content' => Yii::t('main', 'рынки сбыта'),
 ]);
 $this->registerMetaTag([
-    'name' => 'robots',
-    'content' => 'index, follow',
+	'name' => 'robots',
+	'content' => 'index, follow',
 ]);
 ?>
 
@@ -32,8 +32,8 @@ $this->registerMetaTag([
 				<h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
 				<span class="breadcrumbs">
 					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
-						- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
-						- <?php echo Html::a(Yii::t('main', 'Горная промышленность'), ['/sales-markets/mining'], ['class' => 'current']) ?>
+					- <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
+					- <?php echo Html::a(Yii::t('main', 'Горная промышленность'), ['/sales-markets/mining'], ['class' => 'current']) ?>
 				</span>
 			</div>
 		</div>

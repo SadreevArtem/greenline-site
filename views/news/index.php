@@ -17,7 +17,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -45,7 +45,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -73,7 +73,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -105,7 +105,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -133,7 +133,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -161,7 +161,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -189,7 +189,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -217,7 +217,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -245,7 +245,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -273,7 +273,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -301,7 +301,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -330,7 +330,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
@@ -376,7 +376,7 @@ $pages = [
             'robots' => 'index, follow',
         ],
         'content' => '
-            <section id="news-item" class="container">
+            <section id="news-item" class="container no-copy">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <div class="row">
