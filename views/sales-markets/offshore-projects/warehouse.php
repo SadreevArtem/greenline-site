@@ -62,7 +62,7 @@ $this->registerMetaTag([
                 <?= Tabs::widget([
                     'items' => [
                         [
-                            'label' => 'Концевой клапан рукава (HEV)',
+                            'label' => \Yii::t('main', 'Концевой клапан рукава (HEV)'),
                             'content' => '
                             <div class="col-12 py-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
@@ -106,7 +106,7 @@ $this->registerMetaTag([
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
-                            'label' => 'Разрывная муфта (MBC)',
+                            'label' => \Yii::t('main', 'Разрывная муфта (MBC)'),
                             'content' => '
                             <div class="col-12 py-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
@@ -134,7 +134,7 @@ $this->registerMetaTag([
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
-                            'label' => 'Морские шланги (Marine hoses)',
+                            'label' => \Yii::t('main', 'Морские шланги'),
                             'content' => '
                             <h3 class="h1 mb-4 font-weight-bold scaled-text mt-lg-5">' . Yii::t("main", "Шланг арктический усиленный 12” Класс 300#") . '</h3>
                             <div class="wr-text py-lg-5 px-4 px-lg-0">
@@ -144,7 +144,7 @@ $this->registerMetaTag([
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
-                            'label' => 'Запорная арматура (Valves)',
+                            'label' => \Yii::t('main', 'Морские шланги'),
                             'content' => '
                             <h3 class="h1 mb-4 font-weight-bold scaled-text mt-lg-5">' . Yii::t("main", "Кран шаровой Ду 20” Класс 1500#") . '</h3>
                             <div class="wr-text py-lg-5 px-4 px-lg-0">
