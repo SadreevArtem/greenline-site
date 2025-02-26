@@ -42,44 +42,35 @@ $this->registerMetaTag([
 <section id="career" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
-			<h2 class="up-line green"><?php echo Yii::t('main', 'Компания Green Line обьявляет набор молодых специалистов') ?></h2>
-			<div class="item">
-				<div class="row first-row">
-					<div class="col-md-6 col-12 name">
-						<h3 class="title"><?php echo Yii::t('main', 'Инженер по трубопроводной арматуре') ?></h3>
-					</div>
-					<div class="col-md-6 col-12 responsibility">
-						<span class="title"><?php echo Yii::t('main', 'Обязанности') ?></span>
-						<ul>
-							<li><?php echo Yii::t('main', 'Подбор оборудования по каталогу производителя') ?></li>
-							<li><?php echo Yii::t('main', 'Подготовка чертежей') ?></li>
-							<li><?php echo Yii::t('main', 'Составление технических предложений') ?></li>
-							<li><?php echo Yii::t('main', 'Расчет и выбор оборудования по программе производителя') ?></li>
-							<li><?php echo Yii::t('main', 'Техническое консультирование заказчиков по телефону') ?></li>
-							<li><?php echo Yii::t('main', 'Ведение деловой технической переписки и переговоров') ?></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row second-row">
-					<div class="col-md-6 col-12 conditions">
-						<span class="title"><?php echo Yii::t('main', 'Условия') ?></span>
-						<ul>
-							<li><?php echo Yii::t('main', 'Рабочий день: ПН-ПТ с 09.00 до 18.00') ?></li>
-							<li><?php echo Yii::t('main', 'Оформление в соответствии с Трудовым кодексом РФ') ?></li>
-							<li><?php echo Yii::t('main', 'Обучение за счет компании') ?></li>
-						</ul>
-					</div>
-					<div class="col-md-6 col-12 skills">
-						<span class="title"><?php echo Yii::t('main', 'Требования') ?></span>
-						<ul>
-							<li><?php echo Yii::t('main', 'От 28 лет') ?></li>
-							<li><?php echo Yii::t('main', 'Профильное образование: высшее техническое, магистратура') ?></li>
-							<li><?php echo Yii::t('main', 'Уверенный пользователь ПК: MS Office, AutoCAD, SolidWorks') ?></li>
-							<li><?php echo Yii::t('main', 'Знание английского языка') ?></li>
-						</ul>
-					</div>
-				</div>
+			<h2 class="up-line green"><?php echo Yii::t('main', 'Текущие вакансии') ?></h2>
+			<div class=" d-flex  align-items-center text-md-left">
+				<p><?php echo Yii::t('main', 'Спасибо, что ознакомились с нашими вакансиями. Видите что-то, что вас интересует? Подайте заявку') ?>&nbsp;<?php echo yii\helpers\Html::a('здесь', 'mailto:career@greenlinerussia.com') ?></p>
+				<p></p>
 			</div>
+			<table class='table'>
+				<tbody>
+					<tr>
+						<th><?php echo Html::a(Yii::t('main', 'Инженер по трубопроводной арматуре'), ['/career/160420'], ['class' => '']) ?></th>
+						<td>
+							<svg class="fabric-fbhpyj-svg" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+								<path xmlns="http://www.w3.org/2000/svg" d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 12.4 4.5 31.6 15.3 57.2c10.5 24.8 25.4 52.2 42.5 79.9c28.5 46.2 61.5 90.8 86.2 122.6c24.8-31.8 57.8-76.4 86.2-122.6c17.1-27.7 32-55.1 42.5-79.9C331.5 223.6 336 204.4 336 192zm48 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zm-160 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z"></path>
+							</svg>&nbsp;<?php echo Yii::t('main', 'Калининград') ?>
+						</td>
+						<td><?php echo Yii::t('main', 'Полная занятость') ?></td>
+					</tr>
+					<tr>
+						<th><?php echo Html::a(Yii::t('main', 'Менеджер по работе с клиентами'), ['/career/160410'], ['class' => '']) ?></th>
+						<td>
+							<svg class="fabric-fbhpyj-svg" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+								<path xmlns="http://www.w3.org/2000/svg" d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 12.4 4.5 31.6 15.3 57.2c10.5 24.8 25.4 52.2 42.5 79.9c28.5 46.2 61.5 90.8 86.2 122.6c24.8-31.8 57.8-76.4 86.2-122.6c17.1-27.7 32-55.1 42.5-79.9C331.5 223.6 336 204.4 336 192zm48 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zm-160 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z"></path>
+							</svg>&nbsp;<?php echo Yii::t('main', 'Гонконг') ?>
+						</td>
+						<td><?php echo Yii::t('main', 'Частичная занятость') ?></td>
+					</tr>
+
+				</tbody>
+			</table>
+
 		</div>
 	</div>
 

@@ -61,6 +61,7 @@ $config = [
                 'subscribe' => 'site/subscribe',
 
                 'news/<id:\d+>' => 'news/index',
+                'career/<id:\d+>' => 'career/index',
                 'sales-markets/<action>' => 'sales-markets/index',
 
                 // Основные страницы sales-markets
