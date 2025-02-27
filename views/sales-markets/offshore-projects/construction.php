@@ -64,9 +64,12 @@ $this->registerMetaTag([
         <div class="col-12 mt-lg-5">
             <div class="row item-container align-items-center mb-lg-5 mb-0">
                 <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
-                    <h3 class="h2 mb-4 font-weight-bold scaled-text text-center">
+                    <h3 class="h2 mb-4 font-weight-bold scaled-text">
                         <?php echo Yii::t('main', 'Погружные'); ?>
                     </h3>
+                    <div class="content wr-text">
+                        <p><?php echo Yii::t("main", "Погружные платформы предназначены для работы в глубоководных условиях. Они имеют специальную конструкцию, позволяющую им оставаться устойчивыми и эффективными в сложных морских средах. Эти платформы используются для добычи нефти и газа на больших глубинах, обеспечивая надежность и безопасность операций.") ?></p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                     <div>
@@ -77,10 +80,13 @@ $this->registerMetaTag([
         </div>
         <div class="col-12">
             <div class="row item-container align-items-center mb-lg-5 mb-0">
-                <div class="col-md-6 col-12 px-lg-0 pr-lg-5 order-lg-1">
-                    <h3 class="h2 mb-4 font-weight-bold scaled-text text-center">
+                <div class="col-md-6 col-12 px-lg-0 pl-lg-5 order-lg-1">
+                    <h3 class="h2 mb-4 font-weight-bold scaled-text">
                         <?php echo Yii::t('main', 'Полупогружные'); ?>
                     </h3>
+                    <div class="content wr-text">
+                        <p><?php echo Yii::t("main", "Полупогружные платформы обладают уникальной конструкцией, которая позволяет им частично погружаться в воду, что обеспечивает высокую устойчивость и уменьшает влияние волн. Эти платформы идеально подходят для бурения и производства в открытых морях, где необходима высокая маневренность и надежность.") ?></p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                     <div class=''>
@@ -93,9 +99,12 @@ $this->registerMetaTag([
         <div class="col-12 mt-lg-5">
             <div class="row item-container align-items-center mb-lg-5 mb-0">
                 <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
-                    <h3 class="h2 mb-4 font-weight-bold scaled-text text-center">
+                    <h3 class="h2 mb-4 font-weight-bold scaled-text">
                         <?php echo Yii::t('main', 'Самоподьемные'); ?>
                     </h3>
+                    <div class="content wr-text">
+                        <p><?php echo Yii::t("main", "Самоподъёмные платформы (jack-up rigs) представляют собой мобильные конструкции, которые могут подниматься над водой на высоту до 100 метров. Они идеально подходят для работы на мелководье и позволяют быстро перемещаться между местами бурения. Эти платформы обеспечивают высокую степень безопасности и стабильности во время работы.") ?></p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                     <div>
@@ -106,10 +115,13 @@ $this->registerMetaTag([
         </div>
         <div class="col-12">
             <div class="row item-container align-items-center mb-lg-5 mb-0">
-                <div class="col-md-6 col-12 px-lg-0 pr-lg-5 order-lg-1">
-                    <h3 class="h2 mb-4 font-weight-bold scaled-text text-center">
+                <div class="col-md-6 col-12 px-lg-0 pl-lg-5 order-lg-1">
+                    <h3 class="h2 mb-4 font-weight-bold scaled-text">
                         <?php echo Yii::t('main', 'Стационарные'); ?>
                     </h3>
+                    <div class="content wr-text">
+                        <p><?php echo Yii::t("main", "Стационарные платформы предназначены для длительных операций в одном месте и строятся на основе мощных оснований, которые погружаются в морское дно. Они обеспечивают максимальную устойчивость и безопасность для бурения и добычи ресурсов, а также для размещения оборудования и персонала.") ?></p>
+                    </div>
                 </div>
                 <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                     <div class=''>

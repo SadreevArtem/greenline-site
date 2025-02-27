@@ -12846,6 +12846,7 @@ body.contacts #contacts-mobile .request-form-container button[type="submit"] {
 
 .wr-text {
   font-size: 16px;
+  text-align: justify;
 }
 
 .stretched-img {
