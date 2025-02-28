@@ -164,7 +164,7 @@ $this->registerMetaTag([
                         </div>
                         <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
                             <div class="">
-                                <img class="stretched-img" src="/img/sales-markets/vpu4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                <img class="stretched-img" src="/img/sales-markets/vpu7.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ $this->registerMetaTag([
                 </div>
                 <div class="col-12 mt-5">
                     <div class="row item-container align-items-center mb-0">
-                        <div class="col-md-6 col-12 px-lg-0">
+                        <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
                             <div class="content wr-text">
                                 <p>' . Yii::t("main", "Компания Green Line стремится стать ведущим поставщиком терминальных решений для морских операций по перевалке нефти. Мы стремимся помогать нашим клиентам в достижении их бизнес-целей благодаря нашему опыту, инновациям и стремлению к совершенству.") . '</p>
                             </div>
