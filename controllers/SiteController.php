@@ -16,13 +16,6 @@ class SiteController extends FrontendController
      */
     public function beforeAction($action)
     {
-        $request = Yii::$app->request;
-        $userAgent = $request->userAgent;
-
-        if (strpos($userAgent, 'Googlebot') !== false && $request->url === '/') {
-            return $this->redirect(['/ru'], 301);
-        }
-
         if (in_array($action->id, ['subscribe', 'request'])) {
             $this->enableCsrfValidation = false;
         }

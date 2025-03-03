@@ -71,7 +71,7 @@ $config = [
                 'sales-markets/<action:[\w\-]+>/<subaction:[\w\-]+>' => 'sales-markets/view',
             ],
             'languages' => ['en', 'ru'],
-            'enableDefaultLanguageUrlCode' => true,
+            'enableDefaultLanguageUrlCode' => false,
             'on languageChanged' => '\app\components\controllers\FrontendController::onLanguageChanged',
             'geoIpLanguageCountries' => [
                 'ru' => ['RUS', 'KAZ', 'UKR', 'KGZ', 'BLR'],
