@@ -4,18 +4,5 @@ Allow: /
 Host: https://greenlinerussia.com
 Sitemap: https://greenlinerussia.com/sitemap.xml
 
-User-agent: Googlebot
-Allow: /
 
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: SemrushBot-SA
-Disallow: /
 
