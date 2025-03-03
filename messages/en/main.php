@@ -157,6 +157,8 @@ return [
     'Адрес:' => 'Address:',
     'г. Калининград <br class="d-none d-lg-block"> ул. Фрунзе <br> д. 51, офис 13' => 'Kaliningrad <br class="d-none d-lg-block"> st. Frunze <br> b. 51, office 13',
     'Оснащение и модернизация ведущих отраслей промышленности' => 'Equipping and modernizing leading industries',
+    'Официальный сайт компании Гринлайн, greenlinerussia' => 'Official website of the company Greenline, greenlinerussia',
+    'компания Гринлайн - специализируется на поставках оборудования в нефтегазовую, нефтехимическую, энергетическую отрасли промышленности' => 'Greenline company - specializes in the supply of equipment to the oil and gas, petrochemical, and energy industries',
     'Контакты компании' => 'Company contacts',
     'Карьера в нашей кампании' => 'Career in our campaign',
     'Устройся работать к нам!' => 'Get a job with us!',
