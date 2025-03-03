@@ -16,10 +16,7 @@ $this->registerMetaTag([
 	'name' => 'keywords',
 	'content' => Yii::t('main', 'высококачественное оборудование'),
 ]);
-$this->registerMetaTag([
-	'name' => 'robots',
-	'content' => 'index, follow',
-]);
+
 ?>
 
 <header id="header" class="container-fluid no-copy">
