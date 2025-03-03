@@ -16,6 +16,13 @@ class SiteController extends FrontendController
      */
     public function beforeAction($action)
     {
+        $request = Yii::$app->request;
+        $userAgent = $request->userAgent;
+
+        if (strpos($userAgent, 'Googlebot') !== false && $request->url === '/') {
+            return $this->redirect(['/ru'], 301);
+        }
+
         if (in_array($action->id, ['subscribe', 'request'])) {
             $this->enableCsrfValidation = false;
         }
@@ -33,10 +40,10 @@ class SiteController extends FrontendController
         return $this->render('about');
     }
 
-	public function actionAboutCompany()
-	{
-		return $this->render('about_company');
-	}
+    public function actionAboutCompany()
+    {
+        return $this->render('about_company');
+    }
 
     public function actionBrands()
     {
@@ -80,7 +87,8 @@ class SiteController extends FrontendController
             return ['success' => false, 'message' => 'empty data'];
         }
 
-        $message = sprintf('
+        $message = sprintf(
+            '
             Имя: %s 
             Почта: %s 
             Комментарий: %s',
