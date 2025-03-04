@@ -423,7 +423,34 @@ $pages = [
             </section>
         '
     ],
-
+    '140221' => [
+        'id' => '140221',
+        'title' => Yii::t('main', 'Green Line Industries подписал контракт о сдаче в аренду 4 АЗС в Московской области'),
+        'meta' => [
+            'description' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Green Line Industries подписал контракт о сдаче в аренду 4 АЗС в Московской области'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green">' . Yii::t('main', 'Green Line Industries подписал контракт о сдаче в аренду 4 АЗС в Московской области') . '</h2>
+                                <span class="time">14.02.2021</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_16.jpg" alt="' . Yii::t('main', '') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'Департамент Green Line Industries занимающийся обслуживаем предприятий инфраструктуры подписал долгосрочные контракты о сдаче 4-х Автомобильных Заправочных Станций в Московской области. Срок аренды каждой АЗС составит 3 года.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_16.jpg" alt="' . Yii::t('main', '') . '"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        '
+    ],
 ];
 
 $page = $pages[$id];

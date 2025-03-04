@@ -197,6 +197,17 @@ $this->registerMetaTag([
 					<img src="/img/news/news_15.jpg" alt="<?php echo Yii::t('main', 'Green Line поставила комплект ЗИП для клапана рукава для нужд Газпром нефть') ?>">
 				</div>
 			</div>
+			<div class="item">
+				<div class="left">
+					<span class="time">14.02.2021</span>
+					<h2 class="title"><?php echo Yii::t('main', 'Green Line Industries подписал контракт о сдаче в аренду 4 АЗС в Московской области') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Green Line Industries занимающийся обслуживаем предприятий инфраструктуры подписал долгосрочные контракты о сдаче 4-х Автомобильных Заправочных Станций в Московской области. Срок аренды каждой АЗС составит 3 года.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/140221'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_16.jpg" alt="<?php echo Yii::t('main', 'Green Line поставила комплект ЗИП для клапана рукава для нужд Газпром нефть') ?>">
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
