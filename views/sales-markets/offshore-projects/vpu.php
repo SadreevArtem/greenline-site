@@ -10,15 +10,15 @@ use yii\helpers\Url;
 
 
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Шельфовые проекты и морские порты');
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Проектирование, изготовление и поставка Выносных причальных устройств ВПУ');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Шельфовые проекты и морские порты'),
+    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Производство и поставка ВПУ, Аренда ВПУ, Ведение проектов, поставка компонентов'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
-    'content' => Yii::t('main', 'рынки сбыта'),
+    'content' => Yii::t('main', 'изготовление и поставка Выносных причальных устройств ВПУ'),
 ]);
 $this->registerMetaTag([
     'name' => 'robots',

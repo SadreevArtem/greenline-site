@@ -6,19 +6,19 @@
 
 use app\components\helpers\Html;
 use yii\bootstrap\Tabs;
-use yii\helpers\Url;
 
 
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Шельфовые проекты и морские порты');
+
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - склад готовой продукции');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Шельфовые проекты и морские порты'),
+    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - склад собственной готовой продукции, готовой к отгрузке'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
-    'content' => Yii::t('main', 'рынки сбыта'),
+    'content' => Yii::t('main', 'позиции в наличии на складе'),
 ]);
 $this->registerMetaTag([
     'name' => 'robots',
