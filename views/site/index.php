@@ -14,7 +14,7 @@ $this->registerMetaTag([
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',
-	'content' => Yii::t('main', 'высококачественное оборудование'),
+	'content' => Yii::t('main', 'поставка нефтегазового оборудования'),
 ]);
 
 ?>

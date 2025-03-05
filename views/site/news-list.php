@@ -6,15 +6,15 @@
 
 use app\components\helpers\Html;
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости');;
+$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости компании Гринлайн');;
 
 $this->registerMetaTag([
 	'name' => 'description',
-	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости'),
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости Новости компании Гринлайн Россия'),
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',
-	'content' => Yii::t('main', 'высококачественное оборудование'),
+	'content' => Yii::t('main', 'поставка нефтегазового оборудования'),
 ]);
 $this->registerMetaTag([
 	'name' => 'robots',
