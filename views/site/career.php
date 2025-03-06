@@ -13,10 +13,6 @@ $this->registerMetaTag([
 	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Актуальные вакансии в компании Гринлайн'),
 ]);
 $this->registerMetaTag([
-	'name' => 'keywords',
-	'content' => Yii::t('main', 'высококачественное оборудование'),
-]);
-$this->registerMetaTag([
 	'name' => 'robots',
 	'content' => 'index, follow',
 ]);
@@ -44,7 +40,7 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Текущие вакансии') ?></h2>
 			<div class=" d-flex  align-items-center text-md-left">
-				<p><?php echo Yii::t('main', 'Спасибо, что ознакомились с нашими вакансиями. Видите что-то, что вас интересует? Подайте заявку') ?>&nbsp;<?php echo yii\helpers\Html::a('здесь', 'mailto:career@greenlinerussia.com') ?></p>
+				<p><?php echo Yii::t('main', 'Спасибо, что ознакомились с нашими вакансиями. Видите что-то, что вас интересует? Подайте заявку') ?>&nbsp;<?php echo yii\helpers\Html::a(Yii::t('main', 'здесь'), 'mailto:career@greenlinerussia.com') ?></p>
 				<p></p>
 			</div>
 			<table class='table'>

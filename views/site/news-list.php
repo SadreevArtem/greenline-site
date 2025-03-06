@@ -10,7 +10,7 @@ $this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости 
 
 $this->registerMetaTag([
 	'name' => 'description',
-	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости Новости компании Гринлайн Россия'),
+	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Новости компании Гринлайн Россия'),
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',
