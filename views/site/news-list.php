@@ -44,6 +44,17 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">25.03.2025</span>
+					<h2 class="title"><?php echo Yii::t('main', 'OCIMF обновляет руководство по безопасной одноточечной швартовке танкеров') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Международный морской форум нефтяных компаний (OCIMF) опубликовал пересмотренное издание Руководства по закупке и испытанию тросов SPM — важнейшего оборудования, используемого для обеспечения безопасной швартовки танкеров во время погрузки и выгрузки нефтяных грузов с морских объектов.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/250325'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_17.jpg" alt="<?php echo Yii::t('main', 'OCIMF') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">27.02.2025</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Green Line поставит жизненно важное оборудование для шельфовых проектов Газпрома') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Offshore & Marine поставит компоненты для подводной добычи на Арктическом шельфе компании Газпром. Green Line Offshore & Marine займется поставкой и монтажом подводных линий, приводов, кабелей и подключения подводных манифольдов на глубине 200 метров.') ?></div>

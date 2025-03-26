@@ -118,7 +118,7 @@ body.index {
 
   #why-trust {
     .item {
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       position: relative;
       display: flex;
       flex-direction: column;
@@ -171,7 +171,8 @@ body.index {
     background-color: #eee;
     .items-container {
       position: relative;
-      a, span {
+      a,
+      span {
         position: absolute;
         font-size: 13px;
         font-weight: 600;
@@ -241,7 +242,7 @@ body.index {
         }
         &:before {
           @media (max-width: $screen-sm-1) {
-            content: '';
+            content: "";
             width: 74%;
             left: 13%;
             bottom: -15px;
@@ -271,12 +272,12 @@ body.index {
             background: none;
           }
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 34px;
             left: 35px;
             display: block;
-            background: url('/img/icons/prev_green.svg');
+            background: url("/img/icons/prev_green.svg");
             width: 27px;
             height: 30px;
             background-size: cover;
@@ -303,12 +304,12 @@ body.index {
             background: none;
           }
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 34px;
             right: 25px;
             display: block;
-            background: url('/img/icons/next_green.svg');
+            background: url("/img/icons/next_green.svg");
             width: 27px;
             height: 30px;
             background-size: cover;
@@ -431,7 +432,7 @@ body.index {
           padding: 25px 20px;
           .title-container {
             .date {
-              color: #8F8F8F;
+              color: #8f8f8f;
               font-size: 12px;
             }
             .news-title {
@@ -470,7 +471,8 @@ body.index {
             }
           }
         }
-        .img-link, .desc {
+        .img-link,
+        .desc {
           width: 225px;
           height: 225px;
           @media (max-width: $screen-lg-1) {
@@ -491,7 +493,7 @@ body.index {
         position: relative;
         margin-top: 37px;
         &:before {
-          content: '';
+          content: "";
           position: absolute;
           display: block;
           height: 3px;
@@ -558,7 +560,7 @@ body.index {
   }
   #contacts-mobile {
     padding: 10px;
-    &>.row {
+    & > .row {
       margin-left: 0;
       margin-right: 0;
     }
@@ -579,7 +581,8 @@ body.index {
 body.index.en {
   #sales-markets {
     .items-container {
-      a, span {
+      a,
+      span {
         &.item-3 {
           right: 160px;
         }
@@ -595,7 +598,9 @@ body.index.en {
 }
 
 body.about {
-  #principles, #loyality, #difference {
+  #principles,
+  #loyality,
+  #difference {
     .item {
       font-size: 13px;
       font-weight: 500;
@@ -617,7 +622,8 @@ body.about {
   #difference {
     background-color: #f5f5f5;
   }
-  #greenline, #eko {
+  #greenline,
+  #eko {
     background-color: #f5f5f5;
     p {
       font-size: 13px;
@@ -695,7 +701,7 @@ body.about {
       .owl-nav {
         &:before {
           @media (max-width: $screen-sm-1) {
-            content: '';
+            content: "";
             width: 88%;
             left: 6%;
             bottom: -37px;
@@ -730,7 +736,7 @@ body.about {
             background: none;
           }
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 80px;
             left: 80px;
@@ -767,7 +773,7 @@ body.about {
             background: none;
           }
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             top: 80px;
             right: 80px;
@@ -849,7 +855,7 @@ body.about {
             width: 160px;
           }
           @media (max-width: $screen-md-1) {
-            width: calc((100vw + 5px)/3);
+            width: calc((100vw + 5px) / 3);
           }
           .circle {
             width: 30px;
@@ -863,7 +869,7 @@ body.about {
             position: relative;
           }
           &.line-right:before {
-            content: '';
+            content: "";
             top: 15px;
             position: absolute;
             height: 1px;
@@ -873,7 +879,7 @@ body.about {
             width: 200vw;
           }
           &.line-left:before {
-            content: '';
+            content: "";
             top: 15px;
             position: absolute;
             height: 1px;
@@ -894,7 +900,8 @@ body.about {
       @media (max-width: $screen-md-1) {
         flex-direction: column;
       }
-      .question, .answer {
+      .question,
+      .answer {
         padding: 20px;
         line-height: 28px;
         font-size: 17px;
@@ -1040,7 +1047,6 @@ body.brands {
             &:nth-child(2) {
               text-decoration: none;
               margin-left: 5px;
-
             }
             img {
               width: 10px;
@@ -1052,7 +1058,8 @@ body.brands {
     }
   }
 }
-body.news, body.news-list {
+body.news,
+body.news-list {
   #news-list {
     .item {
       display: flex;
@@ -1161,7 +1168,7 @@ body.news, body.news-list {
 body.career {
   #career {
     .item {
-      background-color: #F5F5F5;
+      background-color: #f5f5f5;
       padding: 50px 40px;
       @media (max-width: $screen-sm-1) {
         padding: 20px;
@@ -1186,7 +1193,9 @@ body.career {
           }
         }
       }
-      .responsibility, .conditions, .skills {
+      .responsibility,
+      .conditions,
+      .skills {
         .title {
           font-weight: bold;
           font-size: 13px;
@@ -1202,7 +1211,7 @@ body.career {
             font-weight: 500;
             position: relative;
             &:before {
-              content: '';
+              content: "";
               position: absolute;
               top: 8px;
               left: -10px;
@@ -1248,7 +1257,9 @@ section#contacts {
         }
       }
     }
-    .email, .phone, .geo {
+    .email,
+    .phone,
+    .geo {
       margin-bottom: 10px;
       @media (max-width: $screen-lg-1) {
         font-size: 12px;
@@ -1264,7 +1275,7 @@ section#contacts {
           margin-left: 10px;
         }
       }
-      a>img {
+      a > img {
         @media (max-width: $screen-md-1) {
           margin-top: -5px;
           width: 15px;
@@ -1349,7 +1360,7 @@ body.sales-markets {
         }
       }
       @media (min-width: $screen-sm) {
-        &:nth-child(2n+1) {
+        &:nth-child(2n + 1) {
           .img-container {
             padding-left: 10px;
           }
@@ -1379,7 +1390,7 @@ body.sales-markets {
           margin-top: 15px;
           margin-bottom: 15px;
         }
-        &>img {
+        & > img {
           width: fit-content;
           height: auto;
           margin-bottom: 15px;
@@ -1410,7 +1421,7 @@ body.contacts {
   #contacts-mobile {
     padding: 10px;
     padding-bottom: 60px;
-    &>.row {
+    & > .row {
       margin-left: 0;
       margin-right: 0;
     }
