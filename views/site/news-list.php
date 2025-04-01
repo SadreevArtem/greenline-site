@@ -44,6 +44,17 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">31.03.2025</span>
+					<h2 class="title"><?php echo Yii::t('main', 'Greenline Engineering разработала арктическую загрузочную станцию') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline Engineering разработал шланговую плавучую арктическую загрузочную станцию, установленную на плавучем ледостойком понтоне. Станция полностью собрана из отечественных компонентов и снабжена шлангами Greenline Hoses ® изготовленными на предприятии в г. Санкт-Петербург по заказу компании Greenline.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/310325'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_19.jpg" alt="<?php echo Yii::t('main', 'шланговая плавучая арктическая загрузочная станция') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">25.03.2025</span>
 					<h2 class="title"><?php echo Yii::t('main', 'OCIMF обновляет руководство по безопасной одноточечной швартовке танкеров') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Международный морской форум нефтяных компаний (OCIMF) опубликовал пересмотренное издание Руководства по закупке и испытанию тросов SPM — важнейшего оборудования, используемого для обеспечения безопасной швартовки танкеров во время погрузки и выгрузки нефтяных грузов с морских объектов.') ?></div>

@@ -8,6 +8,39 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '310325' => [
+        'id' => '310325',
+        'title' => Yii::t('main', 'Greenline Engineering разработала арктическую загрузочную станцию'),
+        'meta' => [
+            'description' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Департамент Greenline Engineering разработал шланговую плавучую арктическую загрузочную станцию'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green">' . Yii::t('main', 'Greenline Engineering разработала арктическую загрузочную станцию') . '</h2>
+                                <span class="time">31.03.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_20.jpg" alt="' . Yii::t('main', 'шланговая плавучая арктическая загрузочная станция') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Департамент Greenline Engineering разработал шланговую плавучую арктическую загрузочную станцию, установленную на плавучем ледостойком понтоне. Станция полностью собрана из отечественных компонентов и снабжена шлангами Greenline Hoses ® изготовленными на предприятии в г. Санкт-Петербург по заказу компании Greenline. Станция способна работать во льдах при температуре минус 50 градусов в открытом море и служит для присоединения существующих Выносных Причальных Устройств (ВПУ) и танкеров арктического класса. Арктическая плавучая станция использует вьюшки с различным диаметром шлангов, что позволяет ей производить налив с различными диаметрами присоединительными системами как на носовой, так и боковой части судна. Также возможен одновременный налив с двух шланголиний. Все компоненты станции изготовлены в России и имеют сертификацию РМРС.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_20.jpg" alt="' . Yii::t('main', 'шланговая плавучая арктическая загрузочная станция') . '"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
+                               <div class="item-img"><img src="/img/news/news_21.jpg" alt="' . Yii::t('main', 'шланговая плавучая арктическая загрузочная станция') . '"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        '
+    ],
     '250325' => [
         'id' => '250325',
         'title' => Yii::t('main', 'OCIMF обновляет руководство по безопасной одноточечной швартовке танкеров'),
