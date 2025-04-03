@@ -41,7 +41,7 @@ $this->registerMetaTag([
                     <?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
                     - <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
                     - <span> <?php echo Html::a(Yii::t('main', 'Шельфовые проекты и морские порты'), ['/sales-markets/offshore-projects']) ?> </span>
-                    - <?php echo Yii::t('main', 'Поставка технологического морского оборудования') ?>
+                    - <?php echo Yii::t('main', 'Поставка морского оборудования') ?>
                 </span>
             </div>
         </div>
