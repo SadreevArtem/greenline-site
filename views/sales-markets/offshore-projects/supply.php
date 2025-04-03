@@ -138,15 +138,33 @@ $this->registerMetaTag([
                         [
                             'label' => \Yii::t('main', 'Носовая система налива '),
                             'content' => '
-                            
-                            <div class="d-flex justify-content-center">
-                                <div class="c col-12 px-lg-0 mb-4 mb-lg-0">
-                                    <div class="text-center">
-                                        <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Носовая система налива (Арктического типа)") . '</h3>
+                            <div class="col-12 py-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Носовая загрузочная система (Арктического типа)") . '</h3>
                                         <div class="content wr-text">
-                                            <p>' . Yii::t("main", "Greenline Engineering произвел разработку Тандемных швартовных и отгрузочных системы позволяющих безопасно и эффективно производить швартовные и отгрузочные операции между плавучими установками добычи, хранения и отгрузки и нефтяными танкерами, как на миделе, так и с носа судна. Арктическая носовая загрузочная система позволяет осуществлять швартовку челночного танкера к морскому отгрузочному терминалу (стационарному или плавучему), и затем производить отгрузку нефти с морского отгрузочного терминала в челночный танкер. Эта система также может использоваться для отгрузки нефти из танкера на береговой нефтеналивной терминал.") . '</p>
+                                            <p>' . Yii::t("main", "Greenline Engineering произвел разработку Тандемных швартовных и отгрузочных системы позволяющих безопасно и эффективно производить швартовные и отгрузочные операции между плавучими установками добычи, хранения и отгрузки и нефтяными танкерами, как на миделе, так и с носа судна.") . '</p>
                                         </div>
-                                   
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/supply6.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 order-1 pl-lg-5 ">
+                                    
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Арктическая носовая загрузочная система позволяет осуществлять швартовку челночного танкера к морскому отгрузочному терминалу (стационарному или плавучему), и затем производить отгрузку нефти с морского отгрузочного терминала в челночный танкер. Эта система также может использоваться для отгрузки нефти из танкера на береговой нефтеналивной терминал.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/sales-markets/supply4.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
