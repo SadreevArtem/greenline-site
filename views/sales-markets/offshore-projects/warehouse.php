@@ -144,7 +144,7 @@ $this->registerMetaTag([
                             'options' => ['class' => 'tab-content-item']
                         ],
                         [
-                            'label' => \Yii::t('main', 'Морские шланги'),
+                            'label' => \Yii::t('main', 'Запорная арматура'),
                             'content' => '
                             <h3 class="h1 mb-4 font-weight-bold scaled-text mt-lg-5">' . Yii::t("main", "Кран шаровой Ду 20” Класс 1500#") . '</h3>
                             <div class="wr-text py-lg-5 px-4 px-lg-0">

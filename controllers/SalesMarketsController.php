@@ -21,7 +21,8 @@ class SalesMarketsController extends FrontendController
     private array $validSubActions = [
         'vpu',
         'warehouse',
-        'construction'
+        'construction',
+        'supply'
     ];
 
     /**
