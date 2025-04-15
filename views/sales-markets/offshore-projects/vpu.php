@@ -64,6 +64,20 @@ $this->registerMetaTag([
                         [
                             'label' =>  \Yii::t('main', 'Производство и поставка ВПУ'),
                             'content' => '
+                            <div class="wr-cont w-100 mt-4 rounded-lg d-lg-block d-none overflow-hidden position-relative" style="aspect-ratio: 16 / 9;">
+                                <video autoplay muted loop playsinline 
+                                    class="w-100 h-100"
+                                    style="object-fit: cover; transform: scale(1.02)">
+                                    <source src="/video/iris3.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео.
+                                </video>
+                            </div>
+                            <video autoplay muted loop playsinline 
+                                    class="w-100 h-100 d-lg-none"
+                                    style="object-fit: cover;">
+                                    <source src="/video/iris2.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео.
+                                </video>
                             <div class="wr-cont flex-lg-row flex-column">
                                 <div class="w-lg-50 img-block-1">
                                     <svg width="0" height="0">

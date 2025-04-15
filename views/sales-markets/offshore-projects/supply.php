@@ -64,6 +64,20 @@ $this->registerMetaTag([
                         [
                             'label' => \Yii::t('main', 'Носовая загрузочная система'),
                             'content' => '
+                            <div class="wr-cont w-100 mt-4 rounded-lg d-lg-block d-none overflow-hidden position-relative" style="aspect-ratio: 16 / 9;">
+                                <video autoplay muted loop playsinline 
+                                    class="w-100 h-100"
+                                    style="object-fit: cover; transform: scale(1.02)">
+                                    <source src="/video/iris3.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео.
+                                </video>
+                            </div>
+                            <video autoplay muted loop playsinline 
+                                    class="w-100 h-100 d-lg-none"
+                                    style="object-fit: cover;">
+                                    <source src="/video/iris2.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео.
+                                </video>
                             <div class="col-12 py-lg-5 mt-lg-5">
                                 <div class="row item-container align-items-center mb-lg-5 mb-0">
                                     <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
