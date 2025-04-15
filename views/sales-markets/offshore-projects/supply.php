@@ -185,6 +185,30 @@ $this->registerMetaTag([
                             ',
                             'options' => ['class' => 'tab-content-item']
                         ],
+                        [
+                            'label' => \Yii::t('main', 'Greenline hoses ®'),
+                            'content' => '
+                            <div class="col-12 py-lg-5 mt-lg-5">
+                                <div class="row item-container align-items-center mb-lg-5 mb-0">
+                                    <div class="col-md-6 col-12 px-lg-0 pr-lg-5">
+                                    <h3 class="h1 mb-4 font-weight-bold scaled-text">' . Yii::t("main", "Шланговое оборудование") . '</h3>
+                                        <div class="content wr-text">
+                                            <p>' . Yii::t("main", "Компания Greenline использует современные методы исследований и разработок, связанные с передовыми методами работы с морскими шлангами, что позволяет нам удовлетворять и превосходить требования клиентов в различных условиях эксплуатации, в зависимости от местоположения и среды, в которой будут эксплуатироваться шланги.") . '</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12 px-lg-0 mb-4 mb-lg-0">
+                                        <video autoplay muted loop playsinline 
+                                    class="w-100 h-100"
+                                    style="object-fit: cover;">
+                                    <source src="/video/iris4-web.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает видео.
+                                </video>
+                                    </div>
+                                </div>
+                            </div>
+                            ',
+                            'options' => ['class' => 'tab-content-item']
+                        ],
                     ],
                     'options' => ['class' => 'custom-tabs'], // Дополнительные классы для стилизации
                     'encodeLabels' => false, // Отключаем автоэкранирование, если нужны HTML-символы

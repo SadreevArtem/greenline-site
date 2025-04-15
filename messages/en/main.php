@@ -523,7 +523,7 @@ During the visit, the parties outlined the directions for developing contractual
     'Гринлайн - поставка технологического морского оборудования' => 'Greenlinerussia - supply of technological marine equipment',
     'Гринлайн - поставки современного технологического оборудования для шельфовых проектов и морских портов' => 'Greenlinerussia - supplies of modern technological equipment for offshore projects and sea ports',
     'Запорная арматура' => 'Valves',
-    '' => '',
+    'Компания Greenline использует современные методы исследований и разработок, связанные с передовыми методами работы с морскими шлангами, что позволяет нам удовлетворять и превосходить требования клиентов в различных условиях эксплуатации, в зависимости от местоположения и среды, в которой будут эксплуатироваться шланги.' => 'Greenline utilizes state of the art research and development techniques related to advanced marine hose handling techniques, allowing us to meet and exceed customer requirements in a variety of operating conditions, depending on the location and environment in which the hoses will be used.',
     '' => '',
     '' => '',
     '' => '',
