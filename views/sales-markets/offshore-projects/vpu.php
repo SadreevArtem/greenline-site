@@ -75,7 +75,7 @@ $this->registerMetaTag([
                             <video autoplay muted loop playsinline 
                                     class="w-100 h-100 d-lg-none"
                                     style="object-fit: cover;">
-                                    <source src="/video/iris2.mp4" type="video/mp4">
+                                    <source src="/video/iris3.mp4" type="video/mp4">
                                     Ваш браузер не поддерживает видео.
                                 </video>
                             <div class="wr-cont flex-lg-row flex-column">
