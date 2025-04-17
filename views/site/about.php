@@ -139,6 +139,12 @@ $this->registerMetaTag([
 				<div class="col-lg-10 offset-lg-1 col-12">
 					<h2 class="up-line white"><?php echo Yii::t('main', 'Выставки') ?></h2>
 					<div class="exhibitions-carousel owl-carousel owl-theme">
+						<div class="item"><a target="_blank" href="https://oeec.biz/oeec2025/"><img src="/img/about/exhibition_9.jpg" alt="oeec2025"></a></div>
+						<div class="item"><a target="_blank" href="https://www.adipec.com/exhibition/"><img src="/img/about/exhibition_10.jpg" alt="ADIPEC"></a></div>
+						<div class="item"><a target="_blank" href="https://www.valveworldexpo.com/en/Exhibit/Overview"><img src="/img/about/exhibition_11.jpg" alt="VALVE WORLD EXPO"></a></div>
+						<div class="item"><a target="_blank" href="https://imexmanagement.com/shows/osea-2026"><img src="/img/about/exhibition_12.jpg" alt="OSEA"></a></div>
+						<div class="item"><a target="_blank" href="https://industrialvalvesummit.com/"><img src="/img/about/exhibition_13.jpg" alt="IVS"></a></div>
+						<div class="item"><a target="_blank" href="https://www.nevainter.com/about/"><img src="/img/about/exhibition_14.jpg" alt="NEVA2025"></a></div>
 						<div class="item"><a target="_blank" href="https://industrialvalvesummit.com/"><img src="/img/about/exhibition_1.jpg" alt="IVS"></a></div>
 						<div class="item"><a target="_blank" href="https://www.valve-world.net/"><img src="/img/about/exhibition_2.jpg" alt="Valve world"></a></div>
 						<div class="item"><a target="_blank" href="https://lnglatinamerica.com/"><img src="/img/about/exhibition_3.jpg" alt="LNG2020"></a></div>
