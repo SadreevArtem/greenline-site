@@ -44,6 +44,17 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">16.04.2025</span>
+					<h2 class="title"><?php echo Yii::t('main', 'Компания Greenline вступила в Калининградскую ТПП и начала активное участие в деловой повестке региона') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Гринлайн стала членом Калининградской торгово-промышленной палаты — крупнейшего бизнес-сообщества региона. Участие в заседаниях комитетов, новые деловые связи и обучающие семинары расширяют возможности компании на всех уровнях.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/160425'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_22.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline вступила в Калининградскую ТПП') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">31.03.2025</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Greenline Engineering разработала арктическую загрузочную станцию') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline Engineering разработал шланговую плавучую арктическую загрузочную станцию, установленную на плавучем ледостойком понтоне. Станция полностью собрана из отечественных компонентов и снабжена шлангами Greenline Hoses ® изготовленными на предприятии в г. Санкт-Петербург по заказу компании Greenline.') ?></div>
