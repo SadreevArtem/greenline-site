@@ -29,7 +29,7 @@ $this->registerMetaTag([
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1 col-12">
-				<h1><?php echo Yii::t('main', 'О нас') ?></h1>
+				<h1><?php echo Yii::t('main', 'О компании Greenline') ?></h1>
 				<span class="breadcrumbs">
 					<?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
 					- <?php echo Html::a(Yii::t('main', 'О нас'), ['/about'], ['class' => 'current']) ?>
@@ -39,21 +39,72 @@ $this->registerMetaTag([
 	</div>
 </header>
 
+
+
+<section id="greenline" class="container-fluid no-copy">
+	<div class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 col-12">
+					<div class="row item-container align-items-center">
+						<div class="col-12 col-lg-6 main-block">
+							<h2 class="up-line green"><?php echo Yii::t('main', 'Green Line') ?></h2>
+							<p><?php echo Yii::t('main', 'Компания Green Line основана в 2010 году и уже более 15 лет поставляет высокотехнологичное промышленное оборудование на российский рынок. Мы сотрудничаем с ведущими мировыми производителями, обеспечивая отечественные предприятия решениями, соответствующими самым высоким стандартам.') ?></p>
+							<p><?php echo Yii::t('main', 'Green Line — надёжный поставщик высокотехнологичного оборудования и инженерных решений для нефтегазовой, энергетической, химической и других отраслей промышленности. Мы работаем с ведущими производителями Европы и США, предлагая продукцию, не имеющую отечественных аналогов, сертифицированную по международным и национальным стандартам.') ?></p>
+						</div>
+						<div class="col-12 col-lg-6 img-block order-1">
+							<img src="/img/about/greenline.jpg" alt="<?php echo Yii::t('main', 'О компании') ?>">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="eko" class="container-fluid no-copy bg-white">
+	<div class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 col-12">
+					<div class="row item-container align-items-center">
+						<div class="col-lg-6 col-12 img-block">
+							<img src="/img/about/eco.png" alt="<?php echo Yii::t('main', 'О компании') ?>">
+						</div>
+						<div class="col-lg-6 col-12 main-block">
+							<h2 class="up-line green"><?php echo Yii::t('main', 'Наше видение') ?></h2>
+							<p><?php echo Yii::t('main', 'Мы стремимся быть ключевым звеном между мировыми инновациями и российской промышленностью, повышая эффективность и экологическую безопасность производств. В центре нашей философии — технологическое лидерство, ответственность перед клиентом и устойчивое развитие.') ?></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="principles" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
-			<h2 class="up-line green"><?php echo Yii::t('main', 'Наши принципы') ?></h2>
-			<div class="item d-flex align-items-baseline">
-				<div class="number">1.</div>
-				<span class="text"><?php echo Yii::t('main', 'Внимательность к требованиям Заказчика. Точность, высокое качество и скорость в решении поставленных перед нами задач.') ?></span>
+			<h2 class="up-line green"><?php echo Yii::t('main', 'Наши преимущества') ?></h2>
+			<div class="item d-flex align-items-center">
+				<div class="number">·</div>
+				<span class="text wr-text"><?php echo Yii::t('main', 'Складская программа и быстрые поставки') ?></span>
 			</div>
-			<div class="item d-flex align-items-baseline">
-				<div class="number">2.</div>
-				<span class="text"><?php echo Yii::t('main', 'Мы ценим наших Заказчиков и их решение сотрудничать именно с нами, поэтому совершенствуем, и всякий раз улучшаем условия партнерства до 30% (сроки, цены и т.д.)') ?></span>
+			<div class="item d-flex align-items-center">
+				<div class="number">·</div>
+				<span class="text wr-text"><?php echo Yii::t('main', 'Постоплата до 90 дней для постоянных клиентов') ?></span>
 			</div>
-			<div class="item d-flex align-items-baseline">
-				<div class="number">3.</div>
-				<span class="text"><?php echo Yii::t('main', 'Мы выбираем лучших мировых производителей. Каждый наш поставщик имеет многолетнюю историю и безупречную репутацию.') ?></span>
+			<div class="item d-flex align-items-center">
+				<div class="number">·</div>
+				<span class="text wr-text"><?php echo Yii::t('main', 'Гарантированное качество и технический надзор') ?></span>
+			</div>
+			<div class="item d-flex align-items-center">
+				<div class="number">·</div>
+				<span class="text wr-text"><?php echo Yii::t('main', 'Обучение персонала заказчика') ?></span>
+			</div>
+			<div class="item d-flex align-items-center">
+				<div class="number">·</div>
+				<span class="text wr-text"><?php echo Yii::t('main', 'Доверие со стороны госкорпораций и ведущих компаний отрасли') ?></span>
 			</div>
 		</div>
 	</div>
@@ -64,16 +115,13 @@ $this->registerMetaTag([
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 col-12">
-					<div class="row item-container">
+					<div class="row item-container align-items-center">
 						<div class="col-12 col-lg-6 main-block">
-							<h2 class="up-line green"><?php echo Yii::t('main', 'Green Line') ?></h2>
-							<p><?php echo Yii::t('main', 'Компания Green Line специализируется на поставках оборудования и передовых технологий в нефтегазовую, нефтехимическую, энергетическую и иные ведущие отрасли промышленности.') ?></p>
-							<p><?php echo Yii::t('main', 'Уникальный опыт позволяет нам находить наилучшие технологические решения и превосходно справляться с любыми задачами Заказчика.') ?></p>
-							<p><?php echo Yii::t('main', 'Поставляемая нами продукция не имеет отечественных аналогов и производится на территории Европы, и США.') ?></p>
-							<p><?php echo Yii::t('main', 'Все оборудование сертифицировано и соответствует требованиям Государственных стандартов Российской Федерации, стандартов стран-производителей и Технических регламентов Таможенного союза (ЕАЭС), РМРС.') ?></p>
+							<h2 class="up-line green"><?php echo Yii::t('main', 'Экологические инициативы') ?></h2>
+							<p><?php echo Yii::t('main', 'Мы поддерживаем инициативы по защите окружающей среды, инвестируем в технологии, снижающие выбросы и ресурсопотребление, и сотрудничаем с НКО и научными организациями в области устойчивого развития.') ?></p>
 						</div>
-						<div class="col-12 col-lg-6 img-block">
-							<img src="/img/about/greenline.jpg" alt="<?php echo Yii::t('main', 'О компании') ?>">
+						<div class="col-12 col-lg-6 img-block order-1">
+							<img src="/img/about/eco2.jpeg" alt="<?php echo Yii::t('main', 'О компании') ?>">
 						</div>
 					</div>
 				</div>
@@ -82,21 +130,18 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="eko" class="container-fluid no-copy">
+<section id="eko" class="container-fluid no-copy bg-white">
 	<div class="row">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1 col-12">
-					<div class="row item-container">
+					<div class="row item-container align-items-center">
 						<div class="col-lg-6 col-12 img-block">
-							<img src="/img/about/eko.jpg" alt="<?php echo Yii::t('main', 'О компании') ?>">
+							<img src="/img/about/team.jpeg" alt="<?php echo Yii::t('main', 'Команда и экспертиза') ?>">
 						</div>
 						<div class="col-lg-6 col-12 main-block">
-							<h2 class="up-line green"><?php echo Yii::t('main', 'Охрана окружающей среды и инновации') ?></h2>
-							<p><?php echo Yii::t('main', 'Мы осознаем актуальность проблемы негативного воздействия на окружающую среду. Поэтому оборудование и инновационные технологии, которые мы предлагаем, призваны не только повысить экономическую эффективность, но и обеспечить экологическую безопасность.') ?></p>
-							<p><?php echo Yii::t('main', 'Модернизация производств в нефтегазовой, нефтехимической и других отраслях позволяет снизить выбросы, и минимизировать экологический след.') ?></p>
-							<p><?php echo Yii::t('main', 'Мы стараемся отслеживать появление новых экологических решений на рынке и уделять внимание последним исследованиям в области охраны окружающей среды и борьбы с изменением климата.') ?></p>
-							<p><?php echo Yii::t('main', 'Оказываем поддержку научным разработкам и WWF.') ?></p>
+							<h2 class="up-line green"><?php echo Yii::t('main', 'Команда и экспертиза') ?></h2>
+							<p><?php echo Yii::t('main', 'Наша команда — это эксперты с многолетним опытом в реализации сложных технологических проектов. Мы сопровождаем клиента на всех этапах — от технического задания до запуска оборудования в эксплуатацию.') ?></p>
 						</div>
 					</div>
 				</div>
@@ -211,10 +256,6 @@ $this->registerMetaTag([
 					</div>
 					<div class="item d-flex align-items-baseline">
 						<div class="number">6.</div>
-						<span class="text"><?php echo Yii::t('main', 'Участвуем в выставке Нефтегаз.') ?></span>
-					</div>
-					<div class="item d-flex align-items-baseline">
-						<div class="number">7.</div>
 						<span class="text"><?php echo Yii::t('main', 'Нам доверяют госкомпании.') ?></span>
 					</div>
 				</div>
@@ -223,7 +264,7 @@ $this->registerMetaTag([
 	</div>
 </section>
 
-<section id="steps" class="container-fluid no-copy">
+<!-- <section id="steps" class="container-fluid no-copy">
 	<div class="row">
 		<div class="container">
 			<div class="row">
@@ -352,9 +393,9 @@ $this->registerMetaTag([
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section id="questions" class="container no-copy">
+<!-- <section id="questions" class="container no-copy">
 	<div class="row">
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<h2 class="up-line green"><?php echo Yii::t('main', 'Часто задаваемые вопросы') ?></h2>
@@ -376,4 +417,4 @@ $this->registerMetaTag([
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
