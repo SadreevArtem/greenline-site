@@ -44,6 +44,28 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">26.05.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «Металлообработка-2025»') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Сотрудники Greenline приняли участие в международной выставке «Металлообработка-2025», которая прошла в Москве. Это крупнейшее мероприятие в России и СНГ в области станкостроения и металлообработки, ежегодно объединяющее ведущих игроков отрасли на одной площадке.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/260525'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_23.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline на выставке Металлообработка-2025') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
+					<span class="time">25.05.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Компания Greenline включена в реестр Ассоциации судостроительного кластера Калининградской области') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'ООО «Гринлайн» вступило в Ассоциацию «Кластер судостроения и судоремонта Калининградской области». Кластер создан для обеспечения высоких темпов развития отрасли судостроения и судоремонта за счет внутренней кооперации участников и эффективной реализации перспективных проектов.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/250525'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_24.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline реестр судостроительного кластера Калининградской области') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">16.04.2025</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Компания Greenline вступила в Калининградскую ТПП и начала активное участие в деловой повестке региона') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Гринлайн стала членом Калининградской торгово-промышленной палаты — крупнейшего бизнес-сообщества региона. Участие в заседаниях комитетов, новые деловые связи и обучающие семинары расширяют возможности компании на всех уровнях.') ?></div>
