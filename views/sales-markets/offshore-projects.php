@@ -103,7 +103,7 @@ $this->registerMetaTag([
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Проектирование, изготовление и поставка cтационарных отгрузочных терминалов') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Наша компания разрабатывает, производит и поставляет стационарные отгрузочные терминалы для шельфовых проектов и морских портов. Мы предлагаем комплексные решения для эффективной погрузки и разгрузки нефтепродуктов, сжиженного газа и других грузов. Оборудование соответствует высоким стандартам безопасности и надежности, обеспечивая бесперебойную работу в сложных эксплуатационных условиях.') ?></p>
-						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/sales-markets/offshore-projects'], ['class' => 'btn btn-success more-btn']) ?>
+						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['sales-markets/view', 'action' => 'offshore-projects', 'subaction' => 'stu'], ['class' => 'btn btn-success more-btn']) ?>
 					</div>
 				</div>
 				<div class="col-md-6 col-12">

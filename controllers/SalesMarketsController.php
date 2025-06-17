@@ -22,7 +22,8 @@ class SalesMarketsController extends FrontendController
         'vpu',
         'warehouse',
         'construction',
-        'supply'
+        'supply',
+        'stu'
     ];
 
     /**
