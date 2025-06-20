@@ -10,11 +10,11 @@ use yii\bootstrap\Tabs;
 
 
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - поставка технологического морского оборудования');
+$this->title = Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline - поставка технологического морского оборудования');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - поставки современного технологического оборудования для шельфовых проектов и морских портов'),
+    'content' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline - поставки современного технологического оборудования для шельфовых проектов и морских портов'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',

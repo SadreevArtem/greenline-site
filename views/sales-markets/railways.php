@@ -6,11 +6,11 @@
 
 use app\components\helpers\Html;
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Железные дороги');
+$this->title = Yii::t('main', 'Greenline - ') . Yii::t('main', 'Железные дороги');
 
 $this->registerMetaTag([
 	'name' => 'description',
-	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Железные дороги'),
+	'content' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Железные дороги'),
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',

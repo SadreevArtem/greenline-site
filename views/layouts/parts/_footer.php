@@ -11,8 +11,8 @@ use app\components\helpers\Html;
 				<?php echo Html::a('中国商业伙伴', ['/about-company'], ['class' => 'btn btn-success request-button', 'style' => 'transform: scale(0.8);margin-top: 20px; margin-bottom: 15px;margin-left: -156px;']) ?>
 			</div>
 			<span class="brand-name">
-				GREEN LINE
-				<span class="copyright">&copy; Green Line 2010 - 2025</span>
+				GREENLINE
+				<span class="copyright">&copy; Greenline 2010 - 2025</span>
 			</span>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">

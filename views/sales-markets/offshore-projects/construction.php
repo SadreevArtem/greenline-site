@@ -10,11 +10,11 @@ use yii\helpers\Url;
 
 
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - Проектирование и строительство морских буровых платформ');
+$this->title = Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline - Проектирование и строительство морских буровых платформ');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Проектирование и строительство морских буровых платформ'),
+    'content' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Проектирование и строительство морских буровых платформ'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',

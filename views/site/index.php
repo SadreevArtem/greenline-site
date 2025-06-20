@@ -6,11 +6,11 @@
 
 use app\components\helpers\Html;
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Официальный сайт компании Гринлайн, greenlinerussia');
+$this->title = Yii::t('main', 'Greenline - ') . Yii::t('main', 'Официальный сайт компании Greenline, greenlinerussia');
 
 $this->registerMetaTag([
 	'name' => 'description',
-	'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'компания Гринлайн - специализируется на поставках оборудования в нефтегазовую, нефтехимическую, энергетическую отрасли промышленности'),
+	'content' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'компания Greenline - специализируется на поставках оборудования в нефтегазовую, нефтехимическую, энергетическую отрасли промышленности'),
 ]);
 $this->registerMetaTag([
 	'name' => 'keywords',
@@ -80,7 +80,7 @@ $this->registerMetaTag([
 					<div class="row">
 						<div class="col-6 col-lg-6 col-md-5 col-12">
 							<h2 class="up-line white"><?php echo Yii::t('main', 'О компании') ?></h2>
-							<p><?php echo Yii::t('main', 'Компания Green Line специализируется на поставках оборудования и передовых технологий в нефтегазовую, нефтехимическую, энергетическую и иные ведущие отрасли промышленности.') ?></p>
+							<p><?php echo Yii::t('main', 'Компания Greenline специализируется на поставках оборудования и передовых технологий в нефтегазовую, нефтехимическую, энергетическую и иные ведущие отрасли промышленности.') ?></p>
 							<p><?php echo Yii::t('main', 'Уникальный опыт позволяет нам находить наилучшие технологические решения и превосходно справляться с любыми задачами Заказчика.') ?></p>
 							<?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
 						</div>
@@ -220,13 +220,13 @@ $this->registerMetaTag([
 <!--							</div>-->
 <!--						</div>-->
 <!--						<div class="item d-flex">-->
-<!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024')]),
+<!--                            --><?php //echo Html::a(Html::img('/img/news/news_3.jpg', ['alt' => Yii::t('main', 'Сотрудники компании Greenline на выставке ADIPEC 2024')]),
 									//                                ['/news-list'], ['class' => 'img-link']) 
 									?>
 <!--							<div class="desc d-flex flex-column justify-content-between">-->
 <!--								<div class="title-container">-->
 <!--									<span class="date">22.05.2020</span>-->
-<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Сотрудники компании Гринлайн на выставке ADIPEC 2024') 
+<!--									<h3 class="news-title">--><?php //echo Yii::t('main', 'Сотрудники компании Greenline на выставке ADIPEC 2024') 
 																	?><!--</h3>-->
 <!--								</div>-->
 <!--								<p class="news-body">--><?php //echo Yii::t('main', 'В связи с пандемией короновируса COVID-19 компания Greenline...') 

@@ -10,11 +10,11 @@ use yii\bootstrap\Tabs;
 
 
 
-$this->title = Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - склад готовой продукции');
+$this->title = Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline - склад готовой продукции');
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => Yii::t('main', 'Green Line - ') . Yii::t('main', 'Гринлайн - склад собственной готовой продукции, готовой к отгрузке'),
+    'content' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline - склад собственной готовой продукции, готовой к отгрузке'),
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
@@ -138,7 +138,7 @@ $this->registerMetaTag([
                             'content' => '
                             <h3 class="h1 mb-4 font-weight-bold scaled-text mt-lg-5">' . Yii::t("main", "Шланг арктический усиленный 12” Класс 300#") . '</h3>
                             <div class="wr-text py-lg-5 px-4 px-lg-0">
-                                <p>' . Yii::t("main", "Рукав с усиленными армированными концами 12”x35’ Класс 300# FF для Арктического Стационарного ВПУ (Artic loading tower), Фиттинги Низкотемпературная углеродистая сталь. Фланец ASTM A350 LF2. Диапазон температур от минус 50 С до плюс 70 С<br>Производитель: GLMH (Green Line Marine Hoses)<br>Наличие: в настоящий момент идет пополнение склада.") . '</p>
+                                <p>' . Yii::t("main", "Рукав с усиленными армированными концами 12”x35’ Класс 300# FF для Арктического Стационарного ВПУ (Artic loading tower), Фиттинги Низкотемпературная углеродистая сталь. Фланец ASTM A350 LF2. Диапазон температур от минус 50 С до плюс 70 С<br>Производитель: GLMH (Greenline Marine Hoses)<br>Наличие: в настоящий момент идет пополнение склада.") . '</p>
                             </div>
                             ',
                             'options' => ['class' => 'tab-content-item']
