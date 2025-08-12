@@ -192,11 +192,11 @@ $this->registerMetaTag([
 						<div class="item"><a target="_blank" href="https://www.nevainter.com/about/"><img src="/img/about/exhibition_14.jpg" alt="NEVA2025"></a></div>
 						<div class="item"><a target="_blank" href="https://industrialvalvesummit.com/"><img src="/img/about/exhibition_1.jpg" alt="IVS"></a></div>
 						<div class="item"><a target="_blank" href="https://www.valve-world.net/"><img src="/img/about/exhibition_2.jpg" alt="Valve world"></a></div>
-						<div class="item"><a target="_blank" href="https://lnglatinamerica.com/"><img src="/img/about/exhibition_3.jpg" alt="LNG2020"></a></div>
-						<div class="item"><a target="_blank" href="https://miningrussiaconference.com/"><img src="/img/about/exhibition_4_<?php echo Yii::$app->language ?>.jpg" alt="<?php echo Yii::t('main', 'Горнорудная промышленность России и СНГ') ?>"></a></div>
-						<div class="item"><a target="_blank" href="https://www.lngrussiacongress.com/"><img src="/img/about/exhibition_5_<?php echo Yii::$app->language ?>.jpg" alt="<?php echo Yii::t('main', 'СПГ конгресс 2020') ?>"></a></div>
-						<div class="item"><a target="_blank" href="http://2020.otcnet.org/"><img src="/img/about/exhibition_6.jpg" alt="OFFSHORE TECHNOLOGY CONFERENCE"></a></div>
-						<div class="item"><a target="_blank" href="http://2020.otcasia.org/"><img src="/img/about/exhibition_7.jpg" alt="OTC ASIA 2020"></a></div>
+						<!-- <div class="item"><a target="_blank" href="https://lnglatinamerica.com/"><img src="/img/about/exhibition_3.jpg" alt="LNG2020"></a></div> -->
+						<!-- <div class="item"><a target="_blank" href="https://miningrussiaconference.com/"><img src="/img/about/exhibition_4_<?php echo Yii::$app->language ?>.jpg" alt="<?php echo Yii::t('main', 'Горнорудная промышленность России и СНГ') ?>"></a></div> -->
+						<!-- <div class="item"><a target="_blank" href="https://www.lngrussiacongress.com/"><img src="/img/about/exhibition_5_<?php echo Yii::$app->language ?>.jpg" alt="<?php echo Yii::t('main', 'СПГ конгресс 2020') ?>"></a></div> -->
+						<!-- <div class="item"><a target="_blank" href="http://2020.otcnet.org/"><img src="/img/about/exhibition_6.jpg" alt="OFFSHORE TECHNOLOGY CONFERENCE"></a></div>
+						<div class="item"><a target="_blank" href="http://2020.otcasia.org/"><img src="/img/about/exhibition_7.jpg" alt="OTC ASIA 2020"></a></div> -->
 						<div class="item"><a target="_blank" href="https://www.osea-asia.com/"><img src="/img/about/exhibition_8.jpg" alt="OSEA"></a></div>
 					</div>
 				</div>

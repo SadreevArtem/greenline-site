@@ -8,6 +8,98 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '300725' => [
+        'id' => '300725',
+        'title' => Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане') . '</h2>
+                                <span class="time">30.07.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_27.jpg" alt="' . Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'Департамент Greenline International (GLI) провёл первые переговоры с Министерством промышленности Султаната Оман о строительстве завода по производству морских шлангов Greenline Hoses ©️ в специальной экономической зоне Сохар Фризон. В ходе встречи стороны обсудили ключевые аспекты реализации проекта, включая:  <br>•⁠  ⁠потенциальных заказчиков на внутреннем и международном рынках; <br>•⁠  ⁠использование местного сырья для поддержки оманских производителей;  <br>•⁠  ⁠меры государственной поддержки проекта.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_27.jpg" alt="' . Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане') . '"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-lg-0">
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Компания Greenline выражает глубокую признательность Султану Омана Хейсаму бен Тарику Аль Саиду за возможность выхода на новые рынки Омана и стран Африки, а также за содействие в локализации бизнеса на территории Султаната.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Этот проект станет важным шагом в расширении глобального присутствия Greenline International и укрепит экономическое сотрудничество между Россией и Оманом.') . '</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'Greenline International (GLI)') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/oman/oman1.jpg', ['alt' => 'Bot']) . '</div>
+                            <div class="item item-2">' . Html::img('/img/oman/oman2.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-3">' . Html::img('/img/oman/oman3.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
+    '060625' => [
+        'id' => '060625',
+        'title' => Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!') . '</h2>
+                                <span class="time">06.06.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_26.jpg" alt="' . Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'Дорогие друзья, партнеры и клиенты!<br>В этом году наша компания отмечает 15 лет успешной работы. Это важный рубеж, который мы прошли благодаря вашему доверию, поддержке и совместным усилиям.<br>За эти годы мы:  <br>✅ Реализовали сотни проектов и помогли тысячам клиентов  <br>✅ Сформировали сильную команду профессионалов  <br>✅ Постоянно развивались, внедряя инновации  <br>✅ Оставались верными своим ценностям: качеству, надежности и открытости<br>15 лет — это не просто цифра. Это годы упорного труда, ярких побед, ценного опыта и, конечно, новых возможностей. Мы благодарим каждого, кто был с нами на этом пути!') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_26.jpg" alt="' . Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!') . '"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-lg-0">
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Впереди — новые цели, амбициозные задачи и, уверены, еще больше совместных достижений. Вместе мы создаем будущее!') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Спасибо, что выбрали нас!') . '</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'Greenline 15 лет') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/gr/gr1.jpg', ['alt' => 'Bot']) . '</div>
+                            <div class="item item-2">' . Html::img('/img/gr/gr2.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-3">' . Html::img('/img/gr/gr3.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
     '260525' => [
         'id' => '260525',
         'title' => Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «Металлообработка-2025»'),
