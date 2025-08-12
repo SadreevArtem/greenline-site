@@ -44,6 +44,28 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">30.07.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline International (GLI) провёл первые переговоры с Министерством промышленности Султаната Оман о строительстве завода по производству морских шлангов Greenline Hoses ©️ в специальной экономической зоне Сохар Фризон.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300725'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_27.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline в Омане') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
+					<span class="time">06.06.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', '15 лет успеха: вместе с вами мы создаем будущее!') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Наша компания отмечает 15-летие успешной работы. За эти годы мы реализовали сотни проектов, помогли тысячам клиентов и сохранили верность своим ценностям. Спасибо, что вы с нами — впереди еще больше достижений!') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/060625'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_26.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline 15 лет') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">26.05.2025</span>
 					<h2 class="title text-break"><?php echo Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «Металлообработка-2025»') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Сотрудники Greenline приняли участие в международной выставке «Металлообработка-2025», которая прошла в Москве. Это крупнейшее мероприятие в России и СНГ в области станкостроения и металлообработки, ежегодно объединяющее ведущих игроков отрасли на одной площадке.') ?></div>
