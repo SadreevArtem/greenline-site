@@ -8,6 +8,64 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '290925' => [
+        'id' => '300825',
+        'title' => Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') . '</h2>
+                                <span class="time">30.09.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_29.jpg" alt="' . Yii::t('main', 'ДGreenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'Одним из основных направлений Green Line Offshore & Marine является проектирование, сервисное обслуживание и поставка Выносных Причальных Устройств (ВПУ) как полностью в сборе, так и поставка узлов и деталей для проведения ремонтов и замены ранее изношенных. В наличии у компании Greenline International (GLI) имеется ВПУ производства компании Bluewater, готовое к эксплуатации.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_29.jpg" alt="' . Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') . '"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        '
+    ],
+    '300825' => [
+        'id' => '300825',
+        'title' => Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»') . '</h2>
+                                <span class="time">30.08.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_28.jpg" alt="' . Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'Компания Greenline произвела отгрузку морских шлангов арктического класса производства Dunlop Oil & Marine (Великобритания). Особенностью шлангов является специально разработанная для арктического терминала конструкция компанией Dunlop способная выдерживать рабочие температуры до минус 50 Градусов. Проект погрузки разработан совместно с компанией Bluewater (Нидерланды) и компанией MacGregor (Норвегия). Проект «Ворота Арктики» не имеет аналогов в мире как по климатическим параметрам, так и по рабочим характеристикам. Компания Greenline готова предоставить шланги производства компании Dunlop арктического класса в аренду из наличия со склада в г. Санкт-Петербург, так и изготовить по необходимым параметрам.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_28.jpg" alt="' . Yii::t('main', 'Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»') . '"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        '
+    ],
     '300725' => [
         'id' => '300725',
         'title' => Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане'),

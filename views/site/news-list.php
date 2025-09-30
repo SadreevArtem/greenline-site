@@ -44,6 +44,28 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">29.09.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline Offshore & Marine совместно с компанией Bluewater (Нидерланды) подготовили для складских нужд Выносное Причальное Устройство (CALM Buoy terminal). ВПУ можно приобрести непосредственно со клада компании Greenline в Омане, все проверки ABS пройдены, данные работоспособности и оригинальность производства верфей подтверждена.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/290925'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_29.jpg" alt="<?php echo Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
+					<span class="time">30.08.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Greenline произвела отгрузку морских шлангов арктического класса производства Dunlop Oil & Marine (Великобритания). Особенностью шлангов является специально разработанная для арктического терминала конструкция компанией Dunlop способная выдерживать рабочие температуры до минус 50 Градусов.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/300825'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_28.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline произвел отгрузку арктических шлангов для проекта «Ворота Арктики»') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">30.07.2025</span>
 					<h2 class="title text-break"><?php echo Yii::t('main', 'Greenline International (GLI) ведёт переговоры о строительстве завода в Омане') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline International (GLI) провёл первые переговоры с Министерством промышленности Султаната Оман о строительстве завода по производству морских шлангов Greenline Hoses ©️ в специальной экономической зоне Сохар Фризон.') ?></div>
