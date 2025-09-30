@@ -37,6 +37,48 @@ $pages = [
             </section>
         '
     ],
+    '260925' => [
+        'id' => '260925',
+        'title' => Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»') . '</h2>
+                                <span class="time">26.09.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_30.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»') . '"></div>
+                                <p class="text-justify">' . Yii::t('main', 'С 23 по 26 сентября 2025 года наши сотрудники приняли участие в 18-й Международной выставке и конференции «НЕВА 2025», проходящей в Санкт-Петербурге, в современном КВЦ «Экспофорум». Это одно из крупнейших мероприятий мирового уровня в области гражданского судостроения и судоходства. Выставка «НЕВА», проводимая с 1990 года раз в два года, заслуженно входит в число 10 крупнейших мировых выставок морской отрасли и является признанной международной площадкой для обмена опытом и установления деловых контактов. Наше участие в «НЕВА 2025» стало важным шагом в укреплении позиций компании на рынке, расширении партнерских связей и продвижении наших решений в области морских технологий.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_30.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»') . '"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+             <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'НЕВА 2025') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/neva/neva1.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-2">' . Html::img('/img/neva/neva2.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-3">' . Html::img('/img/neva/neva3.jpg', ['alt' => '']) . '</div>
+                              <div class="item item-4">' . Html::img('/img/neva/neva4.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
     '300821' => [
         'id' => '300821',
         'title' => Yii::t('main', 'Департамент Greenline Offshore & Marine произвел отгрузку арктических шлангов для проекта «Ворота Арктики»'),
