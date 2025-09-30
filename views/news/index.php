@@ -8,8 +8,8 @@
 use app\components\helpers\Html;
 
 $pages = [
-    '300925' => [
-        'id' => '300925',
+    '290925' => [
+        'id' => '290925',
         'title' => Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)'),
         'meta' => [
             'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)'),
