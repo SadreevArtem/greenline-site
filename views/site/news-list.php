@@ -44,6 +44,17 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">07.10.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Наши сотрудники приняли участие в одном из ведущих бизнес-мероприятий в газовой отрасли. Форум собрал свыше 34 000 участников из 54 стран, более 600 экспонентов, более 110 событий деловой программы. Это отличная возможность обменяться опытом, познакомиться с инновациями и укрепить партнёрские связи.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/071025'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_31.jpg" alt="<?php echo Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">29.09.2025</span>
 					<h2 class="title text-break"><?php echo Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Департамент Greenline Offshore & Marine совместно с компанией Bluewater (Нидерланды) подготовили для складских нужд Выносное Причальное Устройство (CALM Buoy terminal). ВПУ можно приобрести непосредственно со клада компании Greenline в Омане, все проверки ABS пройдены, данные работоспособности и оригинальность производства верфей подтверждена.') ?></div>
@@ -61,7 +72,7 @@ $this->registerMetaTag([
 					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/260925'], ['class' => 'btn btn-success more-btn']) ?>
 				</div>
 				<div class="right">
-					<img src="/img/news/news_30.jpg" alt="<?php echo Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)') ?>">
+					<img src="/img/news/news_30.jpg" alt="<?php echo Yii::t('main', 'Сотрудники компании Greenline посетили международную выставку «НЕВА 2025»') ?>">
 				</div>
 			</div>
 			<div class="item">

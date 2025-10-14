@@ -8,6 +8,56 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '071025' => [
+        'id' => '071025',
+        'title' => Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме') . '</h2>
+                                <span class="time">07.10.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_31.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'С 7 по 10 октября 2025 года наши сотрудники приняли участие в Петербургском Международном Газовом Форуме (ПМГФ 2025) — одном из крупнейших и наиболее авторитетных мероприятий газовой отрасли России и мира. Форум традиционно проходил в Санкт-Петербурге, в современном конгрессно-выставочном центре «Экспофорум», и собрал ведущих представителей компаний, отраслевых экспертов, научных институтов и государственных структур.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'В этом году в работе форума приняли участие более 34 000 специалистов из 54 стран мира. Экспозиция включала свыше 600 компаний-экспонентов и занимала около 50 000 квадратных метров выставочных площадей.') . '</p>
+
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_31.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме') . '"></div>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-12 mt-lg-0">
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Петербургский Международный Газовый Форум проводится с 2011 года и за время своего существования стал важнейшей площадкой для диалога между профессионалами отрасли. Сегодня ПМГФ входит в число крупнейших международных конгрессно-выставочных проектов в сфере энергетики, объединяя производителей, инжиниринговые компании, поставщиков оборудования, сервисных операторов и представителей регулирующих органов.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'В течение форума наши сотрудники приняли участие в деловых встречах, профильных конференциях и тематических обсуждениях, где представили возможности компании и ознакомились с последними тенденциями в области добычи, транспортировки и переработки газа. Участие в ПМГФ стало отличной возможностью укрепить деловые связи, обменяться опытом с ведущими экспертами и установить новые контакты с партнёрами и заказчиками.') . '</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'ПМГФ 2025') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/pmgf/pmgf_1.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/pmgf/pmgf_3.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/pmgf/pmgf_2.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/pmgf/pmgf_4.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/pmgf/pmgf_5.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
     '290925' => [
         'id' => '290925',
         'title' => Yii::t('main', 'Greenline International (GLI) изготовил для складских нужд Выносное Причальное Устройство (ВПУ/CALM Buoy)'),

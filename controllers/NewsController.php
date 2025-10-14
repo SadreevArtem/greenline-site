@@ -35,7 +35,8 @@ class NewsController extends FrontendController
             '060625',
             '300821',
             '260925',
-            '290925'
+            '290925',
+            '071025'
         ])) {
             throw new NotFoundHttpException(\Yii::t('main', 'Страница не найдена'));
         }
