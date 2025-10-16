@@ -26,6 +26,7 @@ class NewsController extends FrontendController
             '160418',
             '160419',
             '270225',
+            '200525',
             '290421',
             '140221',
             '250325',

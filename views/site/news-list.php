@@ -121,6 +121,17 @@ $this->registerMetaTag([
 			</div>
 			<div class="item">
 				<div class="left">
+					<span class="time">20.05.2025</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Департамент Greenline Space © разработал модель БПЛА GLV-2000') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Greenline Space © разработал модель БПЛА GLV-2000 для нужд Российских потребителей двухвинтовой БПЛА грузоподьемностью до 300 кг, временем полета до 12 часов, и для работы в условиях Арктики при температурах до минус 50 градусов цельсия.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/200525'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_32.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline реестр судостроительного кластера Калининградской области') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">16.04.2025</span>
 					<h2 class="title"><?php echo Yii::t('main', 'Компания Greenline вступила в Калининградскую ТПП и начала активное участие в деловой повестке региона') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Greenline стала членом Калининградской торгово-промышленной палаты — крупнейшего бизнес-сообщества региона. Участие в заседаниях комитетов, новые деловые связи и обучающие семинары расширяют возможности компании на всех уровнях.') ?></div>
