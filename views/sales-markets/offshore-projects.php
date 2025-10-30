@@ -68,6 +68,22 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
 				<div class="col-md-6 col-12">
+					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Трубоукладочные системы') ?></h3>
+					<div class="content">
+						<p class="text-justify"><?php echo Yii::t('main', 'Компания Greenline специализируется на поставке интегрированных систем укладки труб, включая технологии Flex-lay, S-lay, J-lay, Reel-lay, а также их комбинации — системы Multi-lay. Кроме того, мы предоставляем полный спектр сопутствующего автономного оборудования: системы привода барабанов, корзины, системы аварийного восстановления (A&R) и другие компоненты.') ?></p>
+						<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/sales-markets/offshore-projects/plet'], ['class' => 'btn btn-success more-btn']) ?>
+					</div>
+				</div>
+				<div class="col-md-6 col-12">
+					<div class="img-container">
+						<img src="/img/sales-markets/plet.jpg" alt="<?php echo Yii::t('main', 'Трубоукладочные системы') ?>">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-10 offset-lg-1 col-12">
+			<div class="row item-container">
+				<div class="col-md-6 col-12 order-md-2">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Аренда технологического оборудования') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Наша компания предоставляет в аренду современное технологическое оборудование для шельфовых проектов и морских портов. В наличии широкий выбор специализированной техники, включая подъёмные механизмы, буровые установки, насосные станции и морские шланги для перегрузки нефтепродуктов и других жидкостей. Мы гарантируем надежность, своевременное обслуживание и поддержку на всех этапах аренды.') ?></p>
@@ -83,7 +99,7 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
-				<div class="col-md-6 col-12 order-md-2">
+				<div class="col-md-6 col-12">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Проектирование, изготовление и поставка ВПУ') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Мы занимаемся комплексным проектированием, производством и поставкой выносных причальных устройств (ВПУ) для шельфовых проектов и морских портов. Наши решения обеспечивают безопасную и эффективную швартовку судов в различных эксплуатационных условиях. Используем только высококачественные материалы и современные технологии, гарантируя надежность и долговечность оборудования.') ?></p>
@@ -99,7 +115,7 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
-				<div class="col-md-6 col-12">
+				<div class="col-md-6 col-12 order-md-2">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Проектирование, изготовление и поставка cтационарных отгрузочных терминалов') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Наша компания разрабатывает, производит и поставляет стационарные отгрузочные терминалы для шельфовых проектов и морских портов. Мы предлагаем комплексные решения для эффективной погрузки и разгрузки нефтепродуктов, сжиженного газа и других грузов. Оборудование соответствует высоким стандартам безопасности и надежности, обеспечивая бесперебойную работу в сложных эксплуатационных условиях.') ?></p>
@@ -115,7 +131,7 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
-				<div class="col-md-6 col-12 order-md-2">
+				<div class="col-md-6 col-12">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Поставка технологического морского оборудования') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Мы занимаемся поставкой современного технологического оборудования для шельфовых проектов и морских портов. В ассортименте – грузоподъемные механизмы, швартовочные системы, насосные станции, выносные причальные устройства (ВПУ) и другое специализированное оборудование. Обеспечиваем высокое качество, соответствие международным стандартам и поддержку на всех этапах эксплуатации.') ?></p>
@@ -131,7 +147,7 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
-				<div class="col-md-6 col-12">
+				<div class="col-md-6 col-12 order-md-2">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Сервисное обслуживание') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Мы предоставляем полный комплекс сервисного обслуживания технологического оборудования для шельфовых проектов и морских портов. Наши услуги включают диагностику, техническое обслуживание, ремонт и модернизацию оборудования. Гарантируем оперативный выезд специалистов, использование оригинальных запчастей и высокий уровень надежности оборудования на протяжении всего срока эксплуатации.') ?></p>
@@ -147,7 +163,7 @@ $this->registerMetaTag([
 		</div>
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="row item-container">
-				<div class="col-md-6 col-12 order-md-2">
+				<div class="col-md-6 col-12">
 					<h3 class="h4 font-weight-bold scaled-text"><?php echo Yii::t('main', 'Склад собственной продукции') ?></h3>
 					<div class="content">
 						<p class="text-justify"><?php echo Yii::t('main', 'Мы располагаем собственным складом продукции, что позволяет обеспечить оперативные поставки технологического оборудования для шельфовых проектов и морских портов. В наличии широкий ассортимент готового оборудования и комплектующих, что сокращает сроки выполнения заказов и гарантирует бесперебойное снабжение наших клиентов.') ?></p>

@@ -24,6 +24,7 @@ class SalesMarketsController extends FrontendController
         'construction',
         'supply',
         'stu',
+        'plet',
         'bpla'
     ];
 
