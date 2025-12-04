@@ -45,6 +45,54 @@ $pages = [
             </section>
         '
     ],
+    '311025' => [
+        'id' => '311025',
+        'title' => Yii::t('main', 'Сотрудники компании Greenline приняли участие в конференции «Подряды на нефтегазовом шельфе» (НЕФТЕГАЗШЕЛЬФ-2025)'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Сотрудники компании Greenline приняли участие в конференции «Подряды на нефтегазовом шельфе» (НЕФТЕГАЗШЕЛЬФ-2025)'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в конференции «Подряды на нефтегазовом шельфе» (НЕФТЕГАЗШЕЛЬФ-2025)') . '</h2>
+                                <span class="time">31.10.2025</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_35.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в конференции «Подряды на нефтегазовом шельфе» (НЕФТЕГАЗШЕЛЬФ-2025)') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'С 30 по 31 октября 2025 года в Москве (отель Continental) прошла XVIII конференция «Подряды на нефтегазовом шельфе» — НЕФТЕГАЗШЕЛЬФ-2025, организованная соответствующей отраслевой ассоциацией.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'В ходе сессий обсуждались ключевые темы: текущее состояние и перспективы развития шельфовых проектов России, импортозамещение оборудования, снабжение инфраструктурных и шельфовых проектов, логистика, автоматизация снабжения плавучих буровых установок, модернизация судов обеспечения и специализированного флота.') . '</p>
+
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_35.jpg" alt="' . Yii::t('main', 'Сотрудники компании Greenline приняли участие в конференции «Подряды на нефтегазовом шельфе» (НЕФТЕГАЗШЕЛЬФ-2025)') . '"></div>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-12 mt-lg-0">
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Сотрудники Greenline приняли активное участие в конференции, представив нашу экспертизу и укрепив деловые контакты с ведущими игроками отрасли. Участие включало знакомство с передовыми техническими решениями для шельфовых и морских проектов, а также обсуждение логистических и снабженческих задач, что напрямую соответствует задачам «Гринлайн» в части поставок, судостроения и сервисного обслуживания.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Мы рассматриваем своё участие в НЕФТЕГАЗШЕЛЬФ-2025 как важную ступень для дальнейшего развития: полученные знания и контакты позволят Greenline эффективнее участвовать в проектах на шельфе, предлагать современные решения и оперативно реагировать на потребности отрасли.') . '</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'НЕФТЕГАЗШЕЛЬФ-2025') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/ngk/ngk1.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/ngk/ngk2.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/ngk/ngk3.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
     '071025' => [
         'id' => '071025',
         'title' => Yii::t('main', 'Сотрудники компании Greenline приняли участие в Петербургском Международном Газовом Форуме'),
