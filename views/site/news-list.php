@@ -44,6 +44,17 @@ $this->registerMetaTag([
 		<div class="col-lg-10 offset-lg-1 col-12">
 			<div class="item">
 				<div class="left">
+					<span class="time">26.01.2026</span>
+					<h2 class="title text-break"><?php echo Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»') ?></h2>
+					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Greenline удостоена почётного статуса «Лучшее предприятие отрасли 2025» по итогам ежегодного экспертного анализа, проводимого Центром аналитических исследований. Награда присуждена за значительный вклад в социально-экономическое развитие региона и устойчивые финансово-экономические показатели.') ?></div>
+					<?php echo Html::a(Yii::t('main', 'Подробнее'), ['/news/260126'], ['class' => 'btn btn-success more-btn']) ?>
+				</div>
+				<div class="right">
+					<img src="/img/news/news_36.jpg" alt="<?php echo Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»') ?>">
+				</div>
+			</div>
+			<div class="item">
+				<div class="left">
 					<span class="time">30.11.2025</span>
 					<h2 class="title text-break"><?php echo Yii::t('main', 'Компания Greenline приступила к проработке доставки складского буя для Морского терминала КТК') ?></h2>
 					<div class="text text-justify"><?php echo Yii::t('main', 'Компания Greenline оперативно включилась в работу по обеспечению Морского терминала КТК складским буем собственного производства. Решение о поставке было принято в связи с повреждением выносного причального устройства ВПУ-2 в результате террористической атаки 29 ноября 2025 года.') ?></div>

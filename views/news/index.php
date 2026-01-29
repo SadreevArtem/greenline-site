@@ -8,6 +8,51 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '260126' => [
+        'id' => '260126',
+        'title' => Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»') . '</h2>
+                                <span class="time">26.01.2026</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_37.jpg" alt="' . Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'За весомый вклад в социально-экономическое развитие региона, приоритетность среди предприятий отрасли и превосходную динамику развития Greenline получила статус «Лучшее предприятие отрасли 2025». Экспертный анализ проводит ежегодно «Центр аналитических исследований» на основании финансово-экономических показателей предприятий отрасли, по итогам которого Greenline вошла в Рейтинг устойчивых и динамично развивающихся предприятий. Также компания Greenline вошла в группу ААА - Предприятия наивысшей категории надёжности. Результат исследования может свидетельствовать о надежности и приоритетности организации при сотрудничестве.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_36.jpg" alt="' . Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»') . '"></div>
+                            </div>
+                        </div>
+                         <div class="row">
+                            <div class="col-12 mt-lg-2">
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Поздравляем нашу команду профессионалов с заслуженной наградой и благодарим всех наших клиентов, признание которых позволило нашей компании стать одним из лучших в своей отрасли! Мы уверены, что это только одна из ступенек, ведущая к покорению новых горизонтов!') . '</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="our-brands" class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <h2 class="up-line green">' . Yii::t('main', 'Greenline-2025') . '</h2>
+                        <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/bk/bk_1.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/bk/bk_2.jpg', ['alt' => '']) . '</div>
+                          <div class="item item-1">' . Html::img('/img/bk/bk_3.jpg', ['alt' => '']) . '</div>
+                        </div>
+                    </div>
+        
+            </section>
+        '
+    ],
     '301125' => [
         'id' => '301125',
         'title' => Yii::t('main', 'Компания Greenline приступила к проработке доставки складского буя для Морского терминала КТК'),
