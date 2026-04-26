@@ -7,9 +7,9 @@ $(function () {
         $(document).height() - 700
       ) {
         $("#YaMaps").html(
-          '<iframe src="https://yandex.ru/map-widget/v1/?ll=20.875769%2C54.695048&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE0OTQwMhIk0KDQvtGB0YHQuNGPLCDQmtCw0LvQuNC90LjQvdCz0YDQsNC0IgoNwxSkQRU011pC&z=9.06' +
+          '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c7197ad5e4a1d80b17547e239e088798f966b7fff2a67b416a7f6c899e0030c&amp;source=constructor&lang=' +
             window.mapLanguage +
-            '" width="100%" height="300" frameborder="0"></iframe>'
+            '" width="100%" height="300" frameborder="0"></iframe>',
         );
         YaMapsShown = true;
       }
@@ -73,7 +73,7 @@ $(function () {
         } else {
           console.log(response);
         }
-      }
+      },
     );
   });
   $("#footer-subscribe-form").submit(function (e) {
@@ -92,7 +92,7 @@ $(function () {
         } else {
           console.log(response);
         }
-      }
+      },
     );
   });
 });
