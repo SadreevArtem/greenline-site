@@ -8,6 +8,42 @@
 use app\components\helpers\Html;
 
 $pages = [
+    '150526' => [
+        'id' => '150526',
+        'title' => Yii::t('main', 'Компания «Гринлайн» присоединилась к системе «Честный знак»'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Компания «Гринлайн» присоединилась к системе «Честный знак»'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Компания «Гринлайн» присоединилась к системе «Честный знак»') . '</h2>
+                                <span class="time">15.05.2026</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_37.jpg" alt="' . Yii::t('main', 'Компания «Гринлайн» присоединилась к системе «Честный знак»') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Компания «Гринлайн» официально присоединилась к национальной системе цифровой маркировки и прослеживаемости товаров «Честный знак».') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Теперь наша продукция маркируется и отслеживается в полном соответствии с действующими требованиями, что обеспечивает дополнительную прозрачность на всех этапах движения продукции и подтверждает её подлинность.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Подключение к системе «Честный знак» — важный шаг в развитии компании, направленный на повышение уровня доверия со стороны партнёров и клиентов, а также обеспечение высокого качества продукции и соответствия современным отраслевым стандартам.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Мы продолжаем совершенствовать процессы и внедрять решения, которые делают сотрудничество с нами ещё более надёжным и прозрачным.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_38.jpg" alt="' . Yii::t('main', 'Компания «Гринлайн» присоединилась к системе «Честный знак»') . '"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-6 mx-auto px-lg-0 mb-4 mb-lg-0">
+                                        <div class="">
+                                            <img class="stretched-img" src="/img/news/news_39.jpg" alt="<?php echo Yii::t("main", "Шельфовые проекты и морские порты") ?>
+                                        </div>
+                                    </div>
+                </div>
+            </section>
+        '
+    ],
     '260126' => [
         'id' => '260126',
         'title' => Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»'),

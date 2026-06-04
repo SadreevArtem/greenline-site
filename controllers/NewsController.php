@@ -10,6 +10,7 @@ class NewsController extends FrontendController
     public function actionIndex($id)
     {
         if (!in_array($id, [
+            '150526',
             '250525',
             '260525',
             '160420',
