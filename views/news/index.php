@@ -44,6 +44,56 @@ $pages = [
             </section>
         '
     ],
+    '160326' => [
+        'id' => '160326',
+        'title' => Yii::t('main', 'Компания «Гринлайн» приняла участие в Конгрессе NEFT 4.0 2026'),
+        'meta' => [
+            'description' => Yii::t('main', 'Greenline - ') . Yii::t('main', 'Компания «Гринлайн» приняла участие в Конгрессе NEFT 4.0 2026'),
+            'keywords' => Yii::t('main', 'новости компании'),
+            'robots' => 'index, follow',
+        ],
+        'content' => '
+            <section id="news-item" class="container no-copy">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <h2 class="up-line green text-break">' . Yii::t('main', 'Компания «Гринлайн» приняла участие в Конгрессе NEFT 4.0 2026') . '</h2>
+                                <span class="time">16.03.2026</span>
+                                <div class="item-img d-block d-md-none"><img src="/img/news/news_37.jpg" alt="' . Yii::t('main', 'Компания «Гринлайн» приняла участие в Конгрессе NEFT 4.0 2026') . '"></div>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', '16–17 марта в Санкт-Петербурге состоялся Конгресс NEFT 4.0 2026 — одно из ключевых отраслевых мероприятий, посвящённых цифровой трансформации нефтегазового сектора.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Мероприятие объединило представителей нефтегазовых компаний, IT-разработчиков, системных интеграторов и инжиниринговых команд для обсуждения актуальных вопросов развития отрасли.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'В рамках деловой программы участники рассмотрели вопросы цифровизации производственных процессов, внедрения технологий искусственного интеллекта и аналитики данных, обеспечения технологической независимости, промышленной и кибербезопасности, а также перехода от пилотных проектов к масштабному внедрению цифровых решений.') . '</p>
+                                <p style="text-indent:20px;" class="text-justify">' . Yii::t('main', 'Компания «Гринлайн» также приняла участие в Конгрессе, получив возможность обменяться опытом с представителями отрасли, ознакомиться с актуальными технологическими трендами и обсудить перспективы дальнейшего развития и сотрудничества.') . '</p>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="item-img d-md-block d-none"><img src="/img/news/news_40.jpg" alt="' . Yii::t('main', 'Компания «Гринлайн» приняла участие в Конгрессе NEFT 4.0 2026') . '"></div>
+                            </div>
+                        </div>
+                         <div class="row mt-4">
+                            <div class="col-lg-10 offset-lg-1 col-12">
+                            <h2 class="up-line green">' . Yii::t('main', 'NEFT 4.0') . '</h2>
+                            <div class="our-brands-carousel owl-carousel owl-theme">
+                            <div class="item item-1">' . Html::img('/img/neft/neft1.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-1">' . Html::img('/img/neft/neft2.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-1">' . Html::img('/img/neft/neft3.jpg', ['alt' => '']) . '</div>
+                            <div class="item item-1">' . Html::img('/img/neft/neft4.jpg', ['alt' => '']) . '</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-lg-4 mt-3">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://rutube.ru/play/embed/bec0b9d7e60a2d84bbbf7ccc8eb1ff36/" frameborder="0" allow="clipboard-write; autoplay" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                         </div>
+                    </div>
+                </div>
+            </section>
+        '
+    ],
     '260126' => [
         'id' => '260126',
         'title' => Yii::t('main', 'Greenline признана «Лучшим предприятием отрасли 2025»'),

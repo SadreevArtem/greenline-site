@@ -11,6 +11,7 @@ class NewsController extends FrontendController
     {
         if (!in_array($id, [
             '150526',
+            '160326',
             '250525',
             '260525',
             '160420',
