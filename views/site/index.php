@@ -22,16 +22,19 @@ $this->registerMetaTag([
 <header id="header" class="container-fluid no-copy">
 	<div class="row">
 		<div class="item w-100">
-			<img class="w-100 back-img d-none d-md-block" src="/img/header_img_test2.jpg" alt="header_1">
-			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_test2.jpg" alt="header_1">
+			<img class="w-100 back-img d-none d-md-block" src="/img/header_img_test3.jpeg" alt="header_1">
+			<img class="w-100 back-img d-block d-md-none" src="/img/header_img_test3.jpeg" alt="header_1">
 			<div class="desc">
 				<div class="row">
-					<div class="col-10">
+					<div class="col-12 mb-lg-4">
 						<div class="row">
 							<div class="col-12">
-								<h1 class="title"><?php echo Yii::t('main', 'Оснащение и модернизация <br> ведущих отраслей промышленности') ?></h1>
+								<h1 class='hero-title'><?php echo Yii::t('main', 'Мы единственные, кто думает о ваших будущих проблемах.') ?></h1>
 							</div>
-							<div class="col-12"><span class="text"><?php echo Yii::t('main', 'России и СНГ, не имеющим отечественных аналогов высококачественным оборудованием из Европы и США') ?></span></div>
+							<div class="col-12">
+								<span class="text"><?php echo Yii::t('main', 'Мы всё знаем и всё решим. Ваш менеджмент давно устарел, а директор по развитию (если он у вас есть) вводит вас в заблуждение. Ваш последний шанс — доверить управление нам.') ?></span>
+								<!-- <span class="signature"><?php echo Yii::t('main', 'GR') ?></span> -->
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-2 d-flex justify-content-md-end justify-content-start align-items-end">
@@ -85,7 +88,7 @@ $this->registerMetaTag([
 							<?php echo Html::a(Yii::t('main', 'УЗНАТЬ БОЛЬШЕ О НАС'), ['/about'], ['class' => 'btn btn-default more-btn']) ?>
 						</div>
 						<div class="col-6 col-lg-6 col-md-7 col-12">
-							<img class="d-none d-md-block h-100 w-100" src="/img/about_company.jpg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
+							<img class="d-none d-md-block h-100 w-100" src="/img/about_company_3.jpeg" alt="<?php echo Yii::t('main', 'Компания Greenline') ?>">
 						</div>
 					</div>
 				</div>

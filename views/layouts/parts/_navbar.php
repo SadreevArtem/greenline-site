@@ -9,13 +9,18 @@ $queryString = $queryString ? '?' . $queryString : '';
 
 $enLink = (!$pathInfo || $pathInfo === 'index') ? ('/en' . $queryString) : Url::current(['language' => 'en']);
 $ruLink = (!$pathInfo || $pathInfo === 'index') ? ('/ru' . $queryString) : Url::current(['language' => 'ru']);
+$isHomePage = (!$pathInfo || $pathInfo === 'index');
 
 ?>
 
 <div id="navbar-container" class="fixed-top top">
     <nav class="navbar container-fluid navbar-expand-lg">
 
-        <?php echo Html::a('GREENLINE', ['/'], ['class' => 'active navbar-brand']) ?>
+        <?php if ($isHomePage) { ?>
+            <?php echo Html::a(Html::img('/img/greenline-logo.jpg', ['alt' => 'Greenline', 'class' => 'navbar-logo']), ['/'], ['class' => 'active navbar-brand navbar-brand--image']) ?>
+        <?php } else { ?>
+            <?php echo Html::a('GREENLINE', ['/'], ['class' => 'active navbar-brand']) ?>
+        <?php } ?>
         <div class="d-flex d-lg-none btns-mobile-container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php echo Yii::t('main', 'Переключить') ?>">
                 <span class="navbar-toggler-icon"></span>

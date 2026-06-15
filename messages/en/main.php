@@ -1,5 +1,7 @@
 <?php
 return [
+    'Мы единственные, кто думает о ваших будущих проблемах.' => 'We are the only ones thinking about the problems you may face in the future.',
+    'Мы всё знаем и всё решим. Ваш менеджмент давно устарел, а директор по развитию (если он у вас есть) вводит вас в заблуждение. Ваш последний шанс — доверить управление нам.' => 'We know everything and will solve everything. Your management is long outdated, and your business development director (if you have one) is misleading you. Your last chance is to entrust management to us.',
     'Подписаться на рассылку' => 'Subscribe',
     'Ваша электронная почта' => 'Your email',
     'Оставить заявку' => 'Submit your request',
