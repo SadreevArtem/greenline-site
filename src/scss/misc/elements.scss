@@ -249,7 +249,7 @@ section {
   background: #fff;
   @media (max-width: $screen-xs-1) {
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
   }
 
   .navbar {
@@ -258,7 +258,9 @@ section {
     padding-top: 29px;
     padding-left: 0;
     padding-right: 0;
-    transition: 0.3s, 0.1s border-bottom-width;
+    transition:
+      0.3s,
+      0.1s border-bottom-width;
     position: relative;
     .navbar-toggler {
       margin-left: 20px;
