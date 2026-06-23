@@ -12,7 +12,7 @@ use app\components\helpers\Html;
 			</div>
 			<span class="brand-name">
 				GREENLINE
-				<span class="copyright">&copy; Greenline 2010 - 2025</span>
+				<span class="copyright">&copy; Greenline 2010 - 2026</span>
 			</span>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">

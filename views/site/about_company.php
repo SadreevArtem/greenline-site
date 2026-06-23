@@ -49,7 +49,7 @@ $this->registerMetaTag([
 				<br>
 				电邮：<a href="mailto:info@greenlinerussia.com">info@greenlinerussia.com</a>
 				<br>
-				电话: <a href="tel:+74012926962">+7(4012)-92-69-62</a>
+				电话: <a href="tel:+74012994847">+7 (4012) 994 847</a>
 			</div>
 		</div>
 	</div>
