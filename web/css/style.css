@@ -11271,22 +11271,30 @@ body.index #provide .provide-list .item img {
   margin-bottom: 18px;
 }
 body.index #about {
-  /* background-color: #3A651D; */
-  background: linear-gradient(to bottom, #10e1c4, #10e1c4, #0a8070, #05373f);
+  color: #172411;
+  background: linear-gradient(135deg, #e3eddc 0%, #f7faf5 48%, #d4e4ca 100%);
+  border-top: 1px solid #c7d8bd;
+  border-bottom: 1px solid #c7d8bd;
+  box-shadow:
+    inset 0 32px 80px rgba(58, 101, 29, 0.08),
+    inset 0 -32px 80px rgba(58, 101, 29, 0.06);
 }
 body.index #about h2 {
-  color: #fff;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.81);
+  color: #172411;
+  text-shadow: none;
 }
 body.index #about p {
-  font-weight: 500;
-  color: #fff;
+  color: #293526;
+  font-weight: 400;
 }
 body.index #about .more-btn {
   font-size: 11px;
   font-weight: 600;
   padding: 10px 15px;
   margin-top: 20px;
+  border-color: rgb(58, 101, 29);
+  color: rgb(58, 101, 29);
+  background: #fff;
 }
 @media (max-width: 767px) {
   body.index #about .more-btn {
@@ -11898,11 +11906,17 @@ body.about #in-numbers .item .bold {
   font-weight: bold;
 }
 body.about #exhibitions {
-  background: linear-gradient(to bottom, #10e1c4, #10e1c4, #0a8070, #05373f);
+  background: linear-gradient(
+    to bottom,
+    #243f12 0%,
+    #3a651d 35%,
+    #5f9d35 75%,
+    #7dbc4d 100%
+  );
 }
 body.about #exhibitions h2 {
   color: #ffffff;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.81);
+  text-shadow: none;
 }
 @media (max-width: 767px) {
   body.about #exhibitions {

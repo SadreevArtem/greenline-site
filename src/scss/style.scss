@@ -96,15 +96,29 @@ body.index {
   }
 
   #about {
-    background-color: $main-green-1;
+    color: #172411;
+    background: linear-gradient(135deg, #e3eddc 0%, #f7faf5 48%, #d4e4ca 100%);
+    border-top: 1px solid #c7d8bd;
+    border-bottom: 1px solid #c7d8bd;
+    box-shadow:
+      inset 0 32px 80px rgba(58, 101, 29, 0.08),
+      inset 0 -32px 80px rgba(58, 101, 29, 0.06);
     p {
-      font-weight: 500;
+      color: #293526;
+      font-weight: 400;
+    }
+    h2 {
+      color: #172411;
+      text-shadow: none;
     }
     .more-btn {
       font-size: 11px;
       font-weight: 600;
       padding: 10px 15px;
       margin-top: 20px;
+      border-color: rgb(58, 101, 29);
+      color: rgb(58, 101, 29);
+      background: #fff;
       @media (max-width: $screen-sm-1) {
         margin-top: 10px;
       }
@@ -566,7 +580,13 @@ body.index {
     }
     .request-form-container {
       padding: 50px 10px;
-      background-image: url("/img/landing/request_form_back.jpg");
+      background: linear-gradient(
+        to bottom,
+        #243f12 0%,
+        $main-green-1 35%,
+        #5f9d35 75%,
+        #7dbc4d 100%
+      );
       background-size: cover;
       background-repeat: no-repeat;
       h5 {
@@ -690,7 +710,16 @@ body.about {
     }
   }
   #exhibitions {
-    background-color: $main-green-1;
+    background: linear-gradient(
+      to bottom,
+      #243f12 0%,
+      $main-green-1 35%,
+      #5f9d35 75%,
+      #7dbc4d 100%
+    );
+    h2 {
+      text-shadow: none;
+    }
     @media (max-width: $screen-sm-1) {
       padding-bottom: 65px;
     }
@@ -1291,7 +1320,13 @@ section#contacts {
   .right-block {
     padding: 33px 44px;
     width: 700px;
-    background-image: url("/img/landing/request_form_back.jpg");
+    background: linear-gradient(
+      to bottom,
+      #243f12 0%,
+      $main-green-1 35%,
+      #5f9d35 75%,
+      #7dbc4d 100%
+    );
     background-repeat: no-repeat;
     background-size: contain;
     @media (max-width: $screen-lg-1) {
@@ -1427,7 +1462,13 @@ body.contacts {
     }
     .request-form-container {
       padding: 50px 10px;
-      background-image: url("/img/landing/request_form_back.jpg");
+      background: linear-gradient(
+        to bottom,
+        #243f12 0%,
+        $main-green-1 35%,
+        #5f9d35 75%,
+        #7dbc4d 100%
+      );
       background-size: cover;
       background-repeat: no-repeat;
       h5 {
