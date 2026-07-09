@@ -1,4 +1,34 @@
 $(function () {
+  var cookieNotice = document.querySelector(".cookie-notice");
+  var cookieNoticeButton = document.querySelector("[data-cookie-notice-accept]");
+  var cookieNoticeStorageKey = "greenlineCookieNoticeAccepted";
+
+  function isCookieNoticeAccepted() {
+    try {
+      return localStorage.getItem(cookieNoticeStorageKey) === "true";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function acceptCookieNotice() {
+    try {
+      localStorage.setItem(cookieNoticeStorageKey, "true");
+    } catch (e) {}
+
+    if (cookieNotice) {
+      cookieNotice.classList.add("is-hidden");
+    }
+  }
+
+  if (cookieNotice && !isCookieNoticeAccepted()) {
+    cookieNotice.classList.remove("is-hidden");
+  }
+
+  if (cookieNoticeButton) {
+    cookieNoticeButton.addEventListener("click", acceptCookieNotice);
+  }
+
   YaMapsShown = false;
   $(window).scroll(function () {
     if (!YaMapsShown) {

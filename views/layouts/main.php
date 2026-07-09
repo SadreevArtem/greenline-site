@@ -92,7 +92,8 @@ $this->registerCss("
 		ym(99965115, "init", {
 			clickmap: true,
 			trackLinks: true,
-			accurateTrackBounce: true
+			accurateTrackBounce: true,
+			webvisor: false
 		});
 	</script>
 	<noscript>
@@ -108,6 +109,18 @@ $this->registerCss("
 		<?= $this->render('parts/_navbar') ?>
 		<?= $content; ?>
 		<?= $this->render('parts/_footer') ?>
+	</div>
+
+	<div class="cookie-notice is-hidden" role="dialog" aria-live="polite" aria-label="<?= Html::encode(Yii::t('main', 'Уведомление об использовании cookies')) ?>">
+		<div class="cookie-notice__content">
+			<div class="cookie-notice__text">
+				<strong><?= Html::encode(Yii::t('main', 'Мы используем cookies')) ?></strong>
+				<span><?= Html::encode(Yii::t('main', 'На сайте используются cookies и сервис Яндекс.Метрика для анализа посещаемости и улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием.')) ?></span>
+			</div>
+			<button class="cookie-notice__button" type="button" data-cookie-notice-accept>
+				<?= Html::encode(Yii::t('main', 'Понятно')) ?>
+			</button>
+		</div>
 	</div>
 
 	<?php if (!Yii::$app->request->pathInfo || Yii::$app->request->pathInfo === 'index') { ?>

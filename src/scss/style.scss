@@ -2355,3 +2355,108 @@ body {
     }
   }
 }
+
+.cookie-notice {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1035;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+
+  &.is-hidden {
+    display: none;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    max-width: 1120px;
+    padding: 18px 22px;
+    border: 1px solid #d7e2d0;
+    border-left: 4px solid var(--greenline-brand, #3a651d);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 16px 40px rgba(38, 51, 34, 0.16);
+    color: var(--greenline-text, #263322);
+    pointer-events: auto;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+
+    strong {
+      font-family: Play, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.2;
+      color: var(--greenline-brand, #3a651d);
+    }
+  }
+
+  &__button {
+    flex: 0 0 auto;
+    min-width: 116px;
+    min-height: 42px;
+    padding: 10px 20px;
+    border: 1px solid var(--greenline-brand, #3a651d);
+    border-radius: 4px;
+    background: var(--greenline-brand, #3a651d);
+    color: #fff;
+    font-family: Play, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      border-color: var(--greenline-brand-hover, #477b25);
+      background: var(--greenline-brand-hover, #477b25);
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: $screen-xs-1) {
+  .cookie-notice {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+
+    &__content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 14px;
+      padding: 16px;
+    }
+
+    &__text {
+      font-size: 13px;
+      text-align: justify;
+
+      strong {
+        font-size: 16px;
+        text-align: left;
+      }
+    }
+
+    &__button {
+      align-self: flex-end;
+      min-width: 96px;
+      min-height: 30px;
+      padding: 5px 14px;
+      font-size: 12px;
+    }
+  }
+}
