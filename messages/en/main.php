@@ -35,6 +35,8 @@ return [
     'Заявка успешно отправлена!' => 'The request has been successfully sent!',
     'Мы свяжемся с Вами в ближайшее время' => 'We will contact you soon',
     'Подписка на рассылку <br> успешно оформлена!' => 'Subscription to the newsletter <br> has been successfully completed!',
+    'Не удалось отправить заявку. Попробуйте позже или напишите на info@greenlinerussia.com.' => 'Could not send the request. Please try again later or email info@greenlinerussia.com.',
+    'Не удалось оформить подписку. Попробуйте позже или напишите на info@greenlinerussia.com.' => 'Could not complete the subscription. Please try again later or email info@greenlinerussia.com.',
     'Переключить' => 'Toggle',
     'О нас' => 'About',
     'Рынки сбыта' => 'Sales markets',

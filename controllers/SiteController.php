@@ -93,7 +93,7 @@ class SiteController extends FrontendController
         if (MailHelper::sendRequest($message, 'Новая заявка')) {
             return ['success' => true, 'message' => $message];
         } else {
-            return ['success' => false];
+            return ['success' => false, 'message' => Yii::t('main', 'Не удалось отправить заявку. Попробуйте позже или напишите на info@greenlinerussia.com.')];
         }
     }
 
@@ -120,7 +120,7 @@ class SiteController extends FrontendController
         if (MailHelper::sendRequest($message, 'Подписка на рассылку')) {
             return ['success' => true, 'message' => $message];
         } else {
-            return ['success' => false];
+            return ['success' => false, 'message' => Yii::t('main', 'Не удалось оформить подписку. Попробуйте позже или напишите на info@greenlinerussia.com.')];
         }
     }
 }

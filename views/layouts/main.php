@@ -72,6 +72,8 @@ $this->registerCss("
 
 	<script>
 		window.mapLanguage = '<?php echo Yii::$app->language === 'ru' ? 'ru_RU' : 'en_US' ?>'
+		window.requestFormErrorMessage = <?= \yii\helpers\Json::htmlEncode(Yii::t('main', 'Не удалось отправить заявку. Попробуйте позже или напишите на info@greenlinerussia.com.')) ?>
+		window.subscribeFormErrorMessage = <?= \yii\helpers\Json::htmlEncode(Yii::t('main', 'Не удалось оформить подписку. Попробуйте позже или напишите на info@greenlinerussia.com.')) ?>
 	</script>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">

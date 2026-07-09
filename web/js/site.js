@@ -87,11 +87,42 @@ $(function () {
   });
   $('[data-toggle="popover"]').popover();
 
+  function showFormMessage($form, message) {
+    var $message = $form.find(".form-message");
+
+    if (!$message.length) {
+      $message = $('<div class="form-message alert alert-danger col-12 mt-3 mb-0"></div>');
+      var $messageTarget = $form.find('button[type="submit"]').closest(".col-12");
+
+      if ($messageTarget.length) {
+        $messageTarget.after($message);
+      } else {
+        $form.append($message);
+      }
+    }
+
+    $message.text(message).show();
+  }
+
+  function clearFormMessage($form) {
+    $form.find(".form-message").hide().text("");
+  }
+
+  function setFormSending($form, isSending) {
+    var $button = $form.find('button[type="submit"]');
+    var $spinner = $button.find(".fa-spinner");
+
+    $button.prop("disabled", isSending);
+    $spinner.toggle(isSending);
+  }
+
   $(".request-form").submit(function (e) {
     e.preventDefault();
     e.stopPropagation();
 
     var $this = $(this);
+    clearFormMessage($this);
+    setFormSending($this, true);
 
     $.post(
       $(this).attr("action"),
@@ -101,16 +132,27 @@ $(function () {
           $("#success_modal").modal("show");
           $this.find("input, textarea").val("");
         } else {
-          console.log(response);
+          showFormMessage(
+            $this,
+            response.message || window.requestFormErrorMessage,
+          );
         }
       },
-    );
+    )
+      .fail(function () {
+        showFormMessage($this, window.requestFormErrorMessage);
+      })
+      .always(function () {
+        setFormSending($this, false);
+      });
   });
   $("#footer-subscribe-form").submit(function (e) {
     e.preventDefault();
     e.stopPropagation();
 
     var $this = $(this);
+    clearFormMessage($this);
+    setFormSending($this, true);
 
     $.post(
       $(this).attr("action"),
@@ -120,10 +162,19 @@ $(function () {
           $("#success_modal_subscribe").modal("show");
           $this.find("input, textarea").val("");
         } else {
-          console.log(response);
+          showFormMessage(
+            $this,
+            response.message || window.subscribeFormErrorMessage,
+          );
         }
       },
-    );
+    )
+      .fail(function () {
+        showFormMessage($this, window.subscribeFormErrorMessage);
+      })
+      .always(function () {
+        setFormSending($this, false);
+      });
   });
 });
 
