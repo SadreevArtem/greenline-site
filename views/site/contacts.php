@@ -63,34 +63,7 @@ $this->registerMetaTag([
 				</div>
 				<div class="right-block d-md-block d-none">
 					<div class="request-form-container">
-						<form action="/request" method="post" class="request-form">
-							<div class="row">
-								<h5 class="col-12"><?php echo Yii::t('main', 'Оставить заявку') ?></h5>
-								<div class="form-group col-6">
-									<input required type="text" class="form-control" name="request-form_name_1" placeholder="<?php echo Yii::t('main', 'Имя') ?>">
-									<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-								</div>
-								<div class="form-group col-6">
-									<input required type="text" class="form-control" name="request-form_name_2" placeholder="<?php echo Yii::t('main', 'Фамилия') ?>">
-									<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-								</div>
-								<div class="form-group col-12">
-									<input required type="email" class="form-control" name="request-form_email" placeholder="<?php echo Yii::t('main', 'Электронная почта') ?>">
-									<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-								</div>
-								<div class="form-group col-12">
-									<textarea placeholder="<?php echo Yii::t('main', 'Комментарий') ?>" class="form-control" name="request-form_comment" rows="1"></textarea>
-									<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-								</div>
-								<div id="captcha-1" class="captcha_container" data-id="1"></div>
-								<div class="col-12">
-									<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-										<?php echo Yii::t('main', 'Отправить') ?>
-										<i class="fas fa-spinner fa-spin" style="display: none;"></i>
-									</button>
-								</div>
-							</div>
-						</form>
+						<?= $this->render('//layouts/parts/_request_form', ['formId' => 'contacts-desktop']) ?>
 					</div>
 				</div>
 			</div>
@@ -120,34 +93,7 @@ $this->registerMetaTag([
 <section id="contacts-mobile" class="container d-block d-md-none">
 	<div class="row">
 		<div class="request-form-container">
-			<form action="/request" method="post" class="request-form">
-				<div class="row">
-					<h5 class="col-12"><?php echo Yii::t('main', 'Оставить заявку') ?></h5>
-					<div class="form-group col-12">
-						<input required type="text" class="form-control" name="request-form_name_1" placeholder="<?php echo Yii::t('main', 'Имя') ?>">
-						<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-					</div>
-					<div class="form-group col-12">
-						<input required type="text" class="form-control" name="request-form_name_2" placeholder="<?php echo Yii::t('main', 'Фамилия') ?>">
-						<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-					</div>
-					<div class="form-group col-12">
-						<input required type="email" class="form-control" name="request-form_email" placeholder="<?php echo Yii::t('main', 'Электронная почта') ?>">
-						<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-					</div>
-					<div class="form-group col-12">
-						<textarea placeholder="<?php echo Yii::t('main', 'Комментарий') ?>" class="form-control" name="request-form_comment" rows="3"></textarea>
-						<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-					</div>
-					<div id="captcha-1" class="captcha_container" data-id="1"></div>
-					<div class="col-12">
-						<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-							<?php echo Yii::t('main', 'Отправить') ?>
-							<i class="fas fa-spinner fa-spin" style="display: none;"></i>
-						</button>
-					</div>
-				</div>
-			</form>
+			<?= $this->render('//layouts/parts/_request_form', ['formId' => 'contacts-mobile', 'stacked' => true]) ?>
 		</div>
 	</div>
 </section>

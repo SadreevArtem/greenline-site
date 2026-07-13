@@ -112,9 +112,35 @@ $(function () {
     var $button = $form.find('button[type="submit"]');
     var $spinner = $button.find(".fa-spinner");
 
-    $button.prop("disabled", isSending);
+    $form.data("is-sending", isSending);
+    if ($form.hasClass("request-form")) {
+      updateRequestButton($form);
+    } else {
+      $button.prop("disabled", isSending);
+    }
     $spinner.toggle(isSending);
   }
+
+  function updateRequestButton($form) {
+    var consentGiven = $form
+      .find('input[name="personalDataConsent"]')
+      .prop("checked");
+    $form
+      .find('button[type="submit"]')
+      .prop("disabled", !consentGiven || $form.data("is-sending") === true);
+  }
+
+  $(document).on(
+    "change",
+    '.request-form input[name="personalDataConsent"]',
+    function () {
+      updateRequestButton($(this).closest("form"));
+    },
+  );
+
+  $(".request-form").each(function () {
+    updateRequestButton($(this));
+  });
 
   $(".request-form").submit(function (e) {
     e.preventDefault();
@@ -124,13 +150,27 @@ $(function () {
     clearFormMessage($this);
     setFormSending($this, true);
 
-    $.post(
-      $(this).attr("action"),
-      $this.serialize() + "&type=1",
-      function (response) {
+    var payload = {
+      name: $this.find('[name="name"]').val(),
+      organization: $this.find('[name="organization"]').val(),
+      email: $this.find('[name="email"]').val(),
+      comment: $this.find('[name="comment"]').val(),
+      personalDataConsent: $this
+        .find('[name="personalDataConsent"]')
+        .prop("checked"),
+    };
+
+    $.ajax({
+      url: $this.attr("action"),
+      method: "POST",
+      contentType: "application/json; charset=UTF-8",
+      dataType: "json",
+      data: JSON.stringify(payload),
+      success: function (response) {
         if (response.success) {
           $("#success_modal").modal("show");
-          $this.find("input, textarea").val("");
+          $this[0].reset();
+          updateRequestButton($this);
         } else {
           showFormMessage(
             $this,
@@ -138,13 +178,17 @@ $(function () {
           );
         }
       },
-    )
-      .fail(function () {
-        showFormMessage($this, window.requestFormErrorMessage);
-      })
-      .always(function () {
+      error: function (xhr) {
+        var response = xhr.responseJSON || {};
+        showFormMessage(
+          $this,
+          response.message || window.requestFormErrorMessage,
+        );
+      },
+      complete: function () {
         setFormSending($this, false);
-      });
+      },
+    });
   });
   $("#footer-subscribe-form").submit(function (e) {
     e.preventDefault();

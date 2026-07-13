@@ -2460,3 +2460,162 @@ body {
     }
   }
 }
+
+.request-form-container form {
+  .form-consent {
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.45;
+
+    &__row {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    input[type="checkbox"] {
+      flex: 0 0 auto;
+      width: 16px;
+      height: 16px;
+      margin-top: 1px;
+      accent-color: $main-green-1;
+    }
+
+    label {
+      margin: 0;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    &__policy {
+      padding-left: 24px;
+    }
+  }
+
+  button[type="submit"]:disabled {
+    opacity: 0.52;
+    cursor: not-allowed;
+    color: #fff !important;
+
+    &:hover {
+      background-color: #1a1a1a;
+      border-color: #1a1a1a;
+    }
+  }
+}
+
+#footer .footer-legal-links {
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  font-family: Montserrat, Arial;
+  font-size: 9px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-transform: none;
+
+  a {
+    color: #bbb;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+
+  @media (max-width: $screen-md-1) {
+    position: static;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 4px;
+    padding-left: 2px;
+
+    a {
+      white-space: normal;
+    }
+  }
+}
+
+.legal-page {
+  padding: 155px 0 70px;
+  background: #f8faf7;
+
+  .legal-document {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 48px 56px;
+    border-top: 4px solid $main-green-1;
+    background: #fff;
+    box-shadow: 0 12px 36px rgba(38, 51, 34, 0.1);
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin: 32px 0 12px;
+      color: $main-green-1;
+      font-size: 22px;
+    }
+
+    p {
+      margin-bottom: 14px;
+    }
+
+    &__meta {
+      color: #657160;
+      font-size: 12px;
+    }
+  }
+
+  .legal-details {
+    display: grid;
+    grid-template-columns: minmax(180px, 260px) 1fr;
+    margin: 0;
+
+    dt,
+    dd {
+      margin: 0;
+      padding: 9px 12px;
+      border-bottom: 1px solid #e4e9e1;
+    }
+  }
+}
+
+@media (max-width: $screen-sm-1) {
+  .legal-page {
+    padding: 110px 10px 35px;
+
+    .legal-document {
+      padding: 28px 20px;
+
+      h1 {
+        font-size: 26px;
+      }
+
+      h2 {
+        margin-top: 26px;
+        font-size: 18px;
+      }
+    }
+
+    .legal-details {
+      display: block;
+
+      dt {
+        padding-bottom: 2px;
+        border: 0;
+      }
+
+      dd {
+        padding-top: 2px;
+        overflow-wrap: anywhere;
+      }
+    }
+  }
+}

@@ -37,6 +37,16 @@ return [
             ],
             */
         ],
+        'i18n' => [
+            'translations' => [
+                '*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@app/messages',
+                    'sourceLanguage' => 'ru',
+                    'forceTranslation' => true,
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];

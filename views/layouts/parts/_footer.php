@@ -14,6 +14,10 @@ use app\components\helpers\Html;
 				GREENLINE
 				<span class="copyright">&copy; Greenline 2010 - 2026</span>
 			</span>
+			<div class="footer-legal-links">
+				<?= Html::a(Yii::t('main', 'Политика обработки персональных данных'), ['/privacy-policy']) ?>
+				<?= Html::a(Yii::t('main', 'Согласие на обработку персональных данных'), ['/consent']) ?>
+			</div>
 			<div class="line d-block d-lg-none"></div>
 			<div class="subscribe-container">
 				<div class="d-none d-lg-inline-block">
@@ -39,34 +43,7 @@ use app\components\helpers\Html;
 				<span aria-hidden="true">&times;</span>
 			</button>
 			<div class="request-form-container">
-				<form action="/request" method="post" class="request-form">
-					<div class="row">
-						<h5 class="col-12"><?php echo Yii::t('main', 'Оставить заявку') ?></h5>
-						<div class="form-group col-md-6 col-12">
-							<input required type="text" class="form-control" name="request-form_name_1" placeholder="<?php echo Yii::t('main', 'Имя') ?>">
-							<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-						</div>
-						<div class="form-group col-md-6 col-12">
-							<input required type="text" class="form-control" name="request-form_name_2" placeholder="<?php echo Yii::t('main', 'Фамилия') ?>">
-							<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-						</div>
-						<div class="form-group col-12">
-							<input required type="email" class="form-control" name="request-form_email" placeholder="<?php echo Yii::t('main', 'Электронная почта') ?>">
-							<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-						</div>
-						<div class="form-group col-12">
-							<textarea placeholder="<?php echo Yii::t('main', 'Комментарий') ?>" class="form-control" name="request-form_comment" rows="1"></textarea>
-							<i style="display: none;" class="fas fa-exclamation-circle" data-trigger="hover" data-toggle="popover" data-content="<?php echo Yii::t('main', 'Заполните поле') ?>"></i>
-						</div>
-						<div id="captcha-1" class="captcha_container" data-id="1"></div>
-						<div class="col-12">
-							<button type="submit" class="btn btn-dark" data-sitekey="6Letmf8UAAAAAKasiQMt1Z9pxZBP9BkBK425Ii4h" data-callback="onSubmit">
-								<?php echo Yii::t('main', 'Отправить') ?>
-								<i class="fas fa-spinner fa-spin" style="display: none;"></i>
-							</button>
-						</div>
-					</div>
-				</form>
+				<?= $this->render('_request_form', ['formId' => 'modal-request']) ?>
 			</div>
 		</div>
 	</div>

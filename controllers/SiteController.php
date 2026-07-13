@@ -4,9 +4,8 @@ namespace app\controllers;
 
 use app\components\controllers\FrontendController;
 use app\components\helpers\MailHelper;
-use PHPMailer\PHPMailer\PHPMailer;
+use app\models\RequestForm;
 use Yii;
-use yii\web\NotFoundHttpException;
 use yii\web\Response;
 
 class SiteController extends FrontendController
@@ -53,6 +52,16 @@ class SiteController extends FrontendController
         return $this->render('contacts');
     }
 
+    public function actionConsent()
+    {
+        return $this->render('consent', ['legal' => Yii::$app->params['legal']]);
+    }
+
+    public function actionPrivacyPolicy()
+    {
+        return $this->render('privacy-policy', ['legal' => Yii::$app->params['legal']]);
+    }
+
     public function actionNewsList()
     {
         return $this->render('news-list');
@@ -62,36 +71,54 @@ class SiteController extends FrontendController
     {
         Yii::$app->response->format = Response::FORMAT_JSON;
         $request = Yii::$app->request;
-        if (!$request->isAjax) {
-            return ['success' => false];
+
+        if (stripos((string) $request->contentType, 'application/json') === 0) {
+            $payload = json_decode($request->rawBody, true);
+        } else {
+            $payload = $request->post();
         }
 
-        $type = (int) $request->post('type');
-        if (empty($type)) {
-            return ['success' => false, 'message' => 'type not defined'];
+        if (!is_array($payload) || !array_key_exists('personalDataConsent', $payload)
+            || $payload['personalDataConsent'] !== true) {
+            Yii::$app->response->statusCode = 400;
+            return [
+                'success' => false,
+                'message' => 'Необходимо дать согласие на обработку персональных данных',
+            ];
         }
 
-        $name = preg_replace('/\s+/', '', $request->post('request-form_name_1'));
-        $surname = preg_replace('/\s+/', '', $request->post('request-form_name_2'));
-        $email = preg_replace('/\s+/', '', $request->post('request-form_email'));
-        $comment = preg_replace('/\s+/', '', $request->post('request-form_comment'));
-
-        if (!$name || !$surname || !$email) {
-            return ['success' => false, 'message' => 'empty data'];
+        $model = new RequestForm();
+        $model->setAttributes($payload);
+        if (!$model->validate()) {
+            $errors = $model->firstErrors;
+            Yii::$app->response->statusCode = 400;
+            return [
+                'success' => false,
+                'message' => reset($errors) ?: 'Проверьте правильность заполнения формы',
+                'errors' => $errors,
+            ];
         }
 
-        $message = sprintf(
-            '
-            Имя: %s 
-            Почта: %s 
-            Комментарий: %s',
-            $name . ' ' . $surname,
-            $email,
-            $comment
-        );
+        $legal = Yii::$app->params['legal'];
+        $requestId = bin2hex(random_bytes(8));
+        $consentReceivedAt = gmdate('c');
+        $organization = $model->organization !== '' ? $model->organization : 'Не указана';
+        $message = implode("\n", [
+            'Идентификатор заявки: ' . $requestId,
+            'Имя: ' . $model->name,
+            'Организация: ' . $organization,
+            'Почта: ' . $model->email,
+            'Комментарий: ' . $model->comment,
+            '',
+            'Согласие на обработку персональных данных: получено',
+            'personalDataConsent: true',
+            'Версия согласия: ' . $legal['consentVersion'],
+            'Версия политики: ' . $legal['privacyPolicyVersion'],
+            'Дата и время получения: ' . $consentReceivedAt,
+        ]);
 
         if (MailHelper::sendRequest($message, 'Новая заявка')) {
-            return ['success' => true, 'message' => $message];
+            return ['success' => true, 'requestId' => $requestId];
         } else {
             return ['success' => false, 'message' => Yii::t('main', 'Не удалось отправить заявку. Попробуйте позже или напишите на info@greenlinerussia.com.')];
         }
