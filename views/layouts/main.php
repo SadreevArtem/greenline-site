@@ -61,12 +61,6 @@ $this->registerCss("
 	<meta name="yandex-verification" content="7c01bb7443d655a8" />
 	<title><?= Html::encode($this->title) ?></title>
 
-	<?php if (!Yii::$app->request->pathInfo || Yii::$app->request->pathInfo === 'index') { ?>
-		<style>
-			<?= file_get_contents(YII_WEB_PATH . '/css/header_style.css') ?>
-		</style>
-	<?php } ?>
-
 	<?php $this->registerCsrfMetaTags() ?>
 	<?php $this->head() ?>
 
@@ -124,12 +118,6 @@ $this->registerCss("
 			</button>
 		</div>
 	</div>
-
-	<?php if (!Yii::$app->request->pathInfo || Yii::$app->request->pathInfo === 'index') { ?>
-		<style>
-			<?= file_get_contents(YII_WEB_PATH . '/css/style.css') ?>
-		</style>
-	<?php } ?>
 
 	<?php $this->endBody() ?>
 </body>

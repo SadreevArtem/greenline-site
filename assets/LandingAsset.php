@@ -34,6 +34,7 @@ class LandingAsset extends AssetBundle
         '/css/owl.theme.default.min.css',
         'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
         '/css/font-awesome.css',
+        '/css/style.css',
     ];
 
     public $js = [
