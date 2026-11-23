@@ -1,0 +1,10 @@
+[Unit]
+Description=Deploy Greenline from GitHub master
+After=network-online.target docker.service
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/greenline-update
+TimeoutStartSec=20min

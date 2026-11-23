@@ -1,9 +1,21 @@
-version: '2'
 services:
-  php:
-    image: yiisoftware/yii2-php:8.0-apache
-    volumes:
-      - ~/.composer-docker/cache:/root/.composer/cache:delegated
-      - ./:/app:delegated
+  web:
+    image: greenline-web:${GREENLINE_REVISION:-local}
+    build: .
+    restart: unless-stopped
     ports:
-      - '8000:80'
+      - "127.0.0.1:${GREENLINE_PORT:-18080}:80"
+    environment:
+      YII_COOKIE_VALIDATION_KEY: ${YII_COOKIE_VALIDATION_KEY:?Set YII_COOKIE_VALIDATION_KEY}
+    healthcheck:
+      test:
+        - CMD
+        - php
+        - -r
+        - >-
+          $$response = @file_get_contents('http://127.0.0.1/');
+          exit($$response !== false && str_contains($$response, '</html>') ? 0 : 1);
+      interval: 5s
+      timeout: 4s
+      retries: 8
+      start_period: 5s

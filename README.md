@@ -1,3 +1,17 @@
+## Деплой Greenline
+
+На сервере Nginx принимает публичный трафик и передаёт запросы контейнеру
+на `127.0.0.1:18080`. Для локального запуска установите переменную
+`YII_COOKIE_VALIDATION_KEY` и выполните `docker compose up --build --wait`.
+Сайт доступен на `http://127.0.0.1:18080`.
+
+На сервере таймер `greenline-update.timer` проверяет ветку `master` на GitHub
+раз в минуту. После `git push origin master` он собирает образ, проверяет
+контейнер на отдельном порту и затем обновляет рабочий экземпляр. При неудаче
+на последнем шаге скрипт возвращает предыдущий образ. Журнал доступен через
+`journalctl -u greenline-update.service`. Ключ проверки cookie хранится
+на сервере в `/opt/greenline/production.env`.
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
