@@ -13781,9 +13781,10 @@ body {
 }
 
 #navbar-container .navbar .nav-link {
+  position: relative;
+  isolation: isolate;
   padding-left: 4px;
   padding-right: 4px;
-  border-radius: 6px;
   font-size: 13px;
   line-height: 1.2;
   white-space: nowrap;
@@ -13796,8 +13797,21 @@ body {
 
 #navbar-container .navbar .nav-link:hover,
 #navbar-container .navbar .nav-link:focus-visible {
-  background-color: #edf2ea;
   color: var(--greenline-brand);
+}
+
+#navbar-container .navbar .nav-link:hover::before,
+#navbar-container .navbar .nav-link:focus-visible::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset-inline: 0;
+  top: 50%;
+  height: 36px;
+  transform: translateY(-50%);
+  border-radius: 6px;
+  background-color: #edf2ea;
+  pointer-events: none;
 }
 
 #navbar-container .right-btns-container .switch-language .link:hover,
