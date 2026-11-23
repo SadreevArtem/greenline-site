@@ -37,12 +37,14 @@ $this->registerMetaTag([
         <div class="row">
             <div class="col-lg-12 col-12">
                 <h2><?php echo Yii::t('main', 'Рынки сбыта') ?></h2>
-                <span class="breadcrumbs">
-                    <?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?>
-                    - <span> <?php echo Yii::t('main', 'Рынки сбыта') ?></span>
-                    - <span> <?php echo Html::a(Yii::t('main', 'Шельфовые проекты и морские порты'), ['/sales-markets/offshore-projects']) ?> </span>
-                    - <?php echo Yii::t('main', 'Проектирование, изготовление и поставка ВПУ') ?>
-                </span>
+                <nav class="breadcrumbs" aria-label="<?php echo Html::encode(Yii::t('main', 'Путь к странице')) ?>">
+                    <ol class="breadcrumbs-list" role="list">
+                        <li><?php echo Html::a(Yii::t('main', 'Главная'), ['/']) ?></li>
+                        <li><span><?php echo Yii::t('main', 'Рынки сбыта') ?></span></li>
+                        <li><?php echo Html::a(Yii::t('main', 'Шельфовые проекты и морские порты'), ['/sales-markets/offshore-projects']) ?></li>
+                        <li><span aria-current="page"><?php echo Yii::t('main', 'Проектирование, изготовление и поставка ВПУ') ?></span></li>
+                    </ol>
+                </nav>
             </div>
         </div>
     </div>
