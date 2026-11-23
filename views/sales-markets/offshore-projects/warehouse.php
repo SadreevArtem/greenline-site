@@ -209,7 +209,7 @@ $this->registerMetaTag([
                             'options' => ['class' => 'tab-content-item']
                         ],
                     ],
-                    'options' => ['class' => 'custom-tabs'], // Дополнительные классы для стилизации
+                    'options' => ['class' => 'custom-tabs custom-tabs--wide'],
                     'encodeLabels' => false, // Отключаем автоэкранирование, если нужны HTML-символы
                 ]); ?>
 
